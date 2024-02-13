@@ -1,0 +1,31 @@
+---
+
+# Template di come mettere i dati
+
+report_name: "AR6"
+
+data:
+
+  full_paragraphs:
+
+      - A.1: Per ogni chiave (qui A.1), il/i paragrafo/i dal report che deve essere riassunto. 
+
+      - A.1.1: Se questa e' la chiave A1.1, per esempio, questo paragrafo/i corrisponde al riassunto corrispondente a A.1.1 della voce "summaries"
+
+      - A.1.2: E cosi via per A.1.2.
+
+  summaries:
+
+      - A.1: Il riassunto A.1, ovvero il paragrafo A.1 nel summary for policy makers
+
+      - A.1.1: Il riassunto A.1.1, ovvero il paragrafo A.1.1 nel summary for policy makers
+
+      - A.1.2: Il riassunto A.1.1, ovvero il paragrafo A.1.1 nel summary for policy makers
+
+  topics:
+
+      - A.1: il topic ad alto livello del riassunto A.1 (ottenibile dal titolo del riassunto A.1)
+
+      - A.1.1: Il topic ad alto livello del riassunto A.1.1 ( ottenibile dal titolo del riassunto A.1)
+
+      - A.1.2: Il topic ad alto livello del riassunto A.1.2 (ottenibile dal titole del riassunto A.1)

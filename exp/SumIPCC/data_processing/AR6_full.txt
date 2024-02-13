@@ -1,0 +1,689 @@
+2.1 Observed Changes, Impacts and Attribution
+Human activities, principally through emissions of greenhouse gases, have unequivocally caused global warming,
+with global surface temperature reaching 1.1°C above 1850–1900 in 2011–2020. Global greenhouse gas emissions
+have continued to increase over 2010–2019, with unequal historical and ongoing contributions arising from
+unsustainable energy use, land use and land-use change, lifestyles and patterns of consumption and production
+across regions, between and within countries, and between individuals (high confidence). Human-caused climate
+change is already affecting many weather and climate extremes in every region across the globe. This has led to
+widespread adverse impacts on food and water security, human health and on economies and society and related
+losses and damages63 to nature and people (high confidence). Vulnerable communities who have historically
+contributed the least to current climate change are disproportionately affected (high confidence).
+
+2.1.1. Observed Warming and its Causes
+Global surface temperature was around 1.1°C above 1850–1900 in
+2011–2020 (1.09 [0.95 to 1.20]°C) 64 , with larger increases
+over land (1.59 [1.34 to 1.83]°C) than over the ocean
+(0.88 [0.68 to 1.01]°C)65
+. Observed warming is human-caused, with
+warming from greenhouse gases (GHG), dominated by CO2 and
+methane (CH4), partly masked by aerosol cooling (Figure 2.1).
+Global surface temperature in the first two decades of the 21st century
+(2001–2020) was 0.99 [0.84 to 1.10]°C higher than 1850–1900. Global
+surface temperature has increased faster since 1970 than in any other
+50-year period over at least the last 2000 years (high confidence). The
+likely range of total human-caused global surface temperature increase
+from 1850–1900 to 2010–201966 is 0.8°C to 1.3°C, with a best estimate
+of 1.07°C. It is likely that well-mixed GHGs 67 contributed a warming
+of 1.0°C to 2.0°C, and other human drivers (principally aerosols)
+contributed a cooling of 0.0°C to 0.8°C, natural (solar and volcanic)
+drivers changed global surface temperature by ±0.1°C and internal
+variability changed it by ±0.2°C. {WGI SPM A.1, WGI SPM A.1.2,
+WGI SPM A.1.3, WGI SPM A.2.2, WGI Figure SPM.2; SRCCL TS.2}
+Observed increases in well-mixed GHG concentrations since around
+1750 are unequivocally caused by GHG emissions from human activities.
+Land and ocean sinks have taken up a near-constant proportion
+(globally about 56% per year) of CO2 emissions from human activities over
+the past six decades, with regional differences (high confidence). In 2019,
+atmospheric CO2 concentrations reached 410 parts per million (ppm), CH 4
+reached 1866 parts per billion (ppb) and nitrous oxide (N2O) reached 332 ppb68 .
+Other major contributors to warming are tropospheric ozone (O 3 ) and
+halogenated gases. Concentrations of CH 4 and N2 O have increased to
+levels unprecedented in at least 800,000 years (very high confidence),
+and there is high confidence that current CO 2 concentrations are
+higher than at any time over at least the past two million years. Since
+1750, increases in CO 2 (47%) and CH4 (156%) concentrations far
+exceed – and increases in N2 O (23%) are similar to – the natural
+multi-millennial changes between glacial and interglacial periods over at
+least the past 800,000 years (very high confidence). The net cooling effect
+which arises from anthropogenic aerosols peaked in the late 20th century
+(high confidence). {WGI SPM A1.1, WGI SPM A1.3, WGI SPM A.2.1,
+WGI Figure SPM.2, WGI TS 2.2, WGI 2ES, WGI Figure 6.1}
+Average annual GHG emissions during 2010–2019 were higher
+than in any previous decade, but the rate of growth between
+2010 and 2019 (1.3% yr -1 ) was lower than that between 2000
+and 2009 (2.1% yr -1
+) 69
+. Historical cumulative net CO 2 emissions from
+1850 to 2019 were 2400 ±240 GtCO2. Of these, more than half (58%)
+occurred between 1850 and 1989 [1400 ±195 GtCO 2], and about 42%
+between 1990 and 2019 [1000 ±90 GtCO2]. Global net anthropogenic
+GHG emissions have been estimated to be 59±6.6 GtCO 2 -eq in 2019,
+about 12% (6.5 GtCO2 -eq) higher than in 2010 and 54% (21 GtCO2 -eq)
+higher than in 1990. By 2019, the largest growth in gross emissions
+occurred in CO2 from fossil fuels and industry (CO2-FFI) followed by
+CH4, whereas the highest relative growth occurred in fluorinated
+gases (F-gases), starting from low levels in 1990. (high confidence)
+{WGIII SPM B1.1, WGIII SPM B.1.2, WGIII SPM B.1.3, WGIII Figure SPM.1,
+WGIII Figure SPM.2}
+Regional contributions to global human-caused GHG emissions
+continue to differ widely. Historical contributions of CO2 emissions
+vary substantially across regions in terms of total magnitude, but also
+in terms of contributions to CO 2 -FFI (1650 ± 73 GtCO 2 -eq) and net
+CO2 -LULUCF (760 ± 220 GtCO 2-eq) emissions (Figure 2.2). Variations
+in regional and national per capita emissions partly reflect different
+development stages, but they also vary widely at similar income
+levels. Average per capita net anthropogenic GHG emissions in 2019
+ranged from 2.6 tCO 2-eq to 19 tCO 2-eq across regions (Figure 2.2).
+Least Developed Countries (LDCs) and Small Island Developing States (SIDS)
+have much lower per capita emissions (1.7 tCO2-eq and 4.6 tCO2-eq,
+respectively) than the global average (6.9 tCO 2 -eq), excluding
+CO2 -LULUCF. Around 48% of the global population in 2019 lives in countries
+emitting on average more than 6 tCO 2-eq per capita, 35% of the global
+population live in countries emitting more than 9 tCO2 -eq per capita70
+(excluding CO2 -LULUCF) while another 41% live in countries emitting less
+than 3 tCO 2 -eq per capita. A substantial share of the population in these
+low-emitting countries lack access to modern energy services. (high confidence)
+{WGIII SPM B.3, WGIII SPM B3.1, WGIII SPM B.3.2, WGIII SPM B.3.3}
+Net GHG emissions have increased since 2010 across all major
+sectors (high confidence). In 2019, approximately 34% (20 GtCO2 -eq)
+of net global GHG emissions came from the energy sector, 24%
+(14 GtCO 2 -eq) from industry, 22% (13 GtCO 2-eq) from AFOLU, 15%
+(8.7 GtCO2-eq) from transport and 6% (3.3 GtCO 2-eq) from buildings71
+(high confidence). Average annual GHG emissions growth between
+2010 and 2019 slowed compared to the previous decade in energy
+supply (from 2.3% to 1.0%) and industry (from 3.4% to 1.4%) but
+remained roughly constant at about 2% yr –1 in the transport sector
+(high confidence). About half of total net AFOLU emissions are from
+CO2 LULUCF, predominantly from deforestation (medium confidence).
+Land overall constituted a net sink of –6.6 (±4.6) GtCO 2 yr–1 for the period
+2010–201972 (medium confidence). {WGIII SPM B.2, WGIII SPM B.2.1,
+WGIII SPM B.2.2, WGIII TS 5.6.1}
+Human-caused climate change is a consequence of more than
+a century of net GHG emissions from energy use, land-use and
+land use change, lifestyle and patterns of consumption, and
+production. Emissions reductions in CO2 from fossil fuels and industrial
+processes (CO2 -FFI), due to improvements in energy intensity of GDP
+and carbon intensity of energy, have been less than emissions increases
+from rising global activity levels in industry, energy supply, transport,
+agriculture and buildings. The 10% of households with the highest per
+capita emissions contribute 34–45% of global consumption-based
+household GHG emissions, while the middle 40% contribute 40–53%,
+and the bottom 50% contribute 13–15%. An increasing share of
+emissions can be attributed to urban areas (a rise from about 62%
+to 67–72% of the global share between 2015 and 2020). The drivers
+of urban GHG emissions 73 are complex and include population size,
+income, state of urbanisation and urban form. (high confidence)
+{WGIII SPM B.2, WGIII SPM B.2.3, WGIII SPM B.3.4, WGIII SPM D.1.1}
+
+2.1.2. Observed Climate System Changes and Impacts to
+Date
+It is unequivocal that human influence has warmed the
+atmosphere, ocean and land. Widespread and rapid changes in
+the atmosphere, ocean, cryosphere and biosphere have occurred
+(Table 2.1). The scale of recent changes across the climate system as
+a whole and the present state of many aspects of the climate system
+are unprecedented over many centuries to many thousands of years. It
+is very likely that GHG emissions were the main driver74 of tropospheric
+warming and extremely likely that human-caused stratospheric ozone
+depletion was the main driver of stratospheric cooling between 1979
+and the mid-1990s. It is virtually certain that the global upper ocean
+(0-700m) has warmed since the 1970s and extremely likely that
+human influence is the main driver. Ocean warming accounted for
+91% of the heating in the climate system, with land warming, ice loss
+and atmospheric warming accounting for about 5%, 3% and 1%,
+respectively (high confidence). Global mean sea level increased by 0.20
+[0.15 to 0.25] m between 1901 and 2018. The average rate of sea level
+rise was 1.3 [0.6 to 2.1]mm yr-1 between 1901 and 1971, increasing to
+1.9 [0.8 to 2.9] mm yr-1 between 1971 and 2006, and further increasing
+to 3.7 [3.2 to –4.2] mm yr -1 between 2006 and 2018 (high confidence).
+Human influence was very likely the main driver of these increases
+since at least 1971 (Figure 3.4). Human influence is very likely the main
+driver of the global retreat of glaciers since the 1990s and the decrease
+in Arctic sea ice area between 1979–1988 and 2010–2019. Human
+influence has also very likely contributed to decreased Northern Hemisphere
+spring snow cover and surface melting of the Greenland ice sheet. It is
+virtually certain that human-caused CO2 emissions are the main driver
+of current global acidification of the surface open ocean. {WGI SPM A.1,
+WGI SPM A.1.3, WGI SPM A.1.5, WGI SPM A.1.6, WG1 SPM A1.7,
+WGI SPM A.2, WG1.SPM A.4.2; SROCC SPM.A.1, SROCC SPM A.2}
+Human-caused climate change is already affecting many weather and
+climate extremes in every region across the globe. Evidence of observed
+changes in extremes such as heatwaves, heavy precipitation, droughts,
+and tropical cyclones, and, in particular, their attribution to human
+influence, has strengthened since AR5 (Figure 2.3). It is virtually certain
+that hot extremes (including heatwaves) have become more frequent and
+more intense across most land regions since the 1950s (Figure 2.3), while cold
+extremes (including cold waves) have become less frequent and less severe,
+with high confidence that human-caused climate change is the main
+driver of these changes. Marine heatwaves have approximately doubled
+in frequency since the 1980s (high confidence), and human influence
+has very likely contributed to most of them since at least 2006. The
+frequency and intensity of heavy precipitation events have increased
+since the 1950s over most land areas for which observational data
+are sufficient for trend analysis (high confidence), and human-caused
+climate change is likely the main driver (Figure 2.3). Human-caused
+climate change has contributed to increases in agricultural and ecological
+droughts in some regions due to increased land evapotranspiration
+(medium confidence) (Figure 2.3). It is likely that the global proportion
+of major (Category 3–5) tropical cyclone occurrence has increased over
+the last four decades. {WGI SPM A.3, WGI SPM A3.1, WGI SPM A3.2;
+WGI SPM A3.4; SRCCL SPM.A.2.2; SROCC SPM. A.2}
+Climate change has caused substantial damages, and increasingly
+irreversible75 losses, in terrestrial, freshwater, cryospheric and
+coastal and open ocean ecosystems (high confidence). The extent
+and magnitude of climate change impacts are larger than estimated
+in previous assessments (high confidence). Approximately half of the
+species assessed globally have shifted polewards or, on land, also to
+higher elevations (very high confidence). Biological responses including
+changes in geographic placement and shifting seasonal timing are often
+not sufficient to cope with recent climate change (very high confidence).
+Hundreds of local losses of species have been driven by increases in
+the magnitude of heat extremes (high confidence) and mass mortality
+events on land and in the ocean (very high confidence). Impacts on
+some ecosystems are approaching irreversibility such as the impacts
+of hydrological changes resulting from the retreat of glaciers, or the
+changes in some mountain (medium confidence) and Arctic ecosystems
+driven by permafrost thaw (high confidence). Impacts in ecosystems
+from slow-onset processes such as ocean acidification, sea level rise
+or regional decreases in precipitation have also been attributed to
+human-caused climate change (high confidence). Climate change
+has contributed to desertification and exacerbated land degradation,
+particularly in low lying coastal areas, river deltas, drylands and in
+permafrost areas (high confidence). Nearly 50% of coastal wetlands
+have been lost over the last 100 years, as a result of the combined
+effects of localised human pressures, sea level rise, warming
+and extreme climate events (high confidence). {WGII SPM B.1.1,
+WGII SPM B.1.2, WGII Figure SPM.2.A, WGII TS.B.1; SRCCL SPM A.1.5,
+SRCCL SPM A.2, SRCCL SPM A.2.6, SRCCL Figure SPM.1; SROCC SPM A.6.1,
+SROCC SPM, A.6.4, SROCC SPM A.7}
+Climate change has reduced food security and affected water
+security due to warming, changing precipitation patterns,
+reduction and loss of cryospheric elements, and greater frequency
+and intensity of climatic extremes, thereby hindering efforts to
+meet Sustainable Development Goals (high confidence). Although
+overall agricultural productivity has increased, climate change has slowed
+this growth in agricultural productivity over the past 50 years globally
+(medium confidence), with related negative crop yield impacts mainly
+recorded in mid- and low latitude regions, and some positive impacts
+in some high latitude regions (high confidence). Ocean warming in
+the 20th century and beyond has contributed to an overall decrease
+in maximum catch potential (medium confidence), compounding the
+impacts from overfishing for some fish stocks (high confidence). Ocean
+warming and ocean acidification have adversely affected food production
+from shellfish aquaculture and fisheries in some oceanic regions (high
+confidence). Current levels of global warming are associated with
+moderate risks from increased dryland water scarcity (high confidence).
+Roughly half of the world’s population currently experiences severe water
+scarcity for at least some part of the year due to a combination of climatic
+and non-climatic drivers (medium confidence) (Figure 2.3). Unsustainable
+agricultural expansion, driven in part by unbalanced diets77
+, increases
+ecosystem and human vulnerability and leads to competition for land
+and/or water resources (high confidence). Increasing weather and climate
+extreme events have exposed millions of people to acute food insecurity78
+and reduced water security, with the largest impacts observed in many
+locations and/or communities in Africa, Asia, Central and South America,
+LDCs, Small Islands and the Arctic, and for small-scale food producers,
+low-income households and Indigenous Peoples globally (high confidence).
+{WGII SPM B.1.3, WGII SPM.B.2.3, WGII Figure SPM.2, WGII TS B.2.3,
+WGII TS Figure TS. 6; SRCCL SPM A.2.8, SRCCL SPM A.5.3; SROCC SPM A.5.4.,
+SROCC SPM A.7.1, SROCC SPM A.8.1, SROCC Figure SPM.2}
+In urban settings, climate change has caused adverse impacts on
+human health, livelihoods and key infrastructure (high confidence).
+Hot extremes including heatwaves have intensified in cities (high
+confidence), where they have also worsened air pollution events
+(medium confidence) and limited functioning of key infrastructure
+(high confidence). Urban infrastructure, including transportation, water,
+sanitation and energy systems have been compromised by extreme
+and slow-onset events79
+, with resulting economic losses, disruptions of
+services and impacts to well-being (high confidence). Observed impacts
+are concentrated amongst economically and socially marginalised urban
+residents, e.g., those living in informal settlements (high confidence).
+Cities intensify human-caused warming locally (very high confidence),
+while urbanisation also increases mean and heavy precipitation over and/or
+downwind of cities (medium confidence) and resulting runoff intensity
+(high confidence). {WGI SPM C.2.6; WGII SPM B.1.5, WGII Figure TS.9,
+WGII 6 ES}
+Climate change has adversely affected human physical health globally
+and mental health in assessed regions (very high confidence), and is
+contributing to humanitarian crises where climate hazards interact
+with high vulnerability (high confidence). In all regions increases in
+extreme heat events have resulted in human mortality and morbidity
+(very high confidence). The occurrence of climate-related food-borne and
+water-borne diseases has increased (very high confidence). The incidence
+of vector-borne diseases has increased from range expansion and/or
+increased reproduction of disease vectors (high confidence). Animal and
+human diseases, including zoonoses, are emerging in new areas (high
+confidence). In assessed regions, some mental health challenges are
+associated with increasing temperatures (high confidence), trauma from
+extreme events (very high confidence), and loss of livelihoods and culture
+(high confidence) (Figure 2.3). Climate change impacts on health are
+mediated through natural and human systems, including economic
+and social conditions and disruptions (high confidence). Climate and
+weather extremes are increasingly driving displacement in Africa,
+Asia, North America (high confidence), and Central and South America
+(medium confidence) (Figure 2.3), with small island states in the
+Caribbean and South Pacific being disproportionately affected relative
+to their small population size (high confidence). Through displacement
+and involuntary migration from extreme weather and climate
+events, climate change has generated and perpetuated vulnerability
+(medium confidence). {WGII SPM B.1.4, WGII SPM B.1.7}
+Human influence has likely increased the chance of compound
+extreme events80 since the 1950s. Concurrent and repeated climate
+hazards have occurred in all regions, increasing impacts and
+risks to health, ecosystems, infrastructure, livelihoods and food
+(high confidence). Compound extreme events include increases in the
+frequency of concurrent heatwaves and droughts (high confidence); fire
+weather in some regions (medium confidence); and compound flooding in
+some locations (medium confidence). Multiple risks interact, generating
+new sources of vulnerability to climate hazards, and compounding
+overall risk (high confidence). Compound climate hazards can overwhelm
+adaptive capacity and substantially increase damage (high confidence)).
+{WGI SPM A.3.5; WGII SPM. B.5.1, WGII TS.C.11.3}
+Economic impacts attributable to climate change are increasingly
+affecting peoples’ livelihoods and are causing economic and
+societal impacts across national boundaries (high confidence).
+Economic damages from climate change have been detected in
+climate-exposed sectors, with regional effects to agriculture, forestry,
+fishery, energy, and tourism, and through outdoor labour productivity
+(high confidence) with some exceptions of positive impacts in regions
+with low energy demand and comparative advantages in agricultural
+markets and tourism (high confidence). Individual livelihoods have been
+affected through changes in agricultural productivity, impacts on human
+health and food security, destruction of homes and infrastructure, and loss
+of property and income, with adverse effects on gender and social equity
+(high confidence). Tropical cyclones have reduced economic growth in
+the short-term (high confidence). Event attribution studies and physical
+understanding indicate that human-caused climate change increases
+heavy precipitation associated with tropical cyclones (high confidence).
+Wildfires in many regions have affected built assets, economic activity,
+and health (medium to high confidence). In cities and settlements, climate
+impacts to key infrastructure are leading to losses and damages across water
+and food systems, and affect economic activity, with impacts extending
+beyond the area directly impacted by the climate hazard (high confidence).
+{WGI SPM A.3.4; WGII SPM B.1.6, WGII SPM B.5.2, WGII SPM B.5.3}
+Climate change has caused widespread adverse impacts
+and related losses and damages to nature and people (high
+confidence). Losses and damages are unequally distributed across
+systems, regions and sectors (high confidence). Cultural losses, related
+to tangible and intangible heritage, threaten adaptive capacity and may
+result in irrevocable losses of sense of belonging, valued cultural practices,
+identity and home, particularly for Indigenous Peoples and those more
+directly reliant on the environment for subsistence (medium confidence).
+For example, changes in snow cover, lake and river ice, and permafrost
+in many Arctic regions, are harming the livelihoods and cultural identity
+of Arctic residents including Indigenous populations (high confidence).
+Infrastructure, including transportation, water, sanitation and energy
+systems have been compromised by extreme and slow-onset events,
+with resulting economic losses, disruptions of services and impacts
+to well-being (high confidence). {WGII SPM B.1, WGII SPM B.1.2,
+WGII SPM.B.1.5, WGII SPM C.3.5, WGII TS.B.1.6; SROCC SPM A.7.1}
+Across sectors and regions, the most vulnerable people and
+systems have been disproportionately affected by the impacts
+of climate change (high confidence). LDCs and SIDS who have much
+lower per capita emissions (1.7 tCO2-eq, 4.6 tCO2 -eq, respectively) than
+the global average (6.9 tCO2-eq) excluding CO2-LULUCF, also have high
+vulnerability to climatic hazards, with global hotspots of high human
+vulnerability observed in West-, Central- and East Africa, South Asia,
+Central and South America, SIDS and the Arctic (high confidence).
+Regions and people with considerable development constraints have
+high vulnerability to climatic hazards (high confidence). Vulnerability is
+higher in locations with poverty, governance challenges and limited
+access to basic services and resources, violent conflict and high levels
+of climate-sensitive livelihoods (e.g., smallholder farmers, pastoralists,
+fishing communities) (high confidence). Vulnerability at different spatial
+levels is exacerbated by inequity and marginalisation linked to gender,
+ethnicity, low income or combinations thereof (high confidence), especially
+for many Indigenous Peoples and local communities (high confidence).
+Approximately 3.3 to 3.6 billion people live in contexts that are highly
+vulnerable to climate change (high confidence). Between 2010 and
+2020, human mortality from floods, droughts and storms was 15 times
+higher in highly vulnerable regions, compared to regions with very low
+vulnerability (high confidence). In the Arctic and in some high mountain
+regions, negative impacts of cryosphere change have been especially felt
+among Indigenous Peoples (high confidence). Human and ecosystem
+vulnerability are interdependent (high confidence). Vulnerability of
+ecosystems and people to climate change differs substantially among and
+within regions (very high confidence), driven by patterns of intersecting
+socio-economic development, unsustainable ocean and land use,
+inequity, marginalisation, historical and ongoing patterns of inequity
+such as colonialism, and governance81 (high confidence). {WGII SPM B.1,
+WGII SPM B.2, WGII SPM B.2.4; WGIII SPM B.3.1; SROCC SPM A.7.1,
+SROCC SPM A.7.2}
+
+2.2 Responses Undertaken to Date
+International climate agreements, rising national ambitions for climate action, along with rising public awareness
+are accelerating efforts to address climate change at multiple levels of governance. Mitigation policies have
+contributed to a decrease in global energy and carbon intensity, with several countries achieving GHG emission
+reductions for over a decade. Low-emission technologies are becoming more affordable, with many low or
+zero emissions options now available for energy, buildings, transport, and industry. Adaptation planning and
+implementation progress has generated multiple benefits, with effective adaptation options having the potential
+to reduce climate risks and contribute to sustainable development. Global tracked finance for mitigation and
+adaptation has seen an upward trend since AR5, but falls short of needs. (high confidence)
+
+2.2.1. Global Policy Setting
+The United Nations Framework Convention on Climate Change (UNFCCC),
+Kyoto Protocol, and Paris Agreement are supporting rising levels of
+national ambition and encouraging the development and implementation
+of climate policies at multiple levels of governance (high confidence).
+The Kyoto Protocol led to reduced emissions in some countries and
+was instrumental in building national and international capacity
+for GHG reporting, accounting and emissions markets (high
+confidence). The Paris Agreement, adopted under the UNFCCC, with
+near universal participation, has led to policy development and
+target-setting at national and sub-national levels, particularly in
+relation to mitigation but also for adaptation, as well as enhanced
+transparency of climate action and support (medium confidence).
+Nationally Determined Contributions (NDCs), required under
+the Paris Agreement, have required countries to articulate their
+priorities and ambition with respect to climate action. {WGII 17.4,
+WGII TS D.1.1; WGIII SPM B.5.1, WGIII SPM E.6}
+Loss & Damage82 was formally recognized in 2013 through establishment
+of the Warsaw International Mechanism on Loss and Damage (WIM),
+and in 2015, Article 8 of the Paris Agreement provided a legal basis
+for the WIM. There is improved understanding of both economic and
+non-economic losses and damages, which is informing international
+climate policy and which has highlighted that losses and damages are
+not comprehensively addressed by current financial, governance and
+institutional arrangements, particularly in vulnerable developing countries
+(high confidence). {WGII SPM C.3.5, WGII Cross-Chapter Box LOSS}
+Other recent global agreements that influence responses to climate
+change include the Sendai Framework for Disaster Risk Reduction
+(2015-2030), the finance-oriented Addis Ababa Action Agenda (2015)
+and the New Urban Agenda (2016), and the Kigali Amendment to
+the Montreal Protocol on Substances that Deplete the Ozone Layer
+(2016), among others. In addition, the 2030 Agenda for Sustainable
+Development, adopted in 2015 by UN member states, sets out 17
+Sustainable Development Goals (SDGs) and seeks to align efforts
+globally to prioritise ending extreme poverty, protect the planet and
+promote more peaceful, prosperous and inclusive societies. If achieved,
+these agreements would reduce climate change, and the impacts on
+health, well-being, migration, and conflict, among others (very high
+confidence). {WGII TS.A.1, WGII 7 ES}
+Since AR5, rising public awareness and an increasing diversity
+of actors, have overall helped accelerate political commitment
+and global efforts to address climate change (medium confidence). Mass social movements have emerged as catalysing
+agents in some regions, often building on prior movements including
+Indigenous Peoples-led movements, youth movements, human
+rights movements, gender activism, and climate litigation, which is
+raising awareness and, in some cases, has influenced the outcome
+and ambition of climate governance (medium confidence). Engaging
+Indigenous Peoples and local communities using just-transition and
+rights-based decision-making approaches, implemented through
+collective and participatory decision-making processes has enabled
+deeper ambition and accelerated action in different ways, and at all
+scales, depending on national circumstances (medium confidence).
+The media helps shape the public discourse about climate change. This
+can usefully build public support to accelerate climate action (medium
+evidence, high agreement). In some instances, public discourses of
+media and organised counter movements have impeded climate
+action, exacerbating helplessness and disinformation and fuelling
+polarisation, with negative implications for climate action (medium
+confidence). {WGII SPM C.5.1, WGII SPM D.2, WGII TS.D.9, WGII TS.D.9.7,
+WGII TS.E.2.1, WGII 18.4; WGIII SPM D.3.3, WGIII SPM E.3.3, WGIII TS.6.1,
+WGIII 6.7, WGIII 13 ES, WGIII Box.13.7}
+
+2.2.2. Mitigation Actions to Date
+There has been a consistent expansion of policies and laws
+addressing mitigation since AR5 (high confidence). Climate
+governance supports mitigation by providing frameworks through
+which diverse actors interact, and a basis for policy development and
+implementation (medium confidence). Many regulatory and economic
+instruments have already been deployed successfully (high confidence).
+By 2020, laws primarily focussed on reducing GHG emissions existed in
+56 countries covering 53% of global emissions (medium confidence).
+The application of diverse policy instruments for mitigation at the
+national and sub-national levels has grown consistently across a
+range of sectors (high confidence). Policy coverage is uneven across
+sectors and remains limited for emissions from agriculture, and from
+industrial materials and feedstocks (high confidence). {WGIII SPM B.5,
+WGIII SPM B.5.2, WGIII SPM E.3, WGIII SPM E.4}
+Practical experience has informed economic instrument design
+and helped to improve predictability, environmental effectiveness,
+economic efficiency, alignment with distributional goals, and social
+acceptance (high confidence). Low-emission technological innovation
+is strengthened through the combination of technology-push policies,
+together with policies that create incentives for behaviour change and
+market opportunities (high confidence) (Section 4.8.3). Comprehensive
+and consistent policy packages have been found to be more effective
+than single policies (high confidence). Combining mitigation with
+policies to shift development pathways, policies that induce lifestyle or
+behaviour changes, for example, measures promoting walkable urban
+areas combined with electrification and renewable energy can create
+health co-benefits from cleaner air and enhanced active mobility (high
+confidence). Climate governance enables mitigation by providing an
+overall direction, setting targets, mainstreaming climate action across
+policy domains and levels, based on national circumstances and in the
+context of international cooperation. Effective governance enhances
+regulatory certainty, creating specialised organisations and creating the
+context to mobilise finance (medium confidence). These functions can
+be promoted by climate-relevant laws, which are growing in number, or
+climate strategies, among others, based on national and sub-national
+context (medium confidence). Effective and equitable climate
+governance builds on engagement with civil society actors, political
+actors, businesses, youth, labour, media, Indigenous Peoples and local
+communities (medium confidence). {WGIII SPM E.2.2, WGIII SPM E.3,
+WGIII SPM E.3.1, WGIII SPM E.4.2, WGIII SPM E.4.3, WGIII SPM E.4.4}
+The unit costs of several low-emission technologies, including
+solar, wind and lithium-ion batteries, have fallen consistently
+since 2010 (Figure 2.4). Design and process innovations in
+combination with the use of digital technologies have led to
+near-commercial availability of many low or zero emissions
+options in buildings, transport and industry. From 2010-2019,
+there have been sustained decreases in the unit costs of solar energy
+(by 85%), wind energy (by 55%), and lithium-ion batteries (by 85%),
+and large increases in their deployment, e.g., >10× for solar and >100× for
+electric vehicles (EVs), albeit varying widely across regions (Figure 2.4).
+Electricity from PV and wind is now cheaper than electricity from
+fossil sources in many regions, electric vehicles are increasingly
+competitive with internal combustion engines, and large-scale
+battery storage on electricity grids is increasingly viable. In
+comparison to modular small-unit size technologies, the empirical
+record shows that multiple large-scale mitigation technologies, with
+fewer opportunities for learning, have seen minimal cost reductions
+and their adoption has grown slowly. Maintaining emission-intensive
+systems may, in some regions and sectors, be more expensive than
+transitioning to low emission systems. (high confidence) {WGIII SPM B.4,
+WGIII SPM B.4.1, WGIII SPM C.4.2, WGIII SPM C.5.2, WGIII SPM C.7.2,
+WGIII SPM C.8, WGIII Figure SPM.3, WGIII Figure SPM.3}
+For almost all basic materials – primary metals, building materials and
+chemicals – many low- to zero-GHG intensity production processes are
+at the pilot to near-commercial and in some cases commercial stage
+but they are not yet established industrial practice. Integrated design
+in construction and retrofit of buildings has led to increasing examples
+of zero energy or zero carbon buildings. Technological innovation
+made possible the widespread adoption of LED lighting. Digital
+technologies including sensors, the internet of things, robotics, and
+artificial intelligence can improve energy management in all sectors;
+they can increase energy efficiency, and promote the adoption of many
+low-emission technologies, including decentralised renewable energy,
+while creating economic opportunities. However, some of these climate
+change mitigation gains can be reduced or counterbalanced by growth in
+demand for goods and services due to the use of digital devices. Several
+mitigation options, notably solar energy, wind energy, electrification of
+urban systems, urban green infrastructure, energy efficiency, demand
+side management, improved forest- and crop/grassland management,
+and reduced food waste and loss, are technically viable, are becoming
+increasingly cost effective and are generally supported by the public, and
+this enables expanded deployment in many regions. (high confidence)
+{WGIII SPM B.4.3, WGIII SPM C.5.2, WGIII SPM C.7.2, WGIII SPM E.1.1,
+WGIII TS.6.5}
+The magnitude of global climate finance flows has increased
+and financing channels have broadened (high confidence).
+Annual tracked total financial flows for climate mitigation and
+adaptation increased by up to 60% between 2013/14 and 2019/20,
+but average growth has slowed since 2018 (medium confidence) and
+most climate finance stays within national borders (high confidence).
+Markets for green bonds, environmental, social and governance and
+sustainable finance products have expanded significantly since AR5
+(high confidence). Investors, central banks, and financial regulators are
+driving increased awareness of climate risk to support climate policy
+development and implementation (high confidence). Accelerated
+international financial cooperation is a critical enabler of low-GHG and
+just transitions (high confidence). {WGIII SPM B.5.4, WGIII SPM E.5,
+WGIII TS.6.3, WGIII TS.6.4}
+Economic instruments have been effective in reducing emissions,
+complemented by regulatory instruments mainly at the national
+and also sub-national and regional level (high confidence). By 2020,
+over 20% of global GHG emissions were covered by carbon taxes or
+emissions trading systems, although coverage and prices have been
+insufficient to achieve deep reductions (medium confidence). Equity and
+distributional impacts of carbon pricing instruments can be addressed
+by using revenue from carbon taxes or emissions trading to support
+low-income households, among other approaches (high confidence).
+The mix of policy instruments which reduced costs and stimulated
+adoption of solar energy, wind energy and lithium-ion batteries
+includes public R&D, funding for demonstration and pilot projects, and
+demand-pull instruments such as deployment subsidies to attain scale
+(high confidence) (Figure 2.4). {WGIII SPM B.4.1, WGIII SPM B.5.2,
+WGIII SPM E.4.2, WG III TS.3}
+Mitigation actions, supported by policies, have contributed
+to a decrease in global energy and carbon intensity between
+2010 and 2019, with a growing number of countries achieving
+absolute GHG emission reductions for more than a decade (high
+confidence). While global net GHG emissions have increased since
+2010, global energy intensity (total primary energy per unit GDP)
+decreased by 2% yr –1 between 2010 and 2019. Global carbon
+intensity (CO2 -FFI per unit primary energy) also decreased by 0.3%
+yr –1
+, mainly due to fuel switching from coal to gas, reduced expansion
+of coal capacity, and increased use of renewables, and with large
+regional variations over the same period. In many countries, policies
+have enhanced energy efficiency, reduced rates of deforestation and
+accelerated technology deployment, leading to avoided and in some
+cases reduced or removed emissions (high confidence). At least
+18 countries have sustained production-based CO2 and GHG and
+consumption-based CO2 absolute emission reductions for longer than
+10 years since 2005 through energy supply decarbonization, energy
+efficiency gains, and energy demand reduction, which resulted from
+both policies and changes in economic structure (high confidence).
+Some countries have reduced production-based GHG emissions by a
+third or more since peaking, and some have achieved reduction rates
+of around 4% yr–1 for several years consecutively (high confidence).
+Multiple lines of evidence suggest that mitigation policies have led to
+avoided global emissions of several GtCO 2-eq yr–1 (medium confidence).
+At least 1.8 GtCO2-eq yr–1 of avoided emissions can be accounted for
+by aggregating separate estimates for the effects of economic and
+regulatory instruments (medium confidence). Growing numbers of
+laws and executive orders have impacted global emissions and are
+estimated to have resulted in 5.9 GtCO2 -eq yr–1 of avoided emissions
+in 2016 (medium confidence). These reductions have only partly offset
+global emissions growth (high confidence). {WGIII SPM B.1,
+WGIII SPM B.2.4, WGIII SPM B.3.5, WGIII SPM B.5.1, WGIII SPM B.5.3,
+WGIII 1.3.2, WGIII 2.2.3}
+
+2.2.3. Adaptation Actions to Date
+Progress in adaptation planning and implementation has been
+observed across all sectors and regions, generating multiple
+benefits (very high confidence). The ambition, scope and progress
+on adaptation have risen among governments at the local, national and
+international levels, along with businesses, communities and civil society
+(high confidence). Various tools, measures and processes are available
+that can enable, accelerate and sustain adaptation implementation
+(high confidence). Growing public and political awareness of climate
+impacts and risks has resulted in at least 170 countries and many cities
+including adaptation in their climate policies and planning processes
+(high confidence). Decision support tools and climate services are
+increasingly being used (very high confidence) and pilot projects and
+local experiments are being implemented in different sectors (high
+confidence). {WGII SPM C.1, WGII SPM.C.1.1, WGII TS.D.1.3, WGII TS.D.10}
+Adaptation to water-related risks and impacts make up the majority (~60%)
+of all documented83 adaptation (high confidence). A large number of
+these adaptation responses are in the agriculture sector and these
+include on-farm water management, water storage, soil moisture
+conservation, and irrigation. Other adaptations in agriculture include
+cultivar improvements, agroforestry, community-based adaptation and
+farm and landscape diversification among others (high confidence).
+For inland flooding, combinations of non-structural measures like
+early warning systems, enhancing natural water retention such as by
+restoring wetlands and rivers, and land use planning such as no build
+zones or upstream forest management, can reduce flood risk (medium
+confidence). Some land-related adaptation actions such as sustainable
+food production, improved and sustainable forest management,
+soil organic carbon management, ecosystem conservation and land
+restoration, reduced deforestation and degradation, and reduced
+food loss and waste are being undertaken, and can have mitigation
+co-benefits (high confidence). Adaptation actions that increase the
+resilience of biodiversity and ecosystem services to climate change
+include responses like minimising additional stresses or disturbances,
+reducing fragmentation, increasing natural habitat extent, connectivity
+and heterogeneity, and protecting small-scale refugia where
+microclimate conditions can allow species to persist (high confidence).
+Most innovations in urban adaptation have occurred through advances
+in disaster risk management, social safety nets and green/blue
+infrastructure (medium confidence). Many adaptation measures that
+benefit health and well-being are found in other sectors (e.g., food,
+livelihoods, social protection, water and sanitation, infrastructure)
+(high confidence). {WGII SPM C.2.1, WGII SPM C.2.2, WGII TS.D.1.2,
+WGII TS.D.1.4, WGII TS.D.4.2, WGII TS.D.8.3, WGII 4 ES; SRCCL SPM B.1.1}
+Adaptation can generate multiple additional benefits such as improving
+agricultural productivity, innovation, health and well-being, food
+security, livelihood, and biodiversity conservation as well as reduction
+of risks and damages (very high confidence). {WGII SPM C1.1}
+Globally tracked adaptation finance has shown an upward trend
+since AR5, but represents only a small portion of total climate
+finance, is uneven and has developed heterogeneously across
+regions and sectors (high confidence). Adaptation finance has come
+predominantly from public sources, largely through grants, concessional
+and non-concessional instruments (very high confidence). Globally,
+private-sector financing of adaptation from a variety of sources such
+as commercial financial institutions, institutional investors, other
+private equity, non-financial corporations, as well as communities
+and households has been limited, especially in developing countries
+(high confidence). Public mechanisms and finance can leverage
+private sector finance for adaptation by addressing real and perceived
+regulatory, cost and market barriers, for example via public-private
+partnerships (high confidence). Innovations in adaptation and
+resilience finance, such as forecast-based/anticipatory financing
+systems and regional risk insurance pools, have been piloted and are
+growing in scale (high confidence). {WGII SPM C.3.2, WGII SPM C.5.4;
+WGII TS.D.1.6, WGII Cross-Chapter Box FINANCE; WGIII SPM E.5.4}
+There are adaptation options which are effective84 in reducing
+climate risks 85 for specific contexts, sectors and regions and
+contribute positively to sustainable development and other
+societal goals. In the agriculture sector, cultivar improvements,
+on-farm water management and storage, soil moisture conservation,
+irrigation 86 , agroforestry, community-based adaptation, and farm and
+landscape level diversification, and sustainable land management
+approaches, provide multiple benefits and reduce climate risks.
+Reduction of food loss and waste, and adaptation measures in support
+of balanced diets contribute to nutrition, health, and biodiversity benefits.
+(high confidence) {WGII SPM C.2, WGII SPM C.2.1, WGII SPM C.2.2;
+SRCCL B.2, SRCCL SPM C.2.1}
+Ecosystem-based Adaptation 87 approaches such as urban greening,
+restoration of wetlands and upstream forest ecosystems reduce
+a range of climate change risks, including flood risks, urban heat
+and provide multiple co-benefits. Some land-based adaptation
+options provide immediate benefits (e.g., conservation of peatlands,
+wetlands, rangelands, mangroves and forests); while afforestation and
+reforestation, restoration of high-carbon ecosystems, agroforestry, and
+the reclamation of degraded soils take more time to deliver measurable
+results. Significant synergies exist between adaptation and mitigation,
+for example through sustainable land management approaches.
+Agroecological principles and practices and other approaches
+that work with natural processes support food security, nutrition,
+health and well-being, livelihoods and biodiversity, sustainability and
+ecosystem services. (high confidence) {WGII SPM C.2.1, WGII SPM C.2.2,
+WGII SPM C.2.5, WGII TS.D.4.1; SRCCL SPM B.1.2, SRCCL SPM.B.6.1;
+SROCC SPM C.2}
+Combinations of non-structural measures like early warning systems
+and structural measures like levees have reduced loss of lives in case
+of inland flooding (medium confidence) and early warning systems
+along with flood-proofing of buildings have proven to be cost-effective
+in the context of coastal flooding under current sea level rise (high
+confidence). Heat Health Action Plans that include early warning and
+response systems are effective adaptation options for extreme heat
+(high confidence). Effective adaptation options for water, food and
+vector-borne diseases include improving access to potable water,
+reducing exposure of water and sanitation systems to extreme weather
+events, and improved early warning systems, surveillance, and vaccine
+development (very high confidence). Adaptation options such as
+disaster risk management, early warning systems, climate services
+and social safety nets have broad applicability across multiple sectors
+(high confidence). {WGII SPM C.2.1, WGII SPM C.2.5, WGII SPM C.2.9,
+WGII SPM C.2.11, WGII SPM C.2.13; SROCC SPM C.3.2}
+Integrated, multi-sectoral solutions that address social inequities,
+differentiate responses based on climate risk and cut across systems,
+increase the feasibility and effectiveness of adaptation in multiple
+sectors (high confidence). {WGII SPM C.2}
