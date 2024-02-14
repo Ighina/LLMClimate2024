@@ -13,7 +13,14 @@ data:
       - A.1.1: Se questa e' la chiave A1.1, per esempio, questo paragrafo/i corrisponde al riassunto corrispondente a A.1.1 della voce "summaries"
 
       - A.1.2: E cosi via per A.1.2.
+  
+  titles:
+      - A.1: Se presente nel report, il titoletto associato al paragrafo A.1 nel long report.
 
+      - A.1.1: Ugualmente, il titolo associato al paragrafo A.1.1
+
+      - A.1.2: Titolo del paragrafo A.1.2
+  
   summaries:
 
       - A.1: Il riassunto A.1, ovvero il paragrafo A.1 nel summary for policy makers
