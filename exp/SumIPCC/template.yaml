@@ -8,31 +8,59 @@ data:
 
   full_paragraphs:
 
-      - A.1: Per ogni chiave (qui A.1), il/i paragrafo/i dal report che deve essere riassunto. 
+      A.1: 
+          - Per ogni chiave (qui A.1), il/i paragrafo/i dal report che deve essere riassunto.
+          - Il paragrafo/i corrispondenti al riassunto sono salvati in una lista associata alla chiave identificante il riassunto (e.g. A.1)
+          - Ogni elemento della lista e' un paragrafo del full report a cui il riassunto si riferisce 
 
-      - A.1.1: Se questa e' la chiave A1.1, per esempio, questo paragrafo/i corrisponde al riassunto corrispondente a A.1.1 della voce "summaries"
+      A.1.1: 
+          - Se questa e' la chiave A1.1, per esempio, questo paragrafo/i corrisponde al riassunto corrispondente a A.1.1 della voce "summaries"
 
-      - A.1.2: E cosi via per A.1.2.
+      A.1.2: 
+          - E cosi via per A.1.2.
   
+  paragraph_topics:
+      A.1: il topic ad alto livello del riassunto A.1 (ottenibile dal titolo del riassunto A.1)
+
+      A.1.1: Il topic ad alto livello del riassunto A.1.1 ( ottenibile dal titolo del riassunto A.1)
+
+      A.1.2: Il topic ad alto livello del riassunto A.1.2 (ottenibile dal titole del riassunto A.1)   
+
+  pointers:
+      A.1: 
+          - Questa voce, invece e' l'identificativo unico del paragrafo nel long report associato al riassunto, e.g. 2.1
+          - 3.2 (significa che il paragrafo 3.2 nel long report fa parte dei paragrafi riassunti dal riassunto A.1)
+          - 4.3 (e quindi anche il paragrafo 4.3 del long report. 4.3 e' l'identificativo unico del terzo elemento della lista associata a A.1 nella voce full_paragraphs)
+
+      A.1.1: 
+          - 2.1
+
+      A.1.2: 
+          - 2.2
+
   titles:
-      - A.1: Se presente nel report, il titoletto associato al paragrafo A.1 nel long report.
+      A.1: 
+          - Se presente nel report, il titoletto associato al paragrafo A.1 nel long report.
+          - Anche in questo caso ci saranno tanti titoli quanti paragrafi del long report sono associati al riassunto
+          - Qui per esempio 3: vedi la voce full_paragraphs
 
-      - A.1.1: Ugualmente, il titolo associato al paragrafo A.1.1
+      A.1.1: 
+          - Ugualmente, il titolo associato al paragrafo A.1.1
 
-      - A.1.2: Titolo del paragrafo A.1.2
-  
+      A.1.2: 
+          - Titolo del paragrafo A.1.2
+
+  section_topic:
+      A.1: Il macro-topic associato con tutta la sezione A
+      
+      A.1.1: Questo sara' quindi uguale a quello sopra.
+
+      A.1.2: Cosi come questo, dato che fanno tutti parte della sezione A. Se avessimo B.1, invece, il macrotopic sarebbe differente.  
+
   summaries:
 
-      - A.1: Il riassunto A.1, ovvero il paragrafo A.1 nel summary for policy makers
+      A.1: Il riassunto A.1, ovvero il paragrafo A.1 nel summary for policy makers
 
-      - A.1.1: Il riassunto A.1.1, ovvero il paragrafo A.1.1 nel summary for policy makers
+      A.1.1: Il riassunto A.1.1, ovvero il paragrafo A.1.1 nel summary for policy makers
 
-      - A.1.2: Il riassunto A.1.1, ovvero il paragrafo A.1.1 nel summary for policy makers
-
-  topics:
-
-      - A.1: il topic ad alto livello del riassunto A.1 (ottenibile dal titolo del riassunto A.1)
-
-      - A.1.1: Il topic ad alto livello del riassunto A.1.1 ( ottenibile dal titolo del riassunto A.1)
-
-      - A.1.2: Il topic ad alto livello del riassunto A.1.2 (ottenibile dal titole del riassunto A.1)
+      A.1.2: Il riassunto A.1.1, ovvero il paragrafo A.1.1 nel summary for policy makers
