@@ -845,6 +845,7 @@ and regions. Examples of maladaptation are observed in urban areas
 (e.g., new urban infrastructure that cannot be adjusted easily or affordably),
 agriculture (e.g., using high-cost irrigation in areas projected to have more
 intense drought conditions), ecosystems (e.g. fire suppression in naturally
+
 2.3.3. Lack of Finance as a Barrier to Climate Action
 Insufficient financing, and a lack of political frameworks and
 incentives for finance, are key causes of the implementation
@@ -910,7 +911,6 @@ aggregation, scalability and replicability of investment opportunities
 and financing models; and, a pipeline ready for commercial investments.
 (high confidence) {WGII SPM C.5.4; WGIII SPM E.5.2; SR1.5 SPM D.5.2}
 
-Section 3: Long-Term Climate and Development Futures
 3.1 Long-Term Climate Change, Impacts and Related Risks
 Future warming will be driven by future emissions and will affect all major climate system components, with
 every region experiencing multiple and co-occurring changes. Many climate-related risks are assessed to be
@@ -1042,6 +1042,7 @@ intensification of tropical cyclones and/or extratropical storms
 become likely more frequent, including concurrently at multiple
 locations (high confidence). {WGI SPM C.2, WGI SPM C.2.1, WGI SPM C.2.2,
 WGI SPM C.2.3, WGI SPM C.2.4, WGI SPM C.2.7}
+
 3.1.2 Impacts and Related Risks
 For a given level of warming, many climate-related risks are
 assessed to be higher than in AR5 (high confidence). Levels of
@@ -1723,8 +1724,6 @@ rapidly closing window of opportunity to secure a liveable and
 sustainable future for all (very high confidence). Opportunities for
 near-term action are assessed in the following section. {WGII SPM D.5.3;
 WGIII SPM D.1.1}
-
-Section 4 : Near-Term Responses in a Changing Climate
 
 4.1 The Timing and Urgency of Climate Action
 The magnitude and rate of climate change and associated risks
