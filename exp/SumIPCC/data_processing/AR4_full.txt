@@ -1,0 +1,1606 @@
+1. Observed changes in climate and
+their effects
+Warming of the climate system is unequivocal, as is
+now evident from observations of increases in global
+average air and ocean temperatures, widespread melting of snow and ice and rising global average sea level
+(Figure SPM.1). {1.1}
+Eleven of the last twelve years (1995-2006) rank among
+the twelve warmest years in the instrumental record of global
+surface temperature (since 1850). The 100-year linear trend
+(1906-2005) of 0.74 [0.56 to 0.92]°C1 is larger than the corresponding trend of 0.6 [0.4 to 0.8]°C (1901-2000) given in
+the Third Assessment Report (TAR) (Figure SPM.1). The temperature increase is widespread over the globe and is greater
+at higher northern latitudes. Land regions have warmed faster
+than the oceans (Figures SPM.2, SPM.4). {1.1, 1.2}
+Rising sea level is consistent with warming (Figure
+SPM.1). Global average sea level has risen since 1961 at an
+average rate of 1.8 [1.3 to 2.3] mm/yr and since 1993 at 3.1
+[2.4 to 3.8] mm/yr, with contributions from thermal expansion, melting glaciers and ice caps, and the polar ice sheets.
+Whether the faster rate for 1993 to 2003 reflects decadal variation or an increase in the longer-term trend is unclear. {1.1}
+Observed decreases in snow and ice extent are also consistent with warming (Figure SPM.1). Satellite data since 1978
+show that annual average Arctic sea ice extent has shrunk by
+2.7 [2.1 to 3.3]% per decade, with larger decreases in summer
+of 7.4 [5.0 to 9.8]% per decade. Mountain glaciers and snow
+cover on average have declined in both hemispheres. {1.1}
+From 1900 to 2005, precipitation increased significantly
+in eastern parts of North and South America, northern Europe
+and northern and central Asia but declined in the Sahel, the
+Mediterranean, southern Africa and parts of southern Asia.
+Globally, the area affected by drought has likely2 increased
+since the 1970s. {1.1}
+It is very likely that over the past 50 years: cold days, cold
+nights and frosts have become less frequent over most land
+areas, and hot days and hot nights have become more frequent.
+It is likely that: heat waves have become more frequent over
+most land areas, the frequency of heavy precipitation events
+has increased over most areas, and since 1975 the incidence
+of extreme high sea level3 has increased worldwide. {1.1}
+There is observational evidence of an increase in intense
+tropical cyclone activity in the North Atlantic since about 1970,
+with limited evidence of increases elsewhere. There is no clear
+trend in the annual numbers of tropical cyclones. It is difficult
+to ascertain longer-term trends in cyclone activity, particularly
+prior to 1970. {1.1}
+Average Northern Hemisphere temperatures during the
+second half of the 20th century were very likely higher than
+during any other 50-year period in the last 500 years and likely
+the highest in at least the past 1300 years. {1.1}
+Observational evidence4 from all continents and most
+oceans shows that many natural systems are being
+affected by regional climate changes, particularly temperature increases. {1.2}
+Changes in snow, ice and frozen ground have with high confidence increased the number and size of glacial lakes, increased
+ground instability in mountain and other permafrost regions and
+led to changes in some Arctic and Antarctic ecosystems. {1.2}
+There is high confidence that some hydrological systems
+have also been affected through increased runoff and earlier
+spring peak discharge in many glacier- and snow-fed rivers
+and through effects on thermal structure and water quality of
+warming rivers and lakes. {1.2}
+In terrestrial ecosystems, earlier timing of spring events
+and poleward and upward shifts in plant and animal ranges
+are with very high confidence linked to recent warming. In
+some marine and freshwater systems, shifts in ranges and
+changes in algal, plankton and fish abundance are with high
+confidence associated with rising water temperatures, as well
+as related changes in ice cover, salinity, oxygen levels and
+circulation. {1.2}
+Of the more than 29,000 observational data series, from
+75 studies, that show significant change in many physical and
+biological systems, more than 89% are consistent with the
+direction of change expected as a response to warming (Fig
+ure SPM.2). However, there is a notable lack of geographic
+balance in data and literature on observed changes, with
+marked scarcity in developing countries. {1.2, 1.3}
+There is medium confidence that other effects of regional climate change on natural and human environments are emerging, although many are difficult to discern due to adaptation and non-climatic drivers. {1.2}
+They include effects of temperature increases on: {1.2}
+ agricultural and forestry management at Northern Hemisphere higher latitudes, such as earlier spring planting of
+crops, and alterations in disturbance regimes of forests
+due to fires and pests
+ some aspects of human health, such as heat-related mortality in Europe, changes in infectious disease vectors in
+some areas, and allergenic pollen in Northern Hemisphere
+high and mid-latitudes
+ some human activities in the Arctic (e.g. hunting and travel
+over snow and ice) and in lower-elevation alpine areas
+(such as mountain sports).
+
+2. Causes of change
+Changes in atmospheric concentrations of greenhouse
+gases (GHGs) and aerosols, land cover and solar radiation alter the energy balance of the climate system. {2.2}
+Global GHG emissions due to human activities have
+grown since pre-industrial times, with an increase of
+70% between 1970 and 2004 (Figure SPM.3).5 {2.1}
+Carbon dioxide (CO2
+) is the most important anthropogenic
+GHG. Its annual emissions grew by about 80% between 1970
+and 2004. The long-term trend of declining CO2
+ emissions
+per unit of energy supplied reversed after 2000. {2.1}
+Global atmospheric concentrations of CO2
+, methane
+(CH4
+) and nitrous oxide (N2
+O) have increased markedly
+as a result of human activities since 1750 and now far
+exceed pre-industrial values determined from ice cores
+spanning many thousands of years. {2.2}
+Atmospheric concentrations of CO2
+ (379ppm) and CH4
+(1774ppb) in 2005 exceed by far the natural range over the
+last 650,000 years. Global increases in CO2
+ concentrations
+are due primarily to fossil fuel use, with land-use change providing another significant but smaller contribution. It is very
+likely that the observed increase in CH4
+ concentration is predominantly due to agriculture and fossil fuel use. CH4
+ growth
+rates have declined since the early 1990s, consistent with total emissions (sum of anthropogenic and natural sources) being nearly constant during this period. The increase in N2
+O
+concentration is primarily due to agriculture. {2.2}
+There is very high confidence that the net effect of human
+activities since 1750 has been one of warming.6 {2.2}
+Most of the observed increase in global average temperatures since the mid-20th century is very likely due to the
+observed increase in anthropogenic GHG concentrations.7 It is likely that there has been significant anthropogenic warming over the past 50 years averaged over
+each continent (except Antarctica) (Figure SPM.4). {2.4}
+During the past 50 years, the sum of solar and volcanic
+forcings would likely have produced cooling. Observed patterns of warming and their changes are simulated only by
+models that include anthropogenic forcings. Difficulties remain in simulating and attributing observed temperature
+changes at smaller than continental scales. {2.4}
+Advances since the TAR show that discernible human
+influences extend beyond average temperature to other
+aspects of climate. {2.4}
+Human influences have: {2.4}
+ very likely contributed to sea level rise during the latter
+half of the 20th century
+ likely contributed to changes in wind patterns, affecting
+extra-tropical storm tracks and temperature patterns
+ likely increased temperatures of extreme hot nights, cold
+nights and cold days
+ more likely than not increased risk of heat waves, area
+affected by drought since the 1970s and frequency of heavy
+precipitation events.
+Anthropogenic warming over the last three decades has likely
+had a discernible influence at the global scale on observed
+changes in many physical and biological systems. {2.4}
+Spatial agreement between regions of significant warming across the globe and locations of significant observed
+changes in many systems consistent with warming is very
+unlikely to be due solely to natural variability. Several modelling studies have linked some specific responses in physical
+and biological systems to anthropogenic warming. {2.4}
+More complete attribution of observed natural system responses to anthropogenic warming is currently prevented by
+the short time scales of many impact studies, greater natural
+climate variability at regional scales, contributions of nonclimate factors and limited spatial coverage of studies. {2.4}
+
+
+3. Projected climate change
+and its impacts
+There is high agreement and much evidence that with
+current climate change mitigation policies and related sustainable development practices, global GHG emissions
+will continue to grow over the next few decades. {3.1}
+The IPCC Special Report on Emissions Scenarios (SRES,
+2000) projects an increase of global GHG emissions by 25 to
+90% (CO2
+-eq) between 2000 and 2030 (Figure SPM.5), with
+fossil fuels maintaining their dominant position in the global energy mix to 2030 and beyond. More recent scenarios without
+additional emissions mitigation are comparable in range.8,9 {3.1}
+Continued GHG emissions at or above current rates
+would cause further warming and induce many changes
+in the global climate system during the 21st century that
+would very likely be larger than those observed during
+the 20th century (Table SPM.1, Figure SPM.5). {3.2.1}
+For the next two decades a warming of about 0.2°C per decade is projected for a range of SRES emissions scenarios. Even
+if the concentrations of all GHGs and aerosols had been kept
+constant at year 2000 levels, a further warming of about 0.1°C
+per decade would be expected. Afterwards, temperature projections increasingly depend on specific emissions scenarios. {3.2}
+The range of projections (Table SPM.1) is broadly consistent with the TAR, but uncertainties and upper ranges for
+temperature are larger mainly because the broader range of
+available models suggests stronger climate-carbon cycle feedbacks. Warming reduces terrestrial and ocean uptake of atmospheric CO2
+, increasing the fraction of anthropogenic emissions remaining in the atmosphere. The strength of this feedback effect varies markedly among models. {2.3, 3.2.1}
+Because understanding of some important effects driving
+sea level rise is too limited, this report does not assess the
+likelihood, nor provide a best estimate or an upper bound for
+sea level rise. Table SPM.1 shows model-based projections
+of global average sea level rise for 2090-2099.10 The projections do not include uncertainties in climate-carbon cycle feedbacks nor the full effects of changes in ice sheet flow, therefore the upper values of the ranges are not to be considered
+upper bounds for sea level rise. They include a contribution
+from increased Greenland and Antarctic ice flow at the rates
+observed for 1993-2003, but this could increase or decrease
+in the future.11 {3.2.1}
+There is now higher confidence than in the TAR in projected patterns of warming and other regional-scale
+features, including changes in wind patterns, precipitation and some aspects of extremes and sea ice. {3.2.2}
+Regional-scale changes include: {3.2.2}
+ warming greatest over land and at most high northern latitudes and least over Southern Ocean and parts of the North
+Atlantic Ocean, continuing recent observed trends (Figure SPM.6)
+ contraction of snow cover area, increases in thaw depth
+over most permafrost regions and decrease in sea ice extent; in some projections using SRES scenarios, Arctic
+late-summer sea ice disappears almost entirely by the latter part of the 21st century
+ very likely increase in frequency of hot extremes, heat
+waves and heavy precipitation
+ likely increase in tropical cyclone intensity; less confidence
+in global decrease of tropical cyclone numbers
+ poleward shift of extra-tropical storm tracks with consequent changes in wind, precipitation and temperature patterns
+ very likely precipitation increases in high latitudes and
+likely decreases in most subtropical land regions, continuing observed recent trends.
+There is high confidence that by mid-century, annual river
+runoff and water availability are projected to increase at high
+latitudes (and in some tropical wet areas) and decrease in some
+dry regions in the mid-latitudes and tropics. There is also high
+confidence that many semi-arid areas (e.g. Mediterranean
+Basin, western United States, southern Africa and
+north-eastern Brazil) will suffer a decrease in water resources
+due to climate change. {3.3.1, Figure 3.5}
+Studies since the TAR have enabled more systematic
+understanding of the timing and magnitude of impacts
+related to differing amounts and rates of climate
+change. {3.3.1, 3.3.2}
+Figure SPM.7 presents examples of this new information
+for systems and sectors. The top panel shows impacts increasing with increasing temperature change. Their estimated magnitude and timing is also affected by development pathway
+(lower panel). {3.3.1}
+Examples of some projected impacts for different regions
+are given in Table SPM.2.
+Some systems, sectors and regions are likely to be especially affected by climate change.12 {3.3.3}
+Systems and sectors: {3.3.3}
+ particular ecosystems:
+- terrestrial: tundra, boreal forest and mountain regions
+because of sensitivity to warming; mediterranean-type
+ecosystems because of reduction in rainfall; and tropical rainforests where precipitation declines
+- coastal: mangroves and salt marshes, due to multiple
+stresses
+- marine: coral reefs due to multiple stresses; the sea ice
+biome because of sensitivity to warming
+ water resources in some dry regions at mid-latitudes13 and
+in the dry tropics, due to changes in rainfall and evapotranspiration, and in areas dependent on snow and ice melt
+ agriculture in low latitudes, due to reduced water availability
+ low-lying coastal systems, due to threat of sea level rise
+and increased risk from extreme weather events
+ human health in populations with low adaptive capacity.
+Regions: {3.3.3}
+ the Arctic, because of the impacts of high rates of projected
+warming on natural systems and human communities
+ Africa, because of low adaptive capacity and projected
+climate change impacts
+ small islands, where there is high exposure of population
+and infrastructure to projected climate change impacts
+ Asian and African megadeltas, due to large populations
+and high exposure to sea level rise, storm surges and river
+flooding.
+Within other areas, even those with high incomes, some
+people (such as the poor, young children and the elderly) can
+be particularly at risk, and also some areas and some activities. {3.3.3}
+Ocean acidification
+The uptake of anthropogenic carbon since 1750 has led to
+the ocean becoming more acidic with an average decrease in
+pH of 0.1 units. Increasing atmospheric CO2
+ concentrations
+lead to further acidification. Projections based on SRES scenarios give a reduction in average global surface ocean pH of
+between 0.14 and 0.35 units over the 21st century. While the effects of observed ocean acidification on the marine biosphere are
+as yet undocumented, the progressive acidification of oceans is
+expected to have negative impacts on marine shell-forming organisms (e.g. corals) and their dependent species. {3.3.4}
+Altered frequencies and intensities of extreme weather,
+together with sea level rise, are expected to have mostly
+adverse effects on natural and human systems. {3.3.5}
+Examples for selected extremes and sectors are shown in
+Table SPM.3.
+Anthropogenic warming and sea level rise would continue for centuries due to the time scales associated
+with climate processes and feedbacks, even if GHG
+concentrations were to be stabilised. {3.2.3}
+Estimated long-term (multi-century) warming corresponding to the six AR4 Working Group III stabilisation categories
+is shown in Figure SPM.8.
+Contraction of the Greenland ice sheet is projected to continue to contribute to sea level rise after 2100. Current models
+suggest virtually complete elimination of the Greenland ice
+sheet and a resulting contribution to sea level rise of about 7m
+if global average warming were sustained for millennia in
+excess of 1.9 to 4.6°C relative to pre-industrial values. The
+corresponding future temperatures in Greenland are comparable to those inferred for the last interglacial period 125,000
+years ago, when palaeoclimatic information suggests reductions
+of polar land ice extent and 4 to 6m of sea level rise. {3.2.3}
+Current global model studies project that the Antarctic ice
+sheet will remain too cold for widespread surface melting and
+gain mass due to increased snowfall. However, net loss of ice
+mass could occur if dynamical ice discharge dominates the
+ice sheet mass balance. {3.2.3}
+Anthropogenic warming could lead to some impacts
+that are abrupt or irreversible, depending upon the rate
+and magnitude of the climate change. {3.4}
+Partial loss of ice sheets on polar land could imply metres
+of sea level rise, major changes in coastlines and inundation
+of low-lying areas, with greatest effects in river deltas and
+low-lying islands. Such changes are projected to occur over
+millennial time scales, but more rapid sea level rise on century time scales cannot be excluded. {3.4}
+Climate change is likely to lead to some irreversible impacts. There is medium confidence that approximately 20 to
+30% of species assessed so far are likely to be at increased
+risk of extinction if increases in global average warming exceed 1.5 to 2.5°C (relative to 1980-1999). As global average
+temperature increase exceeds about 3.5°C, model projections
+suggest significant extinctions (40 to 70% of species assessed)
+around the globe. {3.4}
+Based on current model simulations, the meridional overturning circulation (MOC) of the Atlantic Ocean will very likely
+slow down during the 21st century; nevertheless temperatures
+over the Atlantic and Europe are projected to increase. The
+MOC is very unlikely to undergo a large abrupt transition during the 21st century. Longer-term MOC changes cannot be assessed with confidence. Impacts of large-scale and persistent
+changes in the MOC are likely to include changes in marine
+ecosystem productivity, fisheries, ocean CO2
+ uptake, oceanic
+oxygen concentrations and terrestrial vegetation. Changes in
+terrestrial and ocean CO2
+ uptake may feed back on the climate system. {3.4}
+ 
+ 4. Adaptation and mitigation options14
+A wide array of adaptation options is available, but more
+extensive adaptation than is currently occurring is required to reduce vulnerability to climate change. There
+are barriers, limits and costs, which are not fully understood. {4.2}
+Societies have a long record of managing the impacts of
+weather- and climate-related events. Nevertheless, additional
+adaptation measures will be required to reduce the adverse
+impacts of projected climate change and variability, regardless of the scale of mitigation undertaken over the next two to
+three decades. Moreover, vulnerability to climate change can
+be exacerbated by other stresses. These arise from, for example, current climate hazards, poverty and unequal access to
+resources, food insecurity, trends in economic globalisation,
+conflict and incidence of diseases such as HIV/AIDS. {4.2}
+Some planned adaptation to climate change is already
+occurring on a limited basis. Adaptation can reduce vulnerability, especially when it is embedded within broader sectoral
+initiatives (Table SPM.4). There is high confidence that there
+are viable adaptation options that can be implemented in some
+sectors at low cost, and/or with high benefit-cost ratios. However, comprehensive estimates of global costs and benefits of
+adaptation are limited. {4.2, Table 4.1}
+Adaptive capacity is intimately connected to social and
+economic development but is unevenly distributed
+across and within societies. {4.2}
+A range of barriers limits both the implementation and
+effectiveness of adaptation measures. The capacity to adapt is
+dynamic and is influenced by a society’s productive base, including natural and man-made capital assets, social networks
+and entitlements, human capital and institutions, governance,
+national income, health and technology. Even societies with
+high adaptive capacity remain vulnerable to climate change,
+variability and extremes. {4.2}
+Both bottom-up and top-down studies indicate that
+there is high agreement and much evidence of substantial economic potential for the mitigation of global
+GHG emissions over the coming decades that could
+offset the projected growth of global emissions or reduce emissions below current levels (Figures SPM.9,
+SPM.10).15 While top-down and bottom-up studies are
+in line at the global level (Figure SPM.9) there are considerable differences at the sectoral level. {4.3}
+No single technology can provide all of the mitigation
+potential in any sector. The economic mitigation potential,
+which is generally greater than the market mitigation potential, can only be achieved when adequate policies are in place
+and barriers removed (Table SPM.5). {4.3}
+Bottom-up studies suggest that mitigation opportunities
+with net negative costs have the potential to reduce emissions
+by around 6 GtCO2
+-eq/yr in 2030, realising which requires
+dealing with implementation barriers. {4.3}
+A wide variety of policies and instruments are available to governments to create the incentives for mitigation action. Their applicability depends on national
+circumstances and sectoral context (Table SPM.5). {4.3}
+They include integrating climate policies in wider development policies, regulations and standards, taxes and charges,
+tradable permits, financial incentives, voluntary agreements,
+information instruments, and research, development and demonstration (RD&D). {4.3}
+An effective carbon-price signal could realise significant
+mitigation potential in all sectors. Modelling studies show that
+global carbon prices rising to US$20-80/tCO2
+-eq by 2030 are
+consistent with stabilisation at around 550ppm CO2
+-eq by 2100.
+For the same stabilisation level, induced technological change
+may lower these price ranges to US$5-65/tCO2
+-eq in 2030.17 {4.3}
+There is high agreement and much evidence that mitigation actions can result in near-term co-benefits (e.g. improved
+health due to reduced air pollution) that may offset a substantial fraction of mitigation costs. {4.3}
+There is high agreement and medium evidence that Annex
+I countries’ actions may affect the global economy and global
+emissions, although the scale of carbon leakage remains uncertain.18 {4.3}
+Fossil fuel exporting nations (in both Annex I and non-Annex I countries) may expect, as indicated in the TAR, lower demand and prices and lower GDP growth due to mitigation policies. The extent of this spillover depends strongly on assumptions related to policy decisions and oil market conditions. {4.3}
+There is also high agreement and medium evidence that
+changes in lifestyle, behaviour patterns and management practices can contribute to climate change mitigation across all sectors. {4.3}
+Many options for reducing global GHG emissions
+through international cooperation exist. There is high
+agreement and much evidence that notable achievements of the UNFCCC and its Kyoto Protocol are the
+establishment of a global response to climate change,
+stimulation of an array of national policies, and the creation of an international carbon market and new institutional mechanisms that may provide the foundation
+for future mitigation efforts. Progress has also been made
+in addressing adaptation within the UNFCCC and additional international initiatives have been suggested. {4.5}
+Greater cooperative efforts and expansion of market mechanisms will help to reduce global costs for achieving a given level
+of mitigation, or will improve environmental effectiveness. Efforts can include diverse elements such as emissions targets;
+sectoral, local, sub-national and regional actions; RD&D
+programmes; adopting common policies; implementing development-oriented actions; or expanding financing instruments. {4.5}
+In several sectors, climate response options can be
+implemented to realise synergies and avoid conflicts
+with other dimensions of sustainable development.
+Decisions about macroeconomic and other non-climate
+policies can significantly affect emissions, adaptive
+capacity and vulnerability. {4.4, 5.8}
+Making development more sustainable can enhance mitigative and adaptive capacities, reduce emissions and reduce
+vulnerability, but there may be barriers to implementation. On
+the other hand, it is very likely that climate change can slow
+the pace of progress towards sustainable development. Over
+the next half-century, climate change could impede achievement of the Millennium Development Goals. {5.8}
+
+5. The long-term perspective
+Determining what constitutes “dangerous anthropogenic interference with the climate system” in relation
+to Article 2 of the UNFCCC involves value judgements.
+Science can support informed decisions on this issue,
+including by providing criteria for judging which vulnerabilities might be labelled ‘key’. {Box ‘Key Vulnerabilities and Article 2 of the UNFCCC’, Topic 5}
+Key vulnerabilities19 may be associated with many climate-sensitive systems, including food supply, infrastructure,
+health, water resources, coastal systems, ecosystems, global
+biogeochemical cycles, ice sheets and modes of oceanic and
+atmospheric circulation. {Box ‘Key Vulnerabilities and Article 2 of
+the UNFCCC’, Topic 5}The five ‘reasons for concern’ identified in the TAR remain a viable framework to consider key vulnerabilities. These ‘reasons’ are assessed here to be stronger
+than in the TAR. Many risks are identified with higher confidence. Some risks are projected to be larger or to occur
+at lower increases in temperature. Understanding about
+the relationship between impacts (the basis for ‘reasons
+for concern’ in the TAR) and vulnerability (that includes
+the ability to adapt to impacts) has improved. {5.2}
+This is due to more precise identification of the circumstances that make systems, sectors and regions especially vulnerable and growing evidence of the risks of very large impacts on multiple-century time scales. {5.2}
+ Risks to unique and threatened systems. There is new
+and stronger evidence of observed impacts of climate
+change on unique and vulnerable systems (such as polar
+and high mountain communities and ecosystems), with
+increasing levels of adverse impacts as temperatures increase further. An increasing risk of species extinction and
+coral reef damage is projected with higher confidence than
+in the TAR as warming proceeds. There is medium confidence that approximately 20 to 30% of plant and animal
+species assessed so far are likely to be at increased risk of
+extinction if increases in global average temperature exceed 1.5 to 2.5°C over 1980-1999 levels. Confidence has
+increased that a 1 to 2°C increase in global mean temperature above 1990 levels (about 1.5 to 2.5°C above preindustrial) poses significant risks to many unique and
+threatened systems including many biodiversity hotspots.
+Corals are vulnerable to thermal stress and have low adaptive capacity. Increases in sea surface temperature of about
+1 to 3°C are projected to result in more frequent coral
+bleaching events and widespread mortality, unless there
+is thermal adaptation or acclimatisation by corals. Increasing
+vulnerability of indigenous communities in the Arctic and
+small island communities to warming is projected. {5.2}
+ Risks of extreme weather events. Responses to some recent extreme events reveal higher levels of vulnerability
+than the TAR. There is now higher confidence in the projected increases in droughts, heat waves and floods, as
+well as their adverse impacts. {5.2}
+ Distribution of impacts and vulnerabilities. There are
+sharp differences across regions and those in the weakest
+economic position are often the most vulnerable to climate change. There is increasing evidence of greater vulnerability of specific groups such as the poor and elderly
+not only in developing but also in developed countries.
+Moreover, there is increased evidence that low-latitude
+and less developed areas generally face greater risk, for
+example in dry areas and megadeltas. {5.2}
+ Aggregate impacts. Compared to the TAR, initial net market-based benefits from climate change are projected to
+peak at a lower magnitude of warming, while damages
+would be higher for larger magnitudes of warming. The
+net costs of impacts of increased warming are projected
+to increase over time. {5.2}
+ Risks of large-scale singularities. There is high confidence that global warming over many centuries would lead
+to a sea level rise contribution from thermal expansion
+alone that is projected to be much larger than observed
+over the 20th century, with loss of coastal area and associated impacts. There is better understanding than in the TAR
+that the risk of additional contributions to sea level rise
+from both the Greenland and possibly Antarctic ice sheets
+may be larger than projected by ice sheet models and could
+occur on century time scales. This is because ice dynamical processes seen in recent observations but not fully included in ice sheet models assessed in the AR4 could increase the rate of ice loss. {5.2}
+There is high confidence that neither adaptation nor
+mitigation alone can avoid all climate change impacts;
+however, they can complement each other and together
+can significantly reduce the risks of climate change. {5.3}
+Adaptation is necessary in the short and longer term to address impacts resulting from the warming that would occur even
+for the lowest stabilisation scenarios assessed. There are barriers,
+limits and costs, but these are not fully understood. Unmitigated
+climate change would, in the long term, be likely to exceed the
+capacity of natural, managed and human systems to adapt. The
+time at which such limits could be reached will vary between
+sectors and regions. Early mitigation actions would avoid further
+locking in carbon intensive infrastructure and reduce climate
+change and associated adaptation needs. {5.2, 5.3}
+Many impacts can be reduced, delayed or avoided by
+mitigation. Mitigation efforts and investments over the
+next two to three decades will have a large impact on
+opportunities to achieve lower stabilisation levels. Delayed emission reductions significantly constrain the
+opportunities to achieve lower stabilisation levels and
+increase the risk of more severe climate change impacts. {5.3, 5.4, 5.7}
+In order to stabilise the concentration of GHGs in the atmosphere, emissions would need to peak and decline thereafter. The lower the stabilisation level, the more quickly this
+peak and decline would need to occur.20 {5.4}
+Table SPM.6 and Figure SPM.11 summarise the required
+emission levels for different groups of stabilisation concentrations and the resulting equilibrium global warming and long term sea level rise due to thermal expansion only.21 The timing and level of mitigation to reach a given temperature
+stabilisation level is earlier and more stringent if climate sensitivity is high than if it is low. {5.4, 5.7}
+Sea level rise under warming is inevitable. Thermal expansion would continue for many centuries after GHG concentrations have stabilised, for any of the stabilisation levels
+assessed, causing an eventual sea level rise much larger than
+projected for the 21st century. The eventual contributions from
+Greenland ice sheet loss could be several metres, and larger
+than from thermal expansion, should warming in excess of
+1.9 to 4.6°C above pre-industrial be sustained over many centuries. The long time scales of thermal expansion and ice sheet
+response to warming imply that stabilisation of GHG concentrations at or above present levels would not stabilise sea level
+for many centuries. {5.3, 5.4}
+There is high agreement and much evidence that
+all stabilisation levels assessed can be achieved by
+deployment of a portfolio of technologies that are either currently available or expected to be commercialised
+in coming decades, assuming appropriate and effective incentives are in place for their development,
+acquisition, deployment and diffusion and addressing
+related barriers. {5.5}
+All assessed stabilisation scenarios indicate that 60 to 80%
+of the reductions would come from energy supply and use
+and industrial processes, with energy efficiency playing a key
+role in many scenarios. Including non-CO2
+ and CO2
+ land-use
+and forestry mitigation options provides greater flexibility and
+cost-effectiveness. Low stabilisation levels require early investments and substantially more rapid diffusion and
+commercialisation of advanced low-emissions technologies. {5.5}
+Without substantial investment flows and effective technology transfer, it may be difficult to achieve emission reduction at a significant scale. Mobilising financing of incremental costs of low-carbon technologies is important. {5.5}
+The macro-economic costs of mitigation generally rise
+with the stringency of the stabilisation target (Table
+SPM.7). For specific countries and sectors, costs vary
+considerably from the global average.22 {5.6}
+In 2050, global average macro-economic costs for mitigation towards stabilisation between 710 and 445ppm CO2
+-eq are
+between a 1% gain and 5.5% decrease of global GDP (Table
+SPM.7). This corresponds to slowing average annual global GDP
+growth by less than 0.12 percentage points. {5.6}
+Responding to climate change involves an iterative risk
+management process that includes both adaptation and
+mitigation and takes into account climate change damages, co-benefits, sustainability, equity and attitudes
+to risk. {5.1}
+Impacts of climate change are very likely to impose net
+annual costs, which will increase over time as global temperatures increase. Peer-reviewed estimates of the social cost
+of carbon23 in 2005 average US$12 per tonne of CO2
+, but the
+range from 100 estimates is large (-$3 to $95/tCO2
+). This is
+due in large part to differences in assumptions regarding climate sensitivity, response lags, the treatment of risk and equity, economic and non-economic impacts, the inclusion of
+potentially catastrophic losses and discount rates. Aggregate
+estimates of costs mask significant differences in impacts
+across sectors, regions and populations and very likely underestimate damage costs because they cannot include many nonquantifiable impacts. {5.7}
+Limited and early analytical results from integrated analyses of the costs and benefits of mitigation indicate that they
+are broadly comparable in magnitude, but do not as yet permit
+an unambiguous determination of an emissions pathway or
+stabilisation level where benefits exceed costs. {5.7}
+Climate sensitivity is a key uncertainty for mitigation scenarios for specific temperature levels. {5.4}
+Choices about the scale and timing of GHG mitigation
+involve balancing the economic costs of more rapid emission
+reductions now against the corresponding medium-term and
+long-term climate risks of delay. {5.7}
+
+
+
+1.1 Observations of climate change
+Since the TAR, progress in understanding how climate is changing in space and time has been gained through improvements and
+extensions of numerous datasets and data analyses, broader geographical coverage, better understanding of uncertainties and a wider
+variety of measurements. {WGI SPM}
+Definitions of climate change
+Climate change in IPCC usage refers to a change in the state
+of the climate that can be identified (e.g. using statistical tests)
+by changes in the mean and/or the variability of its properties,
+and that persists for an extended period, typically decades or
+longer. It refers to any change in climate over time, whether
+due to natural variability or as a result of human activity. This
+usage differs from that in the United Nations Framework Convention on Climate Change (UNFCCC), where climate change
+refers to a change of climate that is attributed directly or indirectly to human activity that alters the composition of the global
+atmosphere and that is in addition to natural climate variability
+observed over comparable time periods.
+Warming of the climate system is unequivocal, as is now
+evident from observations of increases in global average
+air and ocean temperatures, widespread melting of snow
+and ice and rising global average sea level (Figure 1.1). {WGI
+3.2, 4.8, 5.2, 5.5, SPM}
+Eleven of the last twelve years (1995-2006) rank among the
+twelve warmest years in the instrumental record of global surface
+temperature (since 1850). The 100-year linear trend (1906-2005)
+of 0.74 [0.56 to 0.92]°C is larger than the corresponding trend of
+0.6 [0.4 to 0.8]°C (1901-2000) given in the TAR (Figure 1.1). The
+linear warming trend over the 50 years from 1956 to 2005 (0.13
+[0.10 to 0.16]°C per decade) is nearly twice that for the 100 years
+from 1906 to 2005. {WGI 3.2, SPM}
+The temperature increase is widespread over the globe and is
+greater at higher northern latitudes (Figure 1.2). Average Arctic temperatures have increased at almost twice the global average rate in
+the past 100 years. Land regions have warmed faster than the oceans
+(Figures 1.2 and 2.5). Observations since 1961 show that the average temperature of the global ocean has increased to depths of at
+least 3000m and that the ocean has been taking up over 80% of the
+heat being added to the climate system. New analyses of balloonborne and satellite measurements of lower- and mid-tropospheric
+temperature show warming rates similar to those observed in surface temperature. {WGI 3.2, 3.4, 5.2, SPM}
+Increases in sea level are consistent with warming (Figure 1.1).
+Global average sea level rose at an average rate of 1.8 [1.3 to 2.3]mm
+per year over 1961 to 2003 and at an average rate of about 3.1 [2.4
+to 3.8]mm per year from 1993 to 2003. Whether this faster rate for
+1993 to 2003 reflects decadal variation or an increase in the longerterm trend is unclear. Since 1993 thermal expansion of the oceans
+has contributed about 57% of the sum of the estimated individual
+contributions to the sea level rise, with decreases in glaciers and
+ice caps contributing about 28% and losses from the polar ice sheets
+contributing the remainder. From 1993 to 2003 the sum of these
+climate contributions is consistent within uncertainties with the total
+sea level rise that is directly observed. {WGI 4.6, 4.8, 5.5, SPM, Table
+SPM.1}
+Observed decreases in snow and ice extent are also consistent
+with warming (Figure 1.1). Satellite data since 1978 show that annual average Arctic sea ice extent has shrunk by 2.7 [2.1 to 3.3]%
+per decade, with larger decreases in summer of 7.4 [5.0 to 9.8]%
+per decade. Mountain glaciers and snow cover on average have
+declined in both hemispheres. The maximum areal extent of seasonally frozen ground has decreased by about 7% in the Northern
+Hemisphere since 1900, with decreases in spring of up to 15%.
+Temperatures at the top of the permafrost layer have generally increased since the 1980s in the Arctic by up to 3°C. {WGI 3.2, 4.5, 4.6,
+4.7, 4.8, 5.5, SPM}
+At continental, regional and ocean basin scales, numerous longterm changes in other aspects of climate have also been observed.
+Trends from 1900 to 2005 have been observed in precipitation
+amount in many large regions. Over this period, precipitation increased significantly in eastern parts of North and South America,
+northern Europe and northern and central Asia whereas precipitation declined in the Sahel, the Mediterranean, southern Africa and
+parts of southern Asia. Globally, the area affected by drought has
+likely2 increased since the 1970s. {WGI 3.3, 3.9, SPM}
+Some extreme weather events have changed in frequency and/
+or intensity over the last 50 years:
+ It is very likely that cold days, cold nights and frosts have become less frequent over most land areas, while hot days and
+hot nights have become more frequent. {WGI 3.8, SPM}
+ It is likely that heat waves have become more frequent over
+most land areas. {WGI 3.8, SPM}
+ It is likely that the frequency of heavy precipitation events (or
+proportion of total rainfall from heavy falls) has increased over
+most areas. {WGI 3.8, 3.9, SPM}
+ It is likely that the incidence of extreme high sea level3 has
+increased at a broad range of sites worldwide since 1975. {WGI
+5.5, SPM}
+There is observational evidence of an increase in intense tropical
+cyclone activity in the North Atlantic since about 1970, and suggestions of increased intense tropical cyclone activity in some other regions where concerns over data quality are greater. Multi-decadal variability and the quality of the tropical cyclone records prior to routine
+satellite observations in about 1970 complicate the detection of longterm trends in tropical cyclone activity. {WGI 3.8, SPM}
+Average Northern Hemisphere temperatures during the second
+half of the 20th century were very likely higher than during any other
+50-year period in the last 500 years and likely the highest in at least
+the past 1300 years. {WGI 6.6, SPM}
+
+
+1.2 Observed effects of climate changes
+The statements presented here are based largely on data sets
+that cover the period since 1970. The number of studies of observed
+trends in the physical and biological environment and their relationship to regional climate changes has increased greatly since the
+TAR. The quality of the data sets has also improved. There is a
+notable lack of geographic balance in data and literature on observed changes, with marked scarcity in developing countries.
+{WGII SPM}
+These studies have allowed a broader and more confident assessment of the relationship between observed warming and impacts than was made in the TAR. That assessment concluded that
+“there is high confidence2
+ that recent regional changes in temperature have had discernible impacts on physical and biological systems”. {WGII SPM}
+Observational evidence from all continents and most oceans
+shows that many natural systems are being affected by regional climate changes, particularly temperature increases.
+{WGII SPM}
+There is high confidence that natural systems related to snow, ice
+and frozen ground (including permafrost) are affected. Examples are:
+ enlargement and increased numbers of glacial lakes {WGII 1.3, SPM}
+ increasing ground instability in permafrost regions and rock
+avalanches in mountain regions {WGII 1.3, SPM}
+ changes in some Arctic and Antarctic ecosystems, including
+those in sea-ice biomes, and predators at high levels of the food
+web. {WGII 1.3, 4.4, 15.4, SPM}
+Based on growing evidence, there is high confidence that the
+following effects on hydrological systems are occurring: increased
+runoff and earlier spring peak discharge in many glacier- and snowfed rivers, and warming of lakes and rivers in many regions, with
+effects on thermal structure and water quality. {WGII 1.3, 15.2, SPM}
+There is very high confidence, based on more evidence from a
+wider range of species, that recent warming is strongly affecting
+terrestrial biological systems, including such changes as earlier timing of spring events, such as leaf-unfolding, bird migration and
+egg-laying; and poleward and upward shifts in ranges in plant and
+animal species. Based on satellite observations since the early 1980s,
+there is high confidence that there has been a trend in many regions
+towards earlier ‘greening’ of vegetation in the spring linked to longer
+thermal growing seasons due to recent warming. {WGII 1.3, 8.2, 14.2,
+SPM}
+There is high confidence, based on substantial new evidence,
+that observed changes in marine and freshwater biological systems
+are associated with rising water temperatures, as well as related
+changes in ice cover, salinity, oxygen levels and circulation. These
+include: shifts in ranges and changes in algal, plankton and fish
+abundance in high-latitude oceans; increases in algal and zooplankton abundance in high-latitude and high-altitude lakes; and range
+changes and earlier fish migrations in rivers. While there is increasing evidence of climate change impacts on coral reefs, separating
+the impacts of climate-related stresses from other stresses (e.g. overfishing and pollution) is difficult. {WGII 1.3, SPM}
+Other effects of regional climate changes on natural and
+human environments are emerging, although many are difficult to discern due to adaptation and non-climatic drivers.
+{WGII SPM}
+Effects of temperature increases have been documented with
+medium confidence in the following managed and human systems:
+ agricultural and forestry management at Northern Hemisphere
+higher latitudes, such as earlier spring planting of crops, and
+alterations in disturbances of forests due to fires and pests {WGII
+1.3, SPM}
+ some aspects of human health, such as excess heat-related
+mortality in Europe, changes in infectious disease vectors in
+parts of Europe, and earlier onset of and increases in seasonal
+production of allergenic pollen in Northern Hemisphere high
+and mid-latitudes {WGII 1.3, 8.2, 8.ES, SPM}
+ some human activities in the Arctic (e.g. hunting and shorter
+Sea level rise and human development are together contributing to losses of coastal wetlands and mangroves and increasing
+damage from coastal flooding in many areas. However, based on
+the published literature, the impacts have not yet become established trends. {WGII 1.3, 1.ES, SPM}
+
+1.3 Consistency of changes in physical and
+biological systems with warming
+Changes in the ocean and on land, including observed decreases
+in snow cover and Northern Hemisphere sea ice extent, thinner sea
+ice, shorter freezing seasons of lake and river ice, glacier melt, decreases in permafrost extent, increases in soil temperatures and
+borehole temperature profiles, and sea level rise, provide additional
+evidence that the world is warming. {WGI 3.9}
+Of the more than 29,000 observational data series, from 75 studies, that show significant change in many physical and biological
+systems, more than 89% are consistent with the direction of change
+expected as a response to warming (Figure 1.2). {WGII 1.4, SPM}
+
+1.4 Some aspects of climate have not been
+observed to change
+Some aspects of climate appear not to have changed and, for
+some, data inadequacies mean that it cannot be determined if they
+have changed. Antarctic sea ice extent shows inter-annual variability and localised changes but no statistically significant average
+multi-decadal trend, consistent with the lack of rise in near-surface
+atmospheric temperatures averaged across the continent. There is
+insufficient evidence to determine whether trends exist in some other
+variables, for example the meridional overturning circulation (MOC)
+of the global ocean or small-scale phenomena such as tornadoes,
+hail, lightning and dust storms. There is no clear trend in the annual
+numbers of tropical cyclones. {WGI 3.2, 3.8, 4.4, 5.3, SPM}
+
+
+2.1 Emissions of long-lived GHGs
+The radiative forcing of the climate system is dominated by the
+long-lived GHGs, and this section considers those whose emissions
+are covered by the UNFCCC.
+Global GHG emissions due to human activities have grown
+since pre-industrial times, with an increase of 70% between
+1970 and 2004 (Figure 2.1).5 {WGIII 1.3, SPM}
+Carbon dioxide (CO2
+) is the most important anthropogenic GHG.
+Its annual emissions have grown between 1970 and 2004 by about
+80%, from 21 to 38 gigatonnes (Gt), and represented 77% of total
+anthropogenic GHG emissions in 2004 (Figure 2.1). The rate of
+growth of CO2
+-eq emissions was much higher during the recent
+10-year period of 1995-2004 (0.92 GtCO2
+-eq per year) than during
+the previous period of 1970-1994 (0.43 GtCO2
+-eq per year). {WGIII
+1.3, TS.1, SPM}
+Carbon dioxide-equivalent (CO2
+-eq) emissions and
+concentrations
+GHGs differ in their warming influence (radiative forcing) on
+the global climate system due to their different radiative properties and lifetimes in the atmosphere. These warming influences may be expressed through a common metric based on
+the radiative forcing of CO2.
+• CO2
+-equivalent emission is the amount of CO2
+ emission
+that would cause the same time-integrated radiative forcing,
+over a given time horizon, as an emitted amount of a longlived GHG or a mixture of GHGs. The equivalent CO2 emission is obtained by multiplying the emission of a GHG by its
+Global Warming Potential (GWP) for the given time horizon.6
+For a mix of GHGs it is obtained by summing the equivalent
+CO2 emissions of each gas. Equivalent CO2 emission is a
+standard and useful metric for comparing emissions of different GHGs but does not imply the same climate change
+responses (see WGI 2.10).
+• CO2-equivalent concentration is the concentration of CO2
+that would cause the same amount of radiative forcing as a
+given mixture of CO2
+ and other forcing components.7
+The largest growth in GHG emissions between 1970 and 2004
+has come from energy supply, transport and industry, while residential and commercial buildings, forestry (including deforestation)
+and agriculture sectors have been growing at a lower rate
+e. The sectoral sources of GHGs in 2004 are considered in Figure 2.1c.
+{WGIII 1.3, SPM}
+The effect on global emissions of the decrease in global energy
+intensity (-33%) during 1970 to 2004 has been smaller than the combined effect of global income growth (77%) and global population
+growth (69%); both drivers of increasing energy-related CO2
+ emissions. The long-term trend of declining CO2
+ emissions per unit of energy supplied reversed after 2000. {WGIII 1.3, Figure SPM.2, SPM}
+Differences in per capita income, per capita emissions and
+energy intensity among countries remain significant. In 2004,
+UNFCCC Annex I countries held a 20% share in world population,
+produced 57% of the world’s Gross Domestic Product based on
+Purchasing Power Parity (GDPPPP) and accounted for 46% of global GHG emissions (Figure 2.2). {WGIII 1.3, SPM}
+
+2.2 Drivers of climate change
+Changes in the atmospheric concentrations of GHGs and aerosols, land cover and solar radiation alter the energy balance of the
+climate system and are drivers of climate change. They affect the
+absorption, scattering and emission of radiation within the atmosphere and at the Earth’s surface. The resulting positive or negative
+changes in energy balance due to these factors are expressed as
+radiative forcing4
+, which is used to compare warming or cooling
+influences on global climate. {WGI TS.2}
+Human activities result in emissions of four long-lived GHGs:
+CO2
+, methane (CH4
+), nitrous oxide (N2
+O) and halocarbons (a group
+of gases containing fluorine, chlorine or bromine). Atmospheric
+concentrations of GHGs increase when emissions are larger than
+removal processes.
+Global atmospheric concentrations of CO2
+, CH4
+ and N2
+O
+have increased markedly as a result of human activities
+since 1750 and now far exceed pre-industrial values determined from ice cores spanning many thousands of years
+(Figure 2.3). The atmospheric concentrations of CO2
+ and CH4
+in 2005 exceed by far the natural range over the last 650,000
+years. Global increases in CO2
+ concentrations are due primarily to fossil fuel use, with land-use change providing
+another significant but smaller contribution. It is very likely
+that the observed increase in CH4
+ concentration is predominantly due to agriculture and fossil fuel use. The increase
+in N2
+O concentration is primarily due to agriculture. {WGI
+2.3, 7.3, SPM}
+The global atmospheric concentration of CO2
+ increased from a
+pre-industrial value of about 280ppm to 379ppm in 2005. The annual CO2
+ concentration growth rate was larger during the last 10
+years (1995-2005 average: 1.9ppm per year) than it has been since
+the beginning of continuous direct atmospheric measurements
+(1960-2005 average: 1.4ppm per year), although there is year-toyear variability in growth rates. {WGI 2.3, 7.3, SPM; WGIII 1.3}
+The global atmospheric concentration of CH4
+ has increased from
+a pre-industrial value of about 715ppb to 1732ppb in the early 1990s,
+and was 1774ppb in 2005. Growth rates have declined since the
+early 1990s, consistent with total emissions (sum of anthropogenic
+and natural sources) being nearly constant during this period. {WGI
+2.3, 7.4, SPM}
+The global atmospheric N2
+O concentration increased from a
+pre-industrial value of about 270ppb to 319ppb in 2005. {WGI 2.3,
+7.4, SPM}
+Many halocarbons (including hydrofluorocarbons) have increased from a near-zero pre-industrial background concentration,
+primarily due to human activities. {WGI 2.3, SPM; SROC SPM}
+There is very high confidence that the global average net
+effect of human activities since 1750 has been one of warming, with a radiative forcing of +1.6 [+0.6 to +2.4] W/m2
+(Figure 2.4). {WGI 2.3, 6.5, 2.9, SPM}
+The combined radiative forcing due to increases in CO2
+, CH4
+and N2
+O is +2.3 [+2.1 to +2.5] W/m2
+, and its rate of increase during the industrial era is very likely to have been unprecedented in more
+than 10,000 years (Figures 2.3 and 2.4). The CO2
+ radiative forcing
+increased by 20% from 1995 to 2005, the largest change for any
+decade in at least the last 200 years. {WGI 2.3, 6.4, SPM}
+Anthropogenic contributions to aerosols (primarily sulphate,
+organic carbon, black carbon, nitrate and dust) together produce a
+cooling effect, with a total direct radiative forcing of -0.5 [-0.9 to
+-0.1] W/m2
+ and an indirect cloud albedo forcing of -0.7 [-1.8 to
+-0.3] W/m2
+. Aerosols also influence precipitation. {WGI 2.4, 2.9, 7.5,
+SPM}
+In comparison, changes in solar irradiance since 1750 are estimated to have caused a small radiative forcing of +0.12 [+0.06 to
++0.30] W/m2
+, which is less than half the estimate given in the TAR.
+{WGI 2.7, SPM}
+
+
+
+2.3 Climate sensitivity and feedbacks
+The equilibrium climate sensitivity is a measure of the climate
+system response to sustained radiative forcing. It is defined as the
+equilibrium global average surface warming following a doubling
+of CO2
+ concentration. Progress since the TAR enables an assessment that climate sensitivity is likely to be in the range of 2 to 4.5°C
+with a best estimate of about 3°C, and is very unlikely to be less
+than 1.5°C. Values substantially higher than 4.5°C cannot be excluded, but agreement of models with observations is not as good
+for those values. {WGI 8.6, 9.6, Box 10.2, SPM}
+Feedbacks can amplify or dampen the response to a given forcing. Direct emission of water vapour (a greenhouse gas) by human
+activities makes a negligible contribution to radiative forcing. However, as global average temperature increases, tropospheric water
+vapour concentrations increase and this represents a key positive
+feedback but not a forcing of climate change. Water vapour changes
+represent the largest feedback affecting equilibrium climate sensitivity and are now better understood than in the TAR. Cloud feedbacks remain the largest source of uncertainty. Spatial patterns of
+climate response are largely controlled by climate processes and
+feedbacks. For example, sea-ice albedo feedbacks tend to enhance
+the high latitude response. {WGI 2.8, 8.6, 9.2, TS.2.1.3, TS.2.5, SPM}
+Warming reduces terrestrial and ocean uptake of atmospheric
+CO2
+, increasing the fraction of anthropogenic emissions remaining
+in the atmosphere. This positive carbon cycle feedback leads to
+larger atmospheric CO2
+ increases and greater climate change for a
+given emissions scenario, but the strength of this feedback effect
+varies markedly among models. {WGI 7.3, TS.5.4, SPM; WGII 4.4}
+
+
+2.4 Attribution of climate change
+Attribution evaluates whether observed changes are quantitatively consistent with the expected response to external forcings
+(e.g. changes in solar irradiance or anthropogenic GHGs) and inconsistent with alternative physically plausible explanations. {WGI
+TS.4, SPM}Most of the observed increase in global average temperatures since the mid-20th century is very likely due to the
+observed increase in anthropogenic GHG concentrations.8
+This is an advance since the TAR’s conclusion that “most
+of the observed warming over the last 50 years is likely to
+have been due to the increase in GHG concentrations” (Figure 2.5). {WGI 9.4, SPM}
+The observed widespread warming of the atmosphere and ocean,
+together with ice mass loss, support the conclusion that it is extremely unlikely that global climate change of the past 50 years can
+be explained without external forcing and very likely that it is not
+due to known natural causes alone. During this period, the sum of
+solar and volcanic forcings would likely have produced cooling,
+not warming. Warming of the climate system has been detected in
+changes in surface and atmospheric temperatures and in temperatures of the upper several hundred metres of the ocean. The observed pattern of tropospheric warming and stratospheric cooling
+is very likely due to the combined influences of GHG increases and
+stratospheric ozone depletion. It is likely that increases in GHG
+concentrations alone would have caused more warming than observed because volcanic and anthropogenic aerosols have offset
+some warming that would otherwise have taken place. {WGI 2.9, 3.2,
+3.4, 4.8, 5.2, 7.5, 9.4, 9.5, 9.7, TS.4.1, SPM}
+It is likely that there has been significant anthropogenic
+warming over the past 50 years averaged over each continent (except Antarctica) (Figure 2.5). {WGI 3.2, 9.4, SPM}
+The observed patterns of warming, including greater warming
+over land than over the ocean, and their changes over time, are
+simulated only by models that include anthropogenic forcing. No
+coupled global climate model that has used natural forcing only
+has reproduced the continental mean warming trends in individual
+continents (except Antarctica) over the second half of the 20th century. {WGI 3.2, 9.4, TS.4.2, SPM}
+Difficulties remain in simulating and attributing observed temperature changes at smaller scales. On these scales, natural climate
+variability is relatively larger, making it harder to distinguish changes
+expected due to external forcings. Uncertainties in local forcings,
+such as those due to aerosols and land-use change, and feedbacks
+also make it difficult to estimate the contribution of GHG increases
+to observed small-scale temperature changes. {WGI 8.3, 9.4, SPM}
+Advances since the TAR show that discernible human influences extend beyond average temperature to other aspects of climate, including temperature extremes and wind
+patterns. {WGI 9.4, 9.5, SPM}
+Temperatures of the most extreme hot nights, cold nights and
+cold days are likely to have increased due to anthropogenic forcing.
+It is more likely than not that anthropogenic forcing has increased
+the risk of heat waves. Anthropogenic forcing is likely to have contributed to changes in wind patterns, affecting extra-tropical storm
+tracks and temperature patterns in both hemispheres. However, the
+observed changes in the Northern Hemisphere circulation are larger
+than simulated by models in response to 20th century forcing change.
+{WGI 3.5, 3.6, 9.4, 9.5, 10.3, SPM}
+It is very likely that the response to anthropogenic forcing contributed to sea level rise during the latter half of the 20th century.
+There is some evidence of the impact of human climatic influence
+on the hydrological cycle, including the observed large-scale patterns of changes in land precipitation over the 20th century. It is
+more likely than not that human influence has contributed to a global trend towards increases in area affected by drought since the
+1970s and the frequency of heavy precipitation events. {WGI 3.3,
+5.5, 9.5, TS.4.1, TS.4.3}
+Anthropogenic warming over the last three decades has
+likely had a discernible influence at the global scale on observed changes in many physical and biological systems.
+{WGII 1.4}
+A synthesis of studies strongly demonstrates that the spatial
+agreement between regions of significant warming across the globe
+and the locations of significant observed changes in many natural
+systems consistent with warming is very unlikely to be due solely
+to natural variability of temperatures or natural variability of the
+systems. Several modelling studies have linked some specific responses in physical and biological systems to anthropogenic warming, but only a few such studies have been performed. Taken together with evidence of significant anthropogenic warming over
+the past 50 years averaged over each continent (except Antarctica),
+it is likely that anthropogenic warming over the last three decades
+has had a discernible influence on many natural systems. {WGI 3.2,
+9.4, SPM; WGII 1.4, SPM}
+Limitations and gaps currently prevent more complete attribution of the causes of observed natural system responses to anthropogenic warming. The available analyses are limited in the number
+of systems, length of records and locations considered. Natural temperature variability is larger at the regional than the global scale,
+thus affecting identification of changes to external forcing. At the regional scale, other non-climate factors (such as land-use change, pollution and invasive species) are influential. {WGII 1.2, 1.3, 1.4, SPM}
+
+
+
+3.1 Emissions scenarios
+There is high agreement and much evidence9 that with current climate change mitigation policies and related sustainable development practices, global GHG emissions will continue to grow over the next few decades. Baseline emissions scenarios published since the IPCC Special Report
+on Emissions Scenarios (SRES, 2000) are comparable in
+range to those presented in SRES (see Box on SRES scenarios and Figure 3.1).10 {WGIII 1.3, 3.2, SPM}
+The SRES scenarios project an increase of baseline global GHG
+emissions by a range of 9.7 to 36.7 GtCO2
+-eq (25 to 90%) between
+2000 and 2030. In these scenarios, fossil fuels are projected to
+maintain their dominant position in the global energy mix to 2030
+and beyond. Hence CO2
+ emissions from energy use between 2000
+and 2030 are projected to grow 40 to 110% over that period. {WGIII
+1.3, SPM}
+Studies published since SRES (i.e. post-SRES scenarios) have
+used lower values for some drivers for emissions, notably population projections. However, for those studies incorporating these new
+population projections, changes in other drivers, such as economic
+growth, result in little change in overall emission levels. Economic
+growth projections for Africa, Latin America and the Middle East
+to 2030 in post-SRES baseline scenarios are lower than in SRES,
+but this has only minor effects on global economic growth and overall emissions. {WGIII 3.2, TS.3, SPM}
+Aerosols have a net cooling effect and the representation of
+aerosol and aerosol precursor emissions, including sulphur dioxide, black carbon and organic carbon, has improved in the postSRES scenarios. Generally, these emissions are projected to be lower
+than reported in SRES. {WGIII 3.2, TS.3, SPM}
+Available studies indicate that the choice of exchange rate for
+Gross Domestic Product (GDP) (Market Exchange Rate, MER or
+Purchasing Power Parity, PPP) does not appreciably affect the projected emissions, when used consistently.11 The differences, if any,
+are small compared to the uncertainties caused by assumptions on
+other parameters in the scenarios, e.g. technological change. {WGIII
+3.2, TS.3, SPM}
+
+3.2 Projections of future changes in climate
+For the next two decades a warming of about 0.2°C per decade is projected for a range of SRES emissions scenarios.
+Even if the concentrations of all GHGs and aerosols had
+been kept constant at year 2000 levels, a further warming of
+about 0.1°C per decade would be expected. Afterwards, temperature projections increasingly depend on specific emissions scenarios (Figure 3.2). {WGI 10.3, 10.7; WGIII 3.2}
+Since the IPCC’s first report in 1990, assessed projections have
+suggested global averaged temperature increases between about 0.15
+and 0.3°C per decade from 1990 to 2005. This can now be compared with observed values of about 0.2°C per decade, strengthening confidence in near-term projections. {WGI 1.2, 3.2}
+
+
+
+3.2.1 21st century global changes
+Continued GHG emissions at or above current rates would
+cause further warming and induce many changes in the global climate system during the 21st century that would very
+likely be larger than those observed during the 20th century.
+{WGI 10.3}
+Advances in climate change modelling now enable best estimates and likely assessed uncertainty ranges to be given for projected warming for different emissions scenarios. Table 3.1 shows
+best estimates and likely ranges for global average surface air warming for the six SRES marker emissions scenarios (including climate-carbon cycle feedbacks). {WGI 10.5}
+Although these projections are broadly consistent with the span
+
+
+3.2.2 21st century regional changes
+There is now higher confidence than in the TAR in projected
+patterns of warming and other regional-scale features, including changes in wind patterns, precipitation and some
+aspects of extremes and sea ice. {WGI 8.2, 8.3, 8.4, 8.5, 9.4, 9.5,
+10.3, 11.1}
+Projected warming in the 21st century shows scenario-independent geographical patterns similar to those observed over the past
+several decades. Warming is expected to be greatest over land and
+at most high northern latitudes, and least over the Southern Ocean
+(near Antarctica) and northern North Atlantic, continuing recent
+observed trends (Figure 3.2 right panels). {WGI 10.3, SPM}
+Snow cover area is projected to contract. Widespread increases
+in thaw depth are projected over most permafrost regions. Sea ice
+is projected to shrink in both the Arctic and Antarctic under all
+SRES scenarios. In some projections, Arctic late-summer sea ice
+disappears almost entirely by the latter part of the 21st century. {WGI
+10.3, 10.6, SPM; WGII 15.3.4}
+It is very likely that hot extremes, heat waves and heavy precipitation events will become more frequent. {SYR Table 3.2; WGI
+10.3, SPM}
+Based on a range of models, it is likely that future tropical cyclones (typhoons and hurricanes) will become more intense, with
+larger peak wind speeds and more heavy precipitation associated
+with ongoing increases of tropical sea-surface temperatures. There
+is less confidence in projections of a global decrease in numbers of
+tropical cyclones. The apparent increase in the proportion of very
+intense storms since 1970 in some regions is much larger than simulated by current models for that period. {WGI 3.8, 9.5, 10.3, SPM}
+Extra-tropical storm tracks are projected to move poleward, with
+consequent changes in wind, precipitation and temperature patterns,
+continuing the broad pattern of observed trends over the last halfcentury. {WGI 3.6, 10.3, SPM}
+Since the TAR there is an improving understanding of projected
+patterns of precipitation. Increases in the amount of precipitation
+are very likely in high-latitudes, while decreases are likely in most
+subtropical land regions (by as much as about 20% in the A1B scenario in 2100, Figure 3.3), continuing observed patterns in recent
+trends. {WGI 3.3, 8.3, 9.5, 10.3, 11.2-11.9, SPM}
+
+3.2.3 Changes beyond the 21st century
+Anthropogenic warming and sea level rise would continue
+for centuries due to the time scales associated with climate
+processes and feedbacks, even if GHG concentrations were
+to be stabilised. {WGI 10.4, 10.5, 10.7, SPM}
+If radiative forcing were to be stabilised, keeping all the radiative forcing agents constant at B1 or A1B levels in 2100, model
+experiments show that a further increase in global average temperature of about 0.5°C would still be expected by 2200. In addition, thermal expansion alone would lead to 0.3 to 0.8m of sea
+level rise by 2300 (relative to 1980-1999). Thermal expansion would
+continue for many centuries, due to the time required to transport
+heat into the deep ocean. {WGI 10.7, SPM} Contraction of the Greenland ice sheet is projected to continue
+to contribute to sea level rise after 2100. Current models suggest
+ice mass losses increase with temperature more rapidly than gains
+due to increased precipitation and that the surface mass balance
+becomes negative (net ice loss) at a global average warming (relative to pre-industrial values) in excess of 1.9 to 4.6°C. If such a
+negative surface mass balance were sustained for millennia, that
+would lead to virtually complete elimination of the Greenland ice
+sheet and a resulting contribution to sea level rise of about 7m. The
+corresponding future temperatures in Greenland (1.9 to 4.6°C global) are comparable to those inferred for the last interglacial period
+125,000 years ago, when palaeoclimatic information suggests reductions of polar land ice extent and 4 to 6m of sea level rise. {WGI
+6.4, 10.7, SPM}
+Dynamical processes related to ice flow – which are not included in current models but suggested by recent observations –
+could increase the vulnerability of the ice sheets to warming, increasing future sea level rise. Understanding of these processes is
+limited and there is no consensus on their magnitude. {WGI 4.6, 10.7,
+SPM}
+Current global model studies project that the Antarctic ice sheet
+will remain too cold for widespread surface melting and gain mass
+due to increased snowfall. However, net loss of ice mass could occur if dynamical ice discharge dominates the ice sheet mass balance. {WGI 10.7, SPM}
+Both past and future anthropogenic CO2
+ emissions will continue to contribute to warming and sea level rise for more than a
+millennium, due to the time scales required for the removal of this
+gas from the atmosphere. {WGI 7.3, 10.3, Figure 7.12, Figure 10.35, SPM}
+Estimated long-term (multi-century) warming corresponding to
+the six AR4 WG III stabilisation categories is shown in Figure 3.4.
+
+
+3 Climate change and its impacts in the near and long term under different scenarios
+48
+3.3 Impacts of future climate changes
+More specific information is now available across a wide
+range of systems and sectors concerning the nature of future impacts, including some fields not covered in previous
+assessments. {WGII TS.4, SPM}
+The following is a selection of key findings14 regarding the
+impacts of climate change on systems, sectors and regions, as well
+as some findings on vulnerability15, for the range of climate changes
+projected over the 21st century. Unless otherwise stated, the confidence level in the projections is high. Global average temperature
+increases are given relative to 1980-1999. Additional information
+on impacts can be found in the WG II report. {WGII SPM}
+3.3.1 Impacts on systems and sectors
+Ecosystems
+ The resilience of many ecosystems is likely to be exceeded this
+century by an unprecedented combination of climate change,
+associated disturbances (e.g. flooding, drought, wildfire, insects,
+ocean acidification) and other global change drivers (e.g. landuse change, pollution, fragmentation of natural systems, overexploitation of resources). {WGII 4.1-4.6, SPM}
+ Over the course of this century, net carbon uptake by terrestrial
+ecosystems is likely to peak before mid-century and then weaken
+or even reverse16, thus amplifying climate change. {WGII 4.ES,
+Figure 4.2, SPM}
+ Approximately 20 to 30% of plant and animal species assessed
+so far are likely to be at increased risk of extinction if increases
+in global average temperature exceed 1.5 to 2.5°C (medium confidence). {WGII 4.ES, Figure 4.2, SPM}
+ For increases in global average temperature exceeding 1.5 to
+2.5°C and in concomitant atmospheric CO2
+ concentrations, there
+are projected to be major changes in ecosystem structure and
+function, species’ ecological interactions and shifts in species’
+geographical ranges, with predominantly negative consequences
+for biodiversity and ecosystem goods and services, e.g. water
+and food supply. {WGII 4.4, Box TS.6, SPM}
+Food
+ Crop productivity is projected to increase slightly at mid- to
+high latitudes for local mean temperature increases of up to 1
+to 3°C depending on the crop, and then decrease beyond that in
+some regions (medium confidence). {WGII 5.4, SPM}
+ At lower latitudes, especially in seasonally dry and tropical
+regions, crop productivity is projected to decrease for even small
+local temperature increases (1 to 2°C), which would increase
+the risk of hunger (medium confidence). {WGII 5.4, SPM}
+ Globally, the potential for food production is projected to increase with increases in local average temperature over a range
+of 1 to 3°C, but above this it is projected to decrease (medium
+confidence). {WGII 5.4, 5.5, SPM}
+Coasts
+ Coasts are projected to be exposed to increasing risks, including coastal erosion, due to climate change and sea level rise.
+The effect will be exacerbated by increasing human-induced
+pressures on coastal areas (very high confidence). {WGII 6.3, 6.4,
+SPM}
+ By the 2080s, many millions more people than today are projected to experience floods every year due to sea level rise. The
+numbers affected will be largest in the densely populated and
+low-lying megadeltas of Asia and Africa while small islands
+are especially vulnerable (very high confidence). {WGII 6.4, 6.5,
+Table 6.11, SPM}
+Industry, settlements and society
+ The most vulnerable industries, settlements and societies are
+generally those in coastal and river flood plains, those whose
+economies are closely linked with climate-sensitive resources
+and those in areas prone to extreme weather events, especially
+where rapid urbanisation is occurring. {WGII 7.1, 7.3, 7.4, 7.5,
+SPM}
+ Poor communities can be especially vulnerable, in particular
+those concentrated in high-risk areas. {WGII 7.2, 7.4, 5.4, SPM}
+Health
+ The health status of millions of people is projected to be affected through, for example, increases in malnutrition; increased
+deaths, diseases and injury due to extreme weather events; increased burden of diarrhoeal diseases; increased frequency of
+cardio-respiratory diseases due to higher concentrations of
+ground-level ozone in urban areas related to climate change;
+and the altered spatial distribution of some infectious diseases.
+{WGI 7.4, Box 7.4; WGII 8.ES, 8.2, 8.4, SPM}
+ Climate change is projected to bring some benefits in temperate areas, such as fewer deaths from cold exposure, and some
+mixed effects such as changes in range and transmission potential of malaria in Africa. Overall it is expected that benefits will
+be outweighed by the negative health effects of rising temperatures, especially in developing countries. {WGII 8.4, 8.7, 8ES, SPM}
+ Critically important will be factors that directly shape the health
+of populations such as education, health care, public health initiatives, and infrastructure and economic development. {WGII
+8.3, SPM}
+Water
+ Water impacts are key for all sectors and regions. These are
+discussed below in the Box ‘Climate change and water’.
+Studies since the TAR have enabled more systematic understanding of the timing and magnitude of impacts related
+to differing amounts and rates of climate change. {WGII SPM}
+Examples of this new information for systems and sectors are
+presented in Figure 3.6. The upper panel shows impacts increasing
+with increasing temperature change. Their estimated magnitude and
+timing is also affected by development pathways (lower panel).
+{WGII SPM}
+Depending on circumstances, some of the impacts shown in Figure 3.6 could be associated with ‘key vulnerabilities’, based on a number of criteria in the literature (magnitude, timing, persistence/
+reversibility, the potential for adaptation, distributional aspects, likeli
+
+
+
+3.3.2 Impacts on regions17
+Africa
+ By 2020, between 75 and 250 million of people are projected
+to be exposed to increased water stress due to climate change.
+{WGII 9.4, SPM}
+ By 2020, in some countries, yields from rain-fed agriculture
+could be reduced by up to 50%. Agricultural production, including access to food, in many African countries is projected
+to be severely compromised. This would further adversely affect food security and exacerbate malnutrition. {WGII 9.4, SPM}
+ Towards the end of the 21st century, projected sea level rise
+will affect low-lying coastal areas with large populations. The
+cost of adaptation could amount to at least 5 to 10% of GDP.
+{WGII 9.4, SPM}
+ By 2080, an increase of 5 to 8% of arid and semi-arid land in
+Africa is projected under a range of climate scenarios (high
+confidence). {WGII Box TS.6, 9.4.4}
+Asia
+ By the 2050s, freshwater availability in Central, South, East
+and South-East Asia, particularly in large river basins, is projected to decrease. {WGII 10.4, SPM}
+ Coastal areas, especially heavily populated megadelta regions
+in South, East and South-East Asia, will be at greatest risk due
+to increased flooding from the sea and, in some megadeltas,
+flooding from the rivers. {WGII 10.4, SPM}
+ Climate change is projected to compound the pressures on natural resources and the environment associated with rapid
+urbanisation, industrialisation and economic development. {WGII
+10.4, SPM}
+ Endemic morbidity and mortality due to diarrhoeal disease primarily associated with floods and droughts are expected to rise
+in East, South and South-East Asia due to projected changes in
+the hydrological cycle. {WGII 10.4, SPM}
+Australia and New Zealand
+ By 2020, significant loss of biodiversity is projected to occur
+in some ecologically rich sites, including the Great Barrier Reef
+and Queensland Wet Tropics. {WGII 11.4, SPM}
+ By 2030, water security problems are projected to intensify in
+southern and eastern Australia and, in New Zealand, in
+Northland and some eastern regions. {WGII 11.4, SPM}
+ By 2030, production from agriculture and forestry is projected
+to decline over much of southern and eastern Australia, and
+over parts of eastern New Zealand, due to increased drought
+and fire. However, in New Zealand, initial benefits are projected in some other regions. {WGII 11.4, SPM}
+ By 2050, ongoing coastal development and population growth
+in some areas of Australia and New Zealand are projected to
+exacerbate risks from sea level rise and increases in the severity and frequency of storms and coastal flooding. {WGII 11.4,
+SPM}
+Europe
+ Climate change is expected to magnify regional differences in
+Europe’s natural resources and assets. Negative impacts will
+include increased risk of inland flash floods and more frequent
+coastal flooding and increased erosion (due to storminess and
+sea level rise). {WGII 12.4, SPM}
+ Mountainous areas will face glacier retreat, reduced snow cover
+and winter tourism, and extensive species losses (in some areas
+up to 60% under high emissions scenarios by 2080). {WGII 12.4,
+SPM}
+ In southern Europe, climate change is projected to worsen conditions (high temperatures and drought) in a region already vulnerable to climate variability, and to reduce water availability,
+hydropower potential, summer tourism and, in general, crop
+productivity. {WGII 12.4, SPM}
+ Climate change is also projected to increase the health risks
+due to heat waves and the frequency of wildfires. {WGII 12.4,
+SPM}
+Latin America
+ By mid-century, increases in temperature and associated decreases in soil water are projected to lead to gradual replacement of tropical forest by savanna in eastern Amazonia. Semiarid vegetation will tend to be replaced by arid-land vegetation. {WGII 13.4, SPM}
+ There is a risk of significant biodiversity loss through species
+extinction in many areas of tropical Latin America. {WGII 13.4,
+SPM}
+ Productivity of some important crops is projected to decrease
+and livestock productivity to decline, with adverse consequences
+for food security. In temperate zones, soybean yields are projected to increase. Overall, the number of people at risk of hunger is projected to increase (medium confidence). {WGII 13.4,
+Box TS.6}
+ Changes in precipitation patterns and the disappearance of glaciers are projected to significantly affect water availability for
+human consumption, agriculture and energy generation. {WGII
+13.4, SPM}
+North America
+ Warming in western mountains is projected to cause decreased
+snowpack, more winter flooding and reduced summer flows,
+exacerbating competition for over-allocated water resources.
+{WGII 14.4, SPM}
+ In the early decades of the century, moderate climate change is
+projected to increase aggregate yields of rain-fed agriculture
+by 5 to 20%, but with important variability among regions. Major challenges are projected for crops that are near the warm
+end of their suitable range or which depend on highly utilised
+water resources. {WGII 14.4, SPM}
+ Cities that currently experience heat waves are expected to be
+further challenged by an increased number, intensity and duration of heat waves during the course of the century, with potential for adverse health impacts. {WGII 14.4, SPM}
+ Coastal communities and habitats will be increasingly stressed
+by climate change impacts interacting with development and
+pollution. {WGII 14.4, SPM}
+Polar Regions
+ The main projected biophysical effects are reductions in thickness and extent of glaciers, ice sheets and sea ice, and changes
+in natural ecosystems with detrimental effects on many organisms including migratory birds, mammals and higher predators.
+{WGII 15.4, SPM}
+ For human communities in the Arctic, impacts, particularly those
+resulting from changing snow and ice conditions, are projected
+to be mixed. {WGII 15.4, SPM}
+ Detrimental impacts would include those on infrastructure and
+traditional indigenous ways of life. {WGII 15.4, SPM}
+ In both polar regions, specific ecosystems and habitats are projected to be vulnerable, as climatic barriers to species invasions
+are lowered. {WGII 15.4, SPM}
+Small Islands
+ Sea level rise is expected to exacerbate inundation, storm surge,
+erosion and other coastal hazards, thus threatening vital infrastructure, settlements and facilities that support the livelihood
+of island communities. {WGII 16.4, SPM}
+ Deterioration in coastal conditions, for example through erosion of beaches and coral bleaching, is expected to affect local
+resources. {WGII 16.4, SPM}
+ By mid-century, climate change is expected to reduce water
+resources in many small islands, e.g. in the Caribbean and Pacific, to the point where they become insufficient to meet demand during low-rainfall periods. {WGII 16.4, SPM}
+ With higher temperatures, increased invasion by non-native
+species is expected to occur, particularly on mid- and high-latitude islands. {WGII 16.4, SPM}
+
+
+3.3.3 Especially affected systems, sectors and regions
+Some systems, sectors and regions are likely to be especially affected by climate change.18 {WGII TS.4.5}
+Systems and sectors: {WGII TS.4.5}
+ particular ecosystems:
+- terrestrial: tundra, boreal forest and mountain regions because of sensitivity to warming; mediterranean-type ecosystems because of reduction in rainfall; and tropical rainforests
+where precipitation declines
+- coastal: mangroves and salt marshes, due to multiple stresses
+- marine: coral reefs due to multiple stresses; the sea-ice biome
+because of sensitivity to warming
+ water resources in some dry regions at mid-latitudes19 and in
+the dry tropics, due to changes in rainfall and evapotranspiration, and in areas dependent on snow and ice melt
+ agriculture in low latitudes, due to reduced water availability
+ low-lying coastal systems, due to threat of sea level rise and
+increased risk from extreme weather events
+ human health in populations with low adaptive capacity.
+Regions: {WGII TS.4.5}
+ the Arctic, because of the impacts of high rates of projected
+warming on natural systems and human communities
+ Africa, because of low adaptive capacity and projected climate
+change impacts
+ small islands, where there is high exposure of population and
+infrastructure to projected climate change impacts
+ Asian and African megadeltas, due to large populations and
+high exposure to sea level rise, storm surges and river flooding.
+Within other areas, even those with high incomes, some people
+(such as the poor, young children and the elderly) can be particularly at risk, and also some areas and some activities. {WGII 7.1, 7.2,
+7.4, 8.2, 8.4, TS.4.5}
+
+
+3.3.4 Ocean acidification
+The uptake of anthropogenic carbon since 1750 has led to the
+ocean becoming more acidic with an average decrease in pH of 0.1
+units. Increasing atmospheric CO2
+ concentrations lead to further
+acidification. Projections based on SRES scenarios give a reduction in average global surface ocean pH of between 0.14 and 0.35
+units over the 21st century. While the effects of observed ocean acidification on the marine biosphere are as yet undocumented, the progressive acidification of oceans is expected to have negative impacts on marine shell-forming organisms (e.g. corals) and their dependent species. {WGI SPM; WGII SPM}
+
+
+
+3.3.5 Extreme events
+Altered frequencies and intensities of extreme weather, together with sea level rise, are expected to have mostly adverse
+effects on natural and human systems (Table 3.2). {WGII SPM}
+Examples for selected extremes and sectors are shown in Table 3.2.
+3.4 Risk of abrupt or irreversible changes
+Anthropogenic warming could lead to some impacts that
+are abrupt or irreversible, depending upon the rate and
+magnitude of the climate change. {WGII 12.6, 19.3, 19.4, SPM}
+Abrupt climate change on decadal time scales is normally
+thought of as involving ocean circulation changes. In addition on
+longer time scales, ice sheet and ecosystem changes may also play
+a role. If a large-scale abrupt climate change were to occur, its impact could be quite high (see Topic 5.2). {WGI 8.7, 10.3, 10.7; WGII
+4.4, 19.3}
+Partial loss of ice sheets on polar land and/or the thermal expansion of seawater over very long time scales could imply metres
+of sea level rise, major changes in coastlines and inundation of
+low-lying areas, with greatest effects in river deltas and low-lying
+islands. Current models project that such changes would occur over
+very long time scales (millennial) if a global temperature increase
+of 1.9 to 4.6°C (relative to pre-industrial) were to be sustained.
+Rapid sea level rise on century time scales cannot be excluded.
+{SYR 3.2.3; WGI 6.4, 10.7; WGII 19.3, SPM}
+Climate change is likely to lead to some irreversible impacts.
+There is medium confidence that approximately 20 to 30% of species assessed so far are likely to be at increased risk of extinction if
+increases in global average warming exceed 1.5 to 2.5°C (relative
+to 1980-1999). As global average temperature increase exceeds
+about 3.5°C, model projections suggest significant extinctions (40
+to 70% of species assessed) around the globe. {WGII 4.4, Figure SPM.2}
+Based on current model simulations, it is very likely that the
+meridional overturning circulation (MOC) of the Atlantic Ocean
+will slow down during the 21st century; nevertheless temperatures
+in the region are projected to increase. It is very unlikely that the
+MOC will undergo a large abrupt transition during the 21stcentury.
+Longer-term changes in the MOC cannot be assessed with confidence. {WGI 10.3, 10.7; WGII Figure, Table TS.5, SPM.2}
+Impacts of large-scale and persistent changes in the MOC are
+likely to include changes in marine ecosystem productivity, fisheries, ocean CO2
+ uptake, oceanic oxygen concentrations and terrestrial vegetation. Changes in terrestrial and ocean CO2
+ uptake may
+feed back on the climate system. {WGII 12.6, 19.3, Figure SPM.2}
+
+
+
+4.1 Responding to climate change
+Societies can respond to climate change by adapting to its impacts
+and by reducing GHG emissions (mitigation), thereby reducing the
+rate and magnitude of change. This Topic focuses on adaptation and
+mitigation options that can be implemented over the next two to three
+decades, and their inter-relationship with sustainable development.
+These responses can be complementary. Topic 5 addresses their complementary roles on a more conceptual basis over a longer timeframe.
+The capacity to adapt and mitigate is dependent on socio-economic and environmental circumstances and the availability of information and technology20 . However, much less information is
+available about the costs and effectiveness of adaptation measures
+than about mitigation measures. {WGII 17.1, 17.3; WGIII 1.2}
+
+
+4.2 Adaptation options
+Adaptation can reduce vulnerability, both in the short and
+the long term. {WGII 17.2, 18.1, 18.5, 20.3, 20.8}
+Vulnerability to climate change can be exacerbated by other
+stresses. These arise from, for example, current climate hazards,
+poverty, unequal access to resources, food insecurity, trends in economic globalisation, conflict and incidence of diseases such as HIV/
+AIDS. {WGII 7.2, 7.4, 8.3, 17.3, 20.3, 20.4, 20.7, SPM}
+Societies across the world have a long record of adapting and
+reducing their vulnerability to the impacts of weather- and climaterelated events such as floods, droughts and storms. Nevertheless,
+additional adaptation measures will be required at regional and local levels to reduce the adverse impacts of projected climate change
+and variability, regardless of the scale of mitigation undertaken over
+the next two to three decades. However, adaptation alone is not
+expected to cope with all the projected effects of climate change,
+especially not over the long term as most impacts increase in magnitude. {WGII 17.2, SPM; WGIII 1.2}
+A wide array of adaptation options is available, but more extensive adaptation than is currently occurring is required to reduce
+vulnerability to climate change. There are barriers, limits and costs,
+which are not fully understood. Some planned adaptation is already
+occurring on a limited basis. Table 4.1 provides examples of planned
+20 Technology is defined as the practical application of knowledge to achieve particular tasks that employs both technical artefacts (hardware, equipment)
+and (social) information (‘software’, know-how for production and use of artefacts).
+adaptation options by sector. Many adaptation actions have multiple drivers, such as economic development and poverty alleviation, and are embedded within broader development, sectoral, regional and local planning initiatives such as water resources planning, coastal defence and disaster risk reduction strategies. Examples of this approach are the Bangladesh National Water Management Plan and the coastal defence plans of The Netherlands
+and Norway, which incorporate specific climate change scenarios.
+{WGII 1.3, 5.5.2, 11.6, 17.2}
+Comprehensive estimates of the costs and benefits of adaptation at the global level are limited in number. However, the number
+of adaptation cost and benefit estimates at the regional and project
+levels for impacts on specific sectors, such as agriculture, energy
+demand for heating and cooling, water resources management and
+infrastructure, is growing. Based on these studies there is high confidence that there are viable adaptation options that can be implemented in some of these sectors at low cost and/or with high benefit-cost ratios. Empirical research also suggests that higher benefit-cost ratios can be achieved by implementing some adaptation
+measures at an early stage compared to retrofitting long-lived infrastructure at a later date. {WGII 17.2}
+Adaptive capacity is intimately connected to social and economic development, but it is not evenly distributed across
+and within societies. {WGII 7.1, 7.2, 7.4, 17.3}
+The capacity to adapt is dynamic and is influenced by a society’s
+productive base, including natural and man-made capital assets,
+social networks and entitlements, human capital and institutions,
+governance, national income, health and technology. It is also affected by multiple climate and non-climate stresses, as well as development policy. {WGII 17.3}
+Recent studies reaffirm the TAR finding that adaptation will be
+vital and beneficial. However, financial, technological, cognitive,
+behavioural, political, social, institutional and cultural constraints limit
+both the implementation and effectiveness of adaptation measures.
+Even societies with high adaptive capacity remain vulnerable to climate change, variability and extremes. For example, a heat wave in
+2003 caused high levels of mortality in European cities (especially
+among the elderly), and Hurricane Katrina in 2005 caused large human and financial costs in the United States. {WGII 7.4, 8.2, 17.4}
+
+
+4.3 Mitigation options
+Both bottom-up and top-down studies21 indicate that there
+is high agreement and much evidence of substantial economic potential21 for the mitigation of global GHG emissions
+over the coming decades that could offset the projected
+growth of global emissions or reduce emissions below current levels. {WGIII 11.3, SPM}
+Figure 4.1 compares global economic mitigation potential in
+2030 with the projected emissions increase from 2000 to 2030.
+Bottom-up studies suggest that mitigation opportunities with net
+negative costs22 have the potential to reduce emissions by about 6
+GtCO2
+-eq/yr in 2030. Realising these requires dealing with implementation barriers. The economic mitigation potential, which is
+generally greater than the market mitigation potential, can only be
+achieved when adequate policies are in place and barriers removed.21
+{WGIII 11.3, SPM}
+Sectoral estimates of economic mitigation potential and marginal costs derived from bottom-up studies corrected for double
+counting of mitigation potential are shown in Figure 4.2. While
+top-down and bottom-up studies are in line at the global level, there
+are considerable differences at the sectoral level. {WGIII 11.3, SPM}
+No single technology can provide all of the mitigation
+potential in any sector. Table 4.2 lists selected examples of key technologies, policies, constraints and opportunities by sector. {WGIII SPM}
+Future energy infrastructure investment decisions, expected to
+total over US$20 trillion23 between 2005 and 2030, will have longterm impacts on GHG emissions, because of the long lifetimes of
+energy plants and other infrastructure capital stock. The widespread
+diffusion of low-carbon technologies may take many decades, even
+if early investments in these technologies are made attractive. Initial estimates show that returning global energy-related CO2
+ emissions to 2005 levels by 2030 would require a large shift in the pattern of investment, although the net additional investment required
+ranges from negligible to 5 to 10%. {WGIII 4.1, 4.4, 11.6, SPM}
+While studies use different methodologies, there is high
+agreement and much evidence that in all analysed world
+regions near-term health co-benefits from reduced air pollution, as a result of actions to reduce GHG emissions, can
+be substantial and may offset a substantial fraction of mitigation costs. {WGIII 11.8, SPM}
+Energy efficiency and utilisation of renewable energy offer synergies with sustainable development. In least developed countries,
+energy substitution can lower mortality and morbidity by reducing
+indoor air pollution, reduce the workload for women and children
+and decrease the unsustainable use of fuelwood and related deforestation. {WGIII 11.8, 11.9, 12.4}
+Literature since the TAR confirms with high agreement and
+medium evidence that there may be effects from Annex I
+countries’ action on the global economy and global emissions, although the scale of carbon leakage remains uncertain. {WGIII 11.7, SPM}
+Fossil fuel exporting nations (in both Annex I and non-Annex I
+countries) may expect, as indicated in the TAR, lower demand and
+prices and lower GDP growth due to mitigation policies. The extent of this spillover depends strongly on assumptions related to
+policy decisions and oil market conditions. {WGIII 11.7, SPM}
+Critical uncertainties remain in the assessment of carbon leakage. Most equilibrium modelling supports the conclusion in the
+TAR of economy-wide leakage from Kyoto action in the order of 5
+to 20%, which would be less if competitive low-emissions technologies were effectively diffused. {WGIII 11.7, SPM}
+There is also high agreement and medium evidence that
+changes in lifestyle and behaviour patterns can contribute
+to climate change mitigation across all sectors. Management practices can also have a positive role. {WGIII SPM}
+Examples that can have positive impacts on mitigation include
+changes in consumption patterns, education and training, changes
+in building occupant behaviour, transport demand management and
+management tools in industry. {WGIII 4.1, 5.1, 6.7, 7.3, SPM}
+Policies that provide a real or implicit price of carbon could
+create incentives for producers and consumers to significantly invest in low-GHG products, technologies and processes. {WGIII SPM}
+An effective carbon-price signal could realise significant mitigation potential in all sectors. Modelling studies show that global
+carbon prices rising to US$20-80/tCO2
+-eq by 2030 are consistent
+with stabilisation at around 550ppm CO2
+-eq by 2100. For the same stabilisation level, studies since the TAR that take into account induced technological change may lower these price ranges to US$5-
+65/tCO2
+-eq in 2030.24 {WGIII 3.3, 11.4, 11.5, SPM}
+There is high agreement and much evidence that a wide
+variety of national policies and instruments are available to
+governments to create the incentives for mitigation action.
+Their applicability depends on national circumstances and
+an understanding of their interactions, but experience from
+implementation in various countries and sectors shows
+there are advantages and disadvantages for any given instrument. {WGIII 13.2, SPM}
+Four main criteria are used to evaluate policies and instruments:
+environmental effectiveness, cost effectiveness, distributional
+effects including equity, and institutional feasibility. {WGIII 13.2, SPM}
+General findings about the performance of policies are: {WGIII
+13.2, SPM}
+ Integrating climate policies in broader development policies
+makes implementation and overcoming barriers easier.
+ Regulations and standards generally provide some certainty
+about emission levels. They may be preferable to other instruments when information or other barriers prevent producers and
+consumers from responding to price signals. However, they may
+not induce innovations and more advanced technologies.
+ Taxes and charges can set a price for carbon, but cannot guarantee a particular level of emissions. Literature identifies taxes
+as an efficient way of internalising costs of GHG emissions.
+ Tradable permits will establish a carbon price. The volume of
+allowed emissions determines their environmental effectiveness,
+while the allocation of permits has distributional consequences.
+Fluctuation in the price of carbon makes it difficult to estimate
+the total cost of complying with emission permits.
+ Financial incentives (subsidies and tax credits) are frequently
+used by governments to stimulate the development and diffusion of new technologies. While economic costs are generally
+higher than for the instruments listed above, they are often critical to overcome barriers.
+ Voluntary agreements between industry and governments are
+politically attractive, raise awareness among stakeholders and
+have played a role in the evolution of many national policies.
+The majority of agreements have not achieved significant emissions reductions beyond business as usual. However, some recent agreements, in a few countries, have accelerated the application of best available technology and led to measurable emission reductions.
+ Information instruments (e.g. awareness campaigns) may positively affect environmental quality by promoting informed
+choices and possibly contributing to behavioural change, however, their impact on emissions has not been measured yet.
+ Research, development and demonstration (RD&D) can stimulate technological advances, reduce costs and enable progress
+toward stabilisation.
+Some corporations, local and regional authorities, NGOs and
+civil groups are adopting a wide variety of voluntary actions. These
+voluntary actions may limit GHG emissions, stimulate innovative
+policies and encourage the deployment of new technologies. On
+their own, they generally have limited impact on national- or regional-level emissions. {WGIII 13.4, SPM}
+
+
+4.4 Relationship between adaptation and
+mitigation options and relationship with
+sustainable development
+There is growing understanding of the possibilities to
+choose and implement climate response options in several
+sectors to realise synergies and avoid conflicts with other
+dimensions of sustainable development. {WGIII SPM}
+Climate change policies related to energy efficiency and renewable energy are often economically beneficial, improve energy security and reduce local pollutant emissions. Reducing both loss of
+natural habitat and deforestation can have significant biodiversity,
+soil and water conservation benefits, and can be implemented in a
+socially and economically sustainable manner. Forestation and
+bioenergy plantations can restore degraded land, manage water runoff, retain soil carbon and benefit rural economies, but could compete with food production and may be negative for biodiversity, if
+not properly designed. {WGII 20.3, 20.8; WGIII 4.5, 9.7, 12.3, SPM}
+There is growing evidence that decisions about macro-economic
+policy, agricultural policy, multilateral development bank lending,
+insurance practices, electricity market reform, energy security and
+forest conservation, for example, which are often treated as being
+apart from climate policy, can significantly reduce emissions (Table
+4.3). Similarly, non-climate policies can affect adaptive capacity
+and vulnerability. {WGII 20.3; WGIII SPM, 12.3}
+Both synergies and trade-offs exist between adaptation and
+mitigation options. {WGII 18.4.3; WGIII 11.9)
+Examples of synergies include properly designed biomass production, formation of protected areas, land management, energy
+use in buildings, and forestry, but synergies are rather limited in
+other sectors. Potential trade-offs include increased GHG emissions
+due to increased consumption of energy related to adaptive responses. {WGII 18.4.3, 18.5, 18.7, TS.5.2; WGIII 4.5, 6.9, 8.5, 9.5, SPM}
+
+
+4.5 International and regional cooperation
+There is high agreement and much evidence that notable
+achievements of the UNFCCC and its Kyoto Protocol are
+the establishment of a global response to the climate change
+problem, stimulation of an array of national policies, the
+creation of an international carbon market and the establishment of new institutional mechanisms that may provide
+the foundation for future mitigation efforts. Progress has
+also been made in addressing adaptation within the UNFCCC
+and additional initiatives have been suggested. {WGII 18.7;
+WGIII 13.3, SPM}
+The impact of the Protocol’s first commitment period relative
+to global emissions is projected to be limited. Its economic impacts
+on participating Annex-B countries are projected to be smaller than
+presented in the TAR, which showed 0.2 to 2% lower GDP in 2012
+without emissions trading and 0.1 to 1.1% lower GDP with emissions trading among Annex-B countries. To be more environmentally effective, future mitigation efforts would need to achieve deeper
+reductions covering a higher share of global emissions (see Topic
+5). {WGIII 1.4, 11.4, 13.3, SPM}
+The literature provides high agreement and much evidence
+of many options for achieving reductions of global GHG
+emissions at the international level through cooperation. It
+also suggests that successful agreements are environmentally effective, cost-effective, incorporate distributional considerations and equity, and are institutionally feasible. {WGIII
+13.3, SPM}
+Greater cooperative efforts to reduce emissions will help to reduce global costs for achieving a given level of mitigation, or will
+improve environmental effectiveness. Improving and expanding the
+scope of market mechanisms (such as emission trading, Joint Implementation and Clean Development Mechanism) could reduce overall
+mitigation costs. {WGIII 13.3, SPM}
+Efforts to address climate change can include diverse elements
+such as emissions targets; sectoral, local, sub-national and regional
+actions; RD&D programmes; adopting common policies; implementing development-oriented actions; or expanding financing instruments. These elements can be implemented in an integrated
+fashion, but comparing the efforts made by different countries
+quantitatively would be complex and resource intensive. {WGIII 13.3,
+SPM}
+Actions that could be taken by participating countries can be
+differentiated both in terms of when such action is undertaken, who
+participates and what the action will be. Actions can be binding or
+non-binding, include fixed or dynamic targets, and participation
+can be static or vary over time. {WGIII 13.3, SPM}
+
+
+5.1 Risk management perspective
+Responding to climate change involves an iterative risk
+management process that includes both mitigation and adaptation, taking into account actual and avoided climate
+change damages, co-benefits, sustainability, equity and attitudes to risk. {WGII 20. 9, SPM; WGIII SPM}
+Risk management techniques can explicitly accommodate sectoral,
+regional and temporal diversity, but their application requires information about not only impacts resulting from the most likely climate scenarios, but also impacts arising from lower-probability but higher-consequence events and the consequences of proposed policies and measures. Risk is generally understood to be the product of the likelihood
+of an event and its consequences. Climate change impacts depend on
+the characteristics of natural and human systems, their development
+pathways and their specific locations. {SYR 3.3, Figure 3.6; WGII 20.2,
+20.9, SPM; WGIII 3.5, 3.6, SPM
+
+
+
+5.2 Key vulnerabilities, impacts and risks –
+long-term perspectives
+The five ‘reasons for concern’ identified in the TAR are now
+assessed to be stronger with many risks identified with
+higher confidence. Some are projected to be larger or to
+occur at lower increases in temperature. This is due to (1)
+better understanding of the magnitude of impacts and risks
+associated with increases in global average temperature and
+GHG concentrations, including vulnerability to present-day
+climate variability, (2) more precise identification of the circumstances that make systems, sectors, groups and regions
+especially vulnerable and (3) growing evidence that the risk
+of very large impacts on multiple century time scales would
+continue to increase as long as GHG concentrations and
+temperature continue to increase. Understanding about the
+relationship between impacts (the basis for ‘reasons for concern’ in the TAR) and vulnerability (that includes the ability
+to adapt to impacts) has improved. {WGII 4.4, 5.4, 19.ES, 19.3.7,
+TS.4.6; WGIII 3.5, SPM}
+The TAR concluded that vulnerability to climate change is a function of exposure, sensitivity and adaptive capacity. Adaptation can reduce sensitivity to climate change while mitigation can reduce the
+exposure to climate change, including its rate and extent. Both conclusions are confirmed in this assessment. {WGII 20.2, 20.7.3}
+No single metric can adequately describe the diversity of key
+vulnerabilities or support their ranking. A sample of relevant impacts is provided in Figure 3.6. The estimation of key vulnerabilities in any system, and damage implied, will depend on exposure
+(the rate and magnitude of climate change), sensitivity, which is
+determined in part and where relevant by development status, and
+adaptive capacity. Some key vulnerabilities may be linked to thresholds; in some cases these may cause a system to shift from one state
+to another, whereas others have thresholds that are defined subjectively and thus depend on societal values. {WGII 19.ES, 19.1}
+The five ‘reasons for concern’ that were identified in the TAR
+were intended to synthesise information on climate risks and key
+vulnerabilities and to “aid readers in making their own determination” about risk. These remain a viable framework to consider key
+vulnerabilities, and they have been updated in the AR4. {TAR WGII
+Chapter 19; WGII SPM}
+ Risks to unique and threatened systems. There is new and
+stronger evidence of observed impacts of climate change on
+unique and vulnerable systems (such as polar and high mountain communities and ecosystems), with increasing levels of
+adverse impacts as temperatures increase further. An increasing risk of species extinction and coral reef damage is projected
+with higher confidence than in the TAR as warming proceeds.
+There is medium confidence that approximately 20 to 30% of
+plant and animal species assessed so far are likely to be at increased risk of extinction if increases in global average temperature exceed 1.5 to 2.5°C over 1980-1999 levels. Confidence
+has increased that a 1 to 2°C increase in global mean temperature above 1990 levels (about 1.5 to 2.5°C above pre-indus
+
