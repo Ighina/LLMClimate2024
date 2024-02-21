@@ -1,4 +1,3 @@
-
 1.1 Observations of climate change
 Since the TAR, progress in understanding how climate is changing in space and time has been gained through improvements and
 extensions of numerous datasets and data analyses, broader geographical coverage, better understanding of uncertainties and a wider
@@ -79,7 +78,6 @@ Average Northern Hemisphere temperatures during the second
 half of the 20th century were very likely higher than during any other
 50-year period in the last 500 years and likely the highest in at least
 the past 1300 years. {WGI 6.6, SPM}
-
 
 1.2 Observed effects of climate changes
 The statements presented here are based largely on data sets
@@ -165,7 +163,6 @@ variables, for example the meridional overturning circulation (MOC)
 of the global ocean or small-scale phenomena such as tornadoes,
 hail, lightning and dust storms. There is no clear trend in the annual
 numbers of tropical cyclones. {WGI 3.2, 3.8, 4.4, 5.3, SPM}
-
 
 2.1 Emissions of long-lived GHGs
 The radiative forcing of the climate system is dominated by the
@@ -300,8 +297,6 @@ In comparison, changes in solar irradiance since 1750 are estimated to have caus
 , which is less than half the estimate given in the TAR.
 {WGI 2.7, SPM}
 
-
-
 2.3 Climate sensitivity and feedbacks
 The equilibrium climate sensitivity is a measure of the climate
 system response to sustained radiative forcing. It is defined as the
@@ -327,7 +322,6 @@ larger atmospheric CO2
  increases and greater climate change for a
 given emissions scenario, but the strength of this feedback effect
 varies markedly among models. {WGI 7.3, TS.5.4, SPM; WGII 4.4}
-
 
 2.4 Attribution of climate change
 Attribution evaluates whether observed changes are quantitatively consistent with the expected response to external forcings
@@ -396,8 +390,6 @@ Limitations and gaps currently prevent more complete attribution of the causes o
 of systems, length of records and locations considered. Natural temperature variability is larger at the regional than the global scale,
 thus affecting identification of changes to external forcing. At the regional scale, other non-climate factors (such as land-use change, pollution and invasive species) are influential. {WGII 1.2, 1.3, 1.4, SPM}
 
-
-
 3.1 Emissions scenarios
 There is high agreement and much evidence9 that with current climate change mitigation policies and related sustainable development practices, global GHG emissions will continue to grow over the next few decades. Baseline emissions scenarios published since the IPCC Special Report
 on Emissions Scenarios (SRES, 2000) are comparable in
@@ -437,8 +429,6 @@ Since the IPCC’s first report in 1990, assessed projections have
 suggested global averaged temperature increases between about 0.15
 and 0.3°C per decade from 1990 to 2005. This can now be compared with observed values of about 0.2°C per decade, strengthening confidence in near-term projections. {WGI 1.2, 3.2}
 
-
-
 3.2.1 21st century global changes
 Continued GHG emissions at or above current rates would
 cause further warming and induce many changes in the global climate system during the 21st century that would very
@@ -447,7 +437,6 @@ likely be larger than those observed during the 20th century.
 Advances in climate change modelling now enable best estimates and likely assessed uncertainty ranges to be given for projected warming for different emissions scenarios. Table 3.1 shows
 best estimates and likely ranges for global average surface air warming for the six SRES marker emissions scenarios (including climate-carbon cycle feedbacks). {WGI 10.5}
 Although these projections are broadly consistent with the span
-
 
 3.2.2 21st century regional changes
 There is now higher confidence than in the TAR in projected
@@ -516,9 +505,6 @@ gas from the atmosphere. {WGI 7.3, 10.3, Figure 7.12, Figure 10.35, SPM}
 Estimated long-term (multi-century) warming corresponding to
 the six AR4 WG III stabilisation categories is shown in Figure 3.4.
 
-
-3 Climate change and its impacts in the near and long term under different scenarios
-48
 3.3 Impacts of future climate changes
 More specific information is now available across a wide
 range of systems and sectors concerning the nature of future impacts, including some fields not covered in previous
@@ -529,6 +515,7 @@ as some findings on vulnerability15, for the range of climate changes
 projected over the 21st century. Unless otherwise stated, the confidence level in the projections is high. Global average temperature
 increases are given relative to 1980-1999. Additional information
 on impacts can be found in the WG II report. {WGII SPM}
+
 3.3.1 Impacts on systems and sectors
 Ecosystems
  The resilience of many ecosystems is likely to be exceeded this
@@ -606,8 +593,6 @@ timing is also affected by development pathways (lower panel).
 {WGII SPM}
 Depending on circumstances, some of the impacts shown in Figure 3.6 could be associated with ‘key vulnerabilities’, based on a number of criteria in the literature (magnitude, timing, persistence/
 reversibility, the potential for adaptation, distributional aspects, likeli
-
-
 
 3.3.2 Impacts on regions17
 Africa
@@ -717,7 +702,6 @@ resources in many small islands, e.g. in the Caribbean and Pacific, to the point
  With higher temperatures, increased invasion by non-native
 species is expected to occur, particularly on mid- and high-latitude islands. {WGII 16.4, SPM}
 
-
 3.3.3 Especially affected systems, sectors and regions
 Some systems, sectors and regions are likely to be especially affected by climate change.18 {WGII TS.4.5}
 Systems and sectors: {WGII TS.4.5}
@@ -746,7 +730,6 @@ Within other areas, even those with high incomes, some people
 (such as the poor, young children and the elderly) can be particularly at risk, and also some areas and some activities. {WGII 7.1, 7.2,
 7.4, 8.2, 8.4, TS.4.5}
 
-
 3.3.4 Ocean acidification
 The uptake of anthropogenic carbon since 1750 has led to the
 ocean becoming more acidic with an average decrease in pH of 0.1
@@ -754,8 +737,6 @@ units. Increasing atmospheric CO2
  concentrations lead to further
 acidification. Projections based on SRES scenarios give a reduction in average global surface ocean pH of between 0.14 and 0.35
 units over the 21st century. While the effects of observed ocean acidification on the marine biosphere are as yet undocumented, the progressive acidification of oceans is expected to have negative impacts on marine shell-forming organisms (e.g. corals) and their dependent species. {WGI SPM; WGII SPM}
-
-
 
 3.3.5 Extreme events
 Altered frequencies and intensities of extreme weather, together with sea level rise, are expected to have mostly adverse
@@ -796,8 +777,6 @@ likely to include changes in marine ecosystem productivity, fisheries, ocean CO2
  uptake may
 feed back on the climate system. {WGII 12.6, 19.3, Figure SPM.2}
 
-
-
 4.1 Responding to climate change
 Societies can respond to climate change by adapting to its impacts
 and by reducing GHG emissions (mitigation), thereby reducing the
@@ -808,7 +787,6 @@ These responses can be complementary. Topic 5 addresses their complementary role
 The capacity to adapt and mitigate is dependent on socio-economic and environmental circumstances and the availability of information and technology20 . However, much less information is
 available about the costs and effectiveness of adaptation measures
 than about mitigation measures. {WGII 17.1, 17.3; WGIII 1.2}
-
 
 4.2 Adaptation options
 Adaptation can reduce vulnerability, both in the short and
@@ -852,7 +830,6 @@ both the implementation and effectiveness of adaptation measures.
 Even societies with high adaptive capacity remain vulnerable to climate change, variability and extremes. For example, a heat wave in
 2003 caused high levels of mortality in European cities (especially
 among the elderly), and Hurricane Katrina in 2005 caused large human and financial costs in the United States. {WGII 7.4, 8.2, 17.4}
-
 
 4.3 Mitigation options
 Both bottom-up and top-down studies21 indicate that there
@@ -957,7 +934,6 @@ voluntary actions may limit GHG emissions, stimulate innovative
 policies and encourage the deployment of new technologies. On
 their own, they generally have limited impact on national- or regional-level emissions. {WGIII 13.4, SPM}
 
-
 4.4 Relationship between adaptation and
 mitigation options and relationship with
 sustainable development
@@ -984,7 +960,6 @@ Examples of synergies include properly designed biomass production, formation of
 use in buildings, and forestry, but synergies are rather limited in
 other sectors. Potential trade-offs include increased GHG emissions
 due to increased consumption of energy related to adaptive responses. {WGII 18.4.3, 18.5, 18.7, TS.5.2; WGIII 4.5, 6.9, 8.5, 9.5, SPM}
-
 
 4.5 International and regional cooperation
 There is high agreement and much evidence that notable
@@ -1024,7 +999,6 @@ participates and what the action will be. Actions can be binding or
 non-binding, include fixed or dynamic targets, and participation
 can be static or vary over time. {WGIII 13.3, SPM}
 
-
 5.1 Risk management perspective
 Responding to climate change involves an iterative risk
 management process that includes both mitigation and adaptation, taking into account actual and avoided climate
@@ -1035,8 +1009,6 @@ of an event and its consequences. Climate change impacts depend on
 the characteristics of natural and human systems, their development
 pathways and their specific locations. {SYR 3.3, Figure 3.6; WGII 20.2,
 20.9, SPM; WGIII 3.5, 3.6, SPM
-
-
 
 5.2 Key vulnerabilities, impacts and risks –
 long-term perspectives
@@ -1137,7 +1109,6 @@ deglaciation of the Greenland ice sheet would raise sea level
 by 7m and could be irreversible. {SYR 3.4; WGI 10.3, Box 10.1;
 WGII 19.3.7, SPM}
 
-
 5.3 Adaptation and mitigation
 There is high confidence that neither adaptation nor mitigation alone can avoid all climate change impacts. Adaptation
 is necessary both in the short term and longer term to address impacts resulting from the warming that would occur
@@ -1174,7 +1145,6 @@ several decades to materialise, mitigation actions begun in the short
 term would avoid locking in both long-lived carbon intensive infrastructure and development pathways, reduce the rate of climate
 change and reduce the adaptation needs associated with higher levels of warming. {WGII 18.4, 20.6, 20.7, SPM; WGIII 2.3.4, 3.4, 3.5, 3.6,
 SPM}
-
 
 5.4 Emission trajectories for stabilisation
 In order to stabilise the concentration of GHGs in the atmosphere, emissions would need to peak and decline thereafter.28 The lower the stabilisation level, the more quickly this
@@ -1258,7 +1228,6 @@ most regions and time scales. For lower stabilisation levels, scenarios put more
 such as renewable energy, nuclear power and the use of CO2
  capture and storage (CCS). In these scenarios, improvements of carbon intensity of energy supply and the whole economy needs to be
 much faster than in the past (Figure 5.2). {WGIII 3.3, 3.4, TS.3, SPM}
-
 
 5.6 Costs of mitigation and long-term
 stabilisation targets
@@ -1349,7 +1318,6 @@ present, however, few plans for promoting sustainability have explicitly include
 can make a major contribution to mitigation but may require resources to overcome multiple barriers. {WGII 20.3, 20.5, SPM; WGIII
 2.1, 2.5, 12.1, SPM}
 
-
 6.1 Observed changes in climate and their
 effects, and their causes
 Robust findings
@@ -1391,7 +1359,6 @@ The magnitude of CO2
  emissions from land-use change and
 CH4
  emissions from individual sources remain as key uncertainties. {WGI 2.3, 7.3, 7.4; WGIII 1.3, TS.14}
- 
  
  6.2 Drivers and projections of future climate
 changes and their impacts
@@ -1458,7 +1425,6 @@ Understanding of low-probability/high-impact events and the
 cumulative impacts of sequences of smaller events, which is required for risk-based approaches to decision-making, is generally
 limited. {WGII 19.4, 20.2, 20.4, 20.9, TS.6}
 
-
 6.3 Responses to climate change
 Robust findings
 Some planned adaptation (of human activities) is occurring now;
@@ -1502,5 +1468,3 @@ potential of long-term technology performance and cost improvements. Also little
 and lifestyles. {WGIII 3.3, 3.4, 11.3}
 The effects of non-climate policies on emissions are poorly
 quantified. {WGIII 12.2}
-
-
