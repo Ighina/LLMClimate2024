@@ -141,10 +141,44 @@ class SumIPCC(datasets.GeneratorBasedBuilder):
             url="https://www.ipcc.ch/report/ar6/syr/",
         ),
         SumIPCCConfig(
+            name="AR5",
+            description=textwrap.dedent(
+            """
+    	    The Synthesis Report (SYR), constituting the final product of the Fifth
+	    Assessment Report (AR5) of the Intergovernmental Panel on Climate
+	    Change (IPCC), is published under the title Climate Change 2014. This
+	    report distils, synthesizes and integrates the key findings of the three
+	    Working Group contributions – The Physical Science Basis, Impacts,
+	    Adaptation, and Vulnerability and Mitigation of Climate Change – to
+	    the AR5 in a concise document for the benefit of decision makers in
+	    the government, the private sector as well as the public at large. The
+	    SYR also draws on the findings of the two Special Reports brought out
+	    in 2011 dealing with Renewable Energy Sources and Climate Change
+	    Mitigation, and Managing the Risks of Extreme Events and Disasters to
+	    Advance Climate Change Adaptation. The SYR, therefore, is a compre-
+	    hensive up-to-date compilation of assessments dealing with climate
+	    change, based on the most recent scientific, technical and socio-economic
+	    literature in the field.
+            """
+            ),
+            data_dir="all_data/AR5",
+            citation=textwrap.dedent(
+                """\
+             @misc{IPCCAR5,
+                    title = {AR5 Synthesis Report: Climate Change 2014},
+                    author = {IPCC},
+                    year={2014}
+                    url = {https://www.ipcc.ch/site/assets/uploads/2018/02/SYR_AR5_FINAL_full.pdf},
+                }
+            }"""
+            ),
+            url="https://www.ipcc.ch/report/ar5/syr/",
+        ),
+        SumIPCCConfig(
             name="ALL",
             description=textwrap.dedent(
             """
-            The concatenation of AR3, AR4, AR5 and AR6 synthesis reports from IPCC
+            The concatenation of AR5 and AR6 synthesis reports from IPCC
             """
             ),
             data_dir="all_data",
@@ -167,6 +201,7 @@ class SumIPCC(datasets.GeneratorBasedBuilder):
                     {
                         "full_paragraphs": datasets.Value("string"),
                         "summary": datasets.Value("string"),
+                        "summary_topic": datasets.Value("string"),
                         "paragraph_topic": datasets.Value("string"),
                         "section_topic": datasets.Value("string"),
                         "source": datasets.Value("string"),
@@ -231,6 +266,7 @@ class SumIPCC(datasets.GeneratorBasedBuilder):
         
         para_topic = doc["paragraph_topics"][identifier]
         sect_topic = doc["section_topics"][identifier]
+        summary_topic = doc["summary_topics"][identifier]
         
         para_id = joiner.join(doc["pointers"][identifier])
         para_title = joiner.join(doc["titles"][identifier])
@@ -239,6 +275,7 @@ class SumIPCC(datasets.GeneratorBasedBuilder):
                 "summary": summary,
                 "paragraph_topic": para_topic,
                 "section_topic": sect_topic,
+                "summary_topic": summary_topic,
                 "source": source,
                 "paragraph_ids": para_id,
                 "paragraph_titles": para_title,

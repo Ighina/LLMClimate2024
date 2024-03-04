@@ -1,0 +1,34 @@
+version: "3.9"
+services:
+  evaluate_gpu:
+    build: .
+    entrypoint: "./run_evaluation.py"
+    volumes:
+        - .:/app
+    command: [
+      "--device gpu"
+    ]
+
+    ports:
+        - 6006:6006
+    network_mode: host
+    deploy:
+        resources:
+            reservations:
+              devices:
+                - driver: nvidia
+                  count: 1
+                  capabilities: [gpu]
+                  
+  evaluate_cpu:
+    build:
+    entrypoint: "./run_evaluation.py"
+    volumes:
+        - .:/app
+    command: [
+      "--device cpu"
+    ]
+
+    ports:
+        - 6006:6006
+    network_mode: host

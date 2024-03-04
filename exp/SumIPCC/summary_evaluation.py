@@ -1,228 +1,228 @@
-import json
-import pandas as pd
 import argparse
-from argparse import RawTextHelpFormatter
-from string2string.metrics import ROUGE, sacreBLEU
-from string2string.similarity import BERTScore, BARTScore
-from bleurt import score
-import pandas as pd
-import argparse
-import statistics
 import os
 import sys
+
+from datasets import load_dataset
+import wandb
+
+from unieval.utils import convert_to_json
+from unieval.metric.evaluator import get_evaluator
+
+from utils import _load_model, summarise_question
+
 working_directory = os.getcwd()
 
-# class named ArgumentParser for parsing options and handling errors
+####################################################################
+# CUSTOM ARGUMENTS
+####################################################################
+
 class ArgumentParser(argparse.ArgumentParser):
     def __init__(self):
         super().__init__(
             description='InputOptions',
             formatter_class=RawTextHelpFormatter)
+            
         self.add_argument(
-            '-g', '--gen',
+            '-d', '--device',
+            choice=["cpu", "gpu"],
+            default="cpu",
+            help="The device on which to run the experiment:\
+                   cpu or gpu")
+                   
+        self.add_argument(
+            '-b', '--4bit',
+            action="store_true".
+            help="Use 4 bit quantization when loading the LLM."
+        )
+        
+        self.add_argument(
+            '-m', '--model',
             type=str,
-            help='''
-            Provide json file containing generated summaries
-            as produced by the get_segment_metadata script.
-            This should be in the following format:
-            [{
-                "pid": "m0000d2q",
-                "segments": [
-                    {
-                    "timestamps": {
-                    "start": 0,
-                    "end": 111.14
-                    },
-                    "title": "Introduction",
-                    "summary": "The conductor, an immense ...",
-                    "tags": [ "Music", ...]
-                    ],
-                "transcript": "Presenting the second Concerto Final...
-                },
-                {
-                    ...
-                }, ...
-                ],
-                "overall_summary": " ... ",
-                "model_used": "gpt4"
-            }]
-                ''')
+            help="The LLM model to use.")
+            
         self.add_argument(
-            '-po', '--getpipsonly',
-            action='store_true',
-            help='''
-            This tag must be used alongside the '--gen' tag.
-            Using this will mean the run will stop short of evaluating
-            the generated summaries, and instead will only print a file
-            containing the PIPs summaries, as well as a file containing
-            generated summaries alongside their corresponding
-            PIPs summaries.
-            ''')
-        self.add_argument(
-            '-p', '--pips',
+            '-o', '--output',
             type=str,
-            help='''
-            Takes a json file containing PIPs summaries in the following
-            format:
-            [{
-                "EpisodePid":"m0000d2q",
-                "PIPsSynopsis":"The presenter meets conductor...."
-                },
-                { ... }, ...
-            ]
-            To be used alongside the '--gen' tag, and both must contain
-            the same EpisodePid values.
-            ''')
+            help="Where to store results."
+        )
+        
+        self.add_argument(
+            '-p', '--prompt',
+            default="Summarize the main takeaways from the following text",
+            type=str,
+            help="The basic prompt for querying the LLM."
+        )
+            
+        self.add_argument(
+            '-s', '--subset',
+            choice=["AR6", "AR5", "ALL"],
+            default="ALL",
+            help="The subset of the dataset to use."
+        )
+            
     def error(self, message):
         self.print_help(sys.stderr)
         self.exit(2, '%s: error: %s\n' % (self.prog, message))
 
+###################################################################
+# MAIN FUNCTION
+###################################################################
 
-def main():
-    # Change the main!
-    argParser = ArgumentParser()
-    args = argParser.parse_args()
+def main(args):
+    # initialize end of turn mark (dependent on model)
+    #if args.model.startswith("google/gemma"):
+    #    end_turn = "<end_of_turn>\n"
+    #elif args.model.startswith("mistralai"):
+    #    end_turn = "[/INST]"
+    #elif args.model.startswith("microsoft")
+    
+    # initialize wandb
+    wandb_config = load_config("config.yaml")
+    os.environ["WANDB_PROJECT"] = wandb_config["project"]
+    try:
+        os.environ["WANDB_API_KEY"] = wandb_config["key"]
+        wandb.init(config=wandb_config)
+        use_wandb = True
+    except wandb.errors.UsageError:
+        print("WARNING: NO WANDB KEY HAS BEEN SET! THE EXPERIMENT WILL BE LOGGED JUST LOCALLY!")
+        os.environ["WANDB_DISABLED"] = "true"
+        use_wandb = False
+    
+    # model instantiation
+    model, tokenizer = _load_model(args.model, args.4bit)
+    
+    # load the dataset
+    data = load_dataset("sumipcc_dataset", args.subset)
+    
+    # initialize variables
+    all_coherence = []
+    all_consistency = []
+    all_fluency = []
+    all_relevance = []
+    all_overall = []
+    
+    all_summaries = []
+    all_keys = []
+    
+    # Initialize evaluator for a specific task
+    task = 'summarization'
+    evaluator = get_evaluator(task, device=args.device)
+    
+    prompt = args.prompt
+    
+    if use_wandb:
+        columns = [
+        "status",
+        "model_name",
+        "dataset",
+        "identifier",
+        "prompt",
+        "response",
+        "coherence",
+        "consistency",
+        "fluency",
+        "relevance",
+        "overall",
+        "response_time_seconds",
+        ]
+        table = wandb.Table(columns=columns)
+        wandb.run.log_code(".")
 
-    gen_synopses = pd.DataFrame()
-    pips_synopses = pd.DataFrame()
+    for row in data["test"]:
+      
+      question = "\n".join(data["full_paragraphs"])
+      argument = row["summary_topic"]
+      reference = row["summary"]
+      
+      summary, new_prompt, status = summarise_question(question, 
+                                                       prompt, 
+                                                       argument)
+          
+      summary = summary[len(new_prompt)+1:]
+      all_summaries.append(summary)
+      all_keys.append(key)
 
-    if args.gen:
-        print("Reading generated summaries from file " + str(args.gen))
-        gen_synopses = pd.read_json(args.gen)
-        gen_synopses = gen_synopses.rename(columns={'pid': 'EpisodePid'}, errors='ignore')
-        gen_synopses = gen_synopses.rename(columns={'gen_synopses': 'GeneratedSynopsis'}, errors='ignore')
-        gen_synopses = gen_synopses.rename(columns={'overall_summary': 'GeneratedSynopsis'}, errors='ignore')
-        gen_synopses = gen_synopses.rename(columns={'overall_synopsis': 'GeneratedSynopsis'}, errors='ignore')
-        gen_synopses = gen_synopses[['EpisodePid', 'GeneratedSynopsis']]
-    else:
-        argParser.error("No generated summaries provided. Use either --gen tag to input a file.")
-
-    if args.pips:
-        print("Reading PIPs summaries from file " + str(args.pips))
-        pips_synopses = pd.read_json(args.pips)
-    else:
-        print("No PIPs summaries provided. Looking up episode pids in PIPs Inspector.")
-        list_of_pids = gen_synopses['EpisodePid'].tolist()
-        print("List of pids to look up in PIPs = " + str(list_of_pids))
-        pips_synopses = extract_pips_synopses(list_of_pids)
-        pips_synopses = pips_synopses.rename(columns={'EpisodePid': 'EpisodePid', 'synopsis': 'PIPsSynopsis'}, errors='ignore')
-        pips_synopses = pips_synopses[['EpisodePid', 'PIPsSynopsis']]
-        print("Printing PIPs summaries to " + str(args.gen[:-6] + str("_PIPs.jsonl")))
-        pips_synopses.to_json(args.gen[:-6] + str("_PIPs.jsonl"),orient='records')
-
-    if not args.getpipsonly:
-        print("Evaluating summaries.")
-        combined = pips_synopses.merge(gen_synopses, how='inner', on='EpisodePid')
-        # output_filename = args.gen[:-6] + str("_PIPsGenCombined.jsonl")
-        # print("Printing to file containing PIPs and generated summaries to " + output_filename)
-        # combined.to_json(output_filename,orient='records')
-
-        metrics = get_evaluation_metrics(combined)
-
-        output_filename = args.gen[:-6] + str("_evaluationMetrics.json")
-        print("Printing metrics to file " + output_filename)
-        with open(output_filename, 'w') as outfile:
-                json.dump(metrics, outfile)
-
-
-def get_evaluation_metrics(combined):
-
-    generated_summaries = combined['GeneratedSynopsis'].tolist()
-    reference_summaries = combined['PIPsSynopsis'].tolist()
-    episode_pids = combined['EpisodePid'].tolist()
-
-    # Convert 'reference_summaries' to list of lists for ROUGE, BLEU and BERTscore
-    reference_summaries_lists = combined['PIPsSynopsis']
-    for index, row in combined.iterrows():
-        reference_summaries_lists[index] = [row['PIPsSynopsis']]
-
-    rogue_scorer = ROUGE()
-    rouge_f1_result = rogue_scorer.compute(generated_summaries, reference_summaries_lists)
-    rouge_precision_result = rogue_scorer.compute(generated_summaries, reference_summaries_lists, score_type="precision")
-    rouge_recall_result = rogue_scorer.compute(generated_summaries, reference_summaries_lists, score_type="recall")
-
-    print("ROUGE results:")
-    print(" - F1:")
-    print("   - ROUGE-1: ", rouge_f1_result['rouge1'])
-    print("   - ROUGE-2: ", rouge_f1_result['rouge2'])
-    print("   - ROUGE-L: ", rouge_f1_result['rougeL'])
-    print("   - ROUGE-Lsum: ", rouge_f1_result['rougeLsum'])
-    print(" - precision:")
-    print("   - ROUGE-1: ", rouge_precision_result['rouge1'])
-    print("   - ROUGE-2: ", rouge_precision_result['rouge2'])
-    print("   - ROUGE-L: ", rouge_precision_result['rougeL'])
-    print("   - ROUGE-Lsum: ", rouge_precision_result['rougeLsum'])
-    print(" - recall:")
-    print("   - ROUGE-1: ", rouge_recall_result['rouge1'])
-    print("   - ROUGE-2: ", rouge_recall_result['rouge2'])
-    print("   - ROUGE-L: ", rouge_recall_result['rougeL'])
-    print("   - ROUGE-Lsum: ", rouge_recall_result['rougeLsum'])
-
-    sbleu_scorer = sacreBLEU()
-    bleu_result = sbleu_scorer.compute(generated_summaries, reference_summaries_lists)
-
-    print("BLEU results:")
-    print(" - BLEU: ", bleu_result['score'])
-
-    print("BLEURT results:")
-    bleurt_scorer = score.BleurtScorer()
-    bleurt_score = bleurt_scorer.score(references=reference_summaries, candidates=generated_summaries)
-    bleurt_score = statistics.fmean(bleurt_score)
-    print(" - BLEURT score: ", bleurt_score)
-
-    bert_scorer = BERTScore(lang="en")
-    bert_score = bert_scorer.compute(generated_summaries, reference_summaries_lists)
-
-    print("BERTScore results:")
-    print(" - BERT score: ", bert_score['f1'].mean())
-
-    bart_scorer = BARTScore(model_name_or_path='facebook/bart-large-cnn')
-    bart_score = bart_scorer.compute(generated_summaries, reference_summaries, agg="mean", batch_size=4)
-
-    print("BARTScore results:")
-    print(" - BART score: ", bart_score['score'].mean())
-
-    print("All Results:")
-    print(" - ROUGE-1 F1: ", rouge_f1_result['rouge1'])
-    print(" - ROUGE-2 F1: ", rouge_f1_result['rouge2'])
-    print(" - ROUGE-L F1: ", rouge_f1_result['rougeL'])
-    print(" - ROUGE-Lsum F1: ", rouge_f1_result['rougeLsum'])
-    print(" - ROUGE-1 precision: ", rouge_precision_result['rouge1'])
-    print(" - ROUGE-2 precision: ", rouge_precision_result['rouge2'])
-    print(" - ROUGE-L precision: ", rouge_precision_result['rougeL'])
-    print(" - ROUGE-Lsum precision: ", rouge_precision_result['rougeLsum'])
-    print(" - ROUGE-1 recall: ", rouge_recall_result['rouge1'])
-    print(" - ROUGE-2 recall: ", rouge_recall_result['rouge2'])
-    print(" - ROUGE-L recall: ", rouge_recall_result['rougeL'])
-    print(" - ROUGE-Lsum recall: ", rouge_recall_result['rougeLsum'])
-    print(" - BLEU: ", bleu_result['score'])
-    print(" - BERT score: ", bert_score['f1'].mean())
-    print(" - BART score: ", bart_score['score'].mean())
-    print(" - BLEURT score: ", bleurt_score)
-
-    metrics_json = {
-        "episode_pids": episode_pids,
-        "rouge_1_f1": str(rouge_f1_result['rouge1']),
-        "rouge_2_f1": str(rouge_f1_result['rouge2']),
-        "rouge_l_f1": str(rouge_f1_result['rougeL']),
-        "rouge_lsum_f1": str(rouge_f1_result['rougeLsum']),
-        "rouge_1_precision": str(rouge_precision_result['rouge1']),
-        "rouge_2_precision": str(rouge_precision_result['rouge2']),
-        "rouge_l_precision": str(rouge_precision_result['rougeL']),
-        "rouge_lsum_precision": str(rouge_precision_result['rougeLsum']),
-        "rouge_1_recall": str(rouge_recall_result['rouge1']),
-        "rouge_2_recall": str(rouge_recall_result['rouge2']),
-        "rouge_l_recall": str(rouge_recall_result['rougeL']),
-        "rouge_lsum_recall": str(rouge_recall_result['rougeLsum']),
-        "rouge_recall": str(rouge_recall_result['rouge1']),
-        "bleu": str(bleu_result['score']),
-        "bert_score": str(bert_score['f1'].mean()),
-        "bart_score": str(bart_score['score'].mean()),
-        "bleurt_score": str(bleurt_score)
-      }
-
-    return metrics_json
-
-
+      # Prepare data for pre-trained evaluators
+      data_json = convert_to_json(output_list=[summary],
+                            src_list=[question],
+                            ref_list=[reference])
+      # Get multi-dimensional evaluation scores
+      eval_scores = evaluator.evaluate(data_json, print_result=True)
+      
+      coherence = eval_scores[0]["coherence"]
+      consistency = eval_scores[0]["constistency"]
+      fluency = eval_scores[0]["fluency"]
+      relevance = eval_scores[0]["relevance"]
+      overall = eval_scores[0]["overall"]
+      
+      all_coherence.append(coherence)
+      all_consistency.append(consistency)
+      all_fluency.append(fluency)
+      all_relevance.append(relevance)
+      all_overall.append(overall)
+      
+      # log results to wandb (if using)
+      if use_wandb:
+          if status=="success":
+              table.add_data(
+              status,
+              args.model,
+              args.subset,
+              key,
+              new_prompt,
+              summary,
+              coherence,
+              consistency,
+              fluency,
+              relevance,
+              overall
+              )
+              wandb.log(
+                       {
+                        "coherence": coherence,
+                        "consistency": consistency,
+                        "fluency": fluency,
+                        "relevance": relevance,
+                        "overall": overall
+                      }
+                     )
+          else:
+              table.add_data(
+              status,
+              args.model,
+              args.subset,
+              key,
+              new_prompt,
+              None,
+              None,
+              None,
+              None,
+              None,
+              None
+              )
+    
+    mean_coherence = np.mean(coherence)
+    mean_consistency = np.mean(consistency)
+    mean_fluency = np.mean(fluency)
+    mean_relevance = np.mean(relevance)
+    mean_overall = np.mean(overall)
+    
+    if use_wandb:
+        # Set summary value for the line plots to be the mean overall scores
+        # Otherwise these are recorded as the final scores
+        wandb.run.summary["coherence"] = mean_coherence
+        wandb.run.summary["consistency"] = mean_consistency
+        wandb.run.summary["fluency"] = mean_fluency
+        wandb.run.summary["relevance"] = mean_relevance
+        wandb.run.summary["overall"] = mean_overall
+        
+        wandb.log({"coherence_avg":mean_coherence})
+        wandb.log({"consistency_avg":mean_consistency})
+        wandb.log({"fluency_avg":mean_fluency})
+        wandb.log({"relevance_avg":mean_relevance})
+        wandb.log({"overall_avg":mean_overall})
+    
 if __name__ == '__main__':
+    parser = PredictParser()
+    args = parser.parse_args(sys.argv[1:])
     main()
