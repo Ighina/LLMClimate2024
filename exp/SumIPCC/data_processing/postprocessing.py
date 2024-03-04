@@ -27,7 +27,15 @@ class CustomParser(argparse.ArgumentParser):
             type=str,
             help="The path to the dataset in yaml format."
             )
-            
+        
+        self.add_argument(
+            "--aggregate_by_pointers",
+            "-abp",
+            action = "store_true",
+            help = "If option included, aggregate all summaries sharing the\
+            		same pointers."
+        )
+        
         self.add_argument(
             "--output",
             "-out",
@@ -45,13 +53,41 @@ class CustomParser(argparse.ArgumentParser):
 # Functions
 ###########################################################
 
+
+def clean(paragraph: str) -> str:
+    """Clean the paragraphs
+    Parameters
+    ----------
+    paragraph: str
+               the paragraph to be cleaned
+    Returns
+    ----------
+    new_para: str
+              the cleaned paragraph
+    """
+    # solve hyphenation
+    #paragraph = re.sub("\-\n", "", paragraph)
+    paragraph = re.sub("\n", " ", paragraph)
+    
+    paragraph = re.sub("\(.*?\)", "", paragraph)
+    paragraph = re.sub("\{.*?\}", "", paragraph)
+    
+    return paragraph
+
+ 
 def postprocess_fn(dataset: 
-                   Dict[str, Dict]) -> Tuple[Dict, List]:
+                   Dict[str, Dict],
+                   pointer_aggregate:
+                   bool = False) -> Tuple[Dict, List]:
     """Collect all the pointers in the dataset and return the incorrect keys
     Parameters
     ----------
-    dataset:  dict[dict]
-              the complete dataset
+    dataset:           dict[dict]
+                       the complete dataset
+    pointer_aggregate: bool
+                       whether to identify the keys to aggregate by the pointers
+                       they share (if option is True) or by the titles and macro section
+                       they share (if option is False, default)
     Returns
     ---------
     incorrect Dict[Dict]
@@ -67,6 +103,27 @@ def postprocess_fn(dataset:
     """
     incorrect = {"long":[], "short":[]}
     
+    # Do cleaning
+    observation2delete = []
+    for key, paragraphs in dataset["full_paragraphs"].items():
+        new_para = []
+        
+        summary_topic = dataset["summary_topics"][key]
+        
+        if not paragraphs or not summary_topic:
+            observation2delete.append(key)
+        
+        for para in paragraphs:
+            # solve hyphenation
+            new_para.append(clean(para))
+        
+        dataset["full_paragraphs"][key] = new_para
+        dataset["summaries"][key] = clean(dataset["summaries"][key])
+        
+    for delete_key in observation2delete:
+        for key in dataset:
+            dataset[key].pop(delete_key)
+    
     max_lim_div = 100
     min_lim_div = 3/4 # we want summaries at most 3/4 the length of the original paragraph 
     # Find the summaries referring to too long paragraphs
@@ -79,16 +136,31 @@ def postprocess_fn(dataset:
     
     # Find all the summaries sharing a paragraph
     sharing = {}
-    seen_pointers = set()
-    for key, pointers in dataset["pointers"].items():
-        if key in incorrect["long"]:
-            continue 
-        pointers = "$".join(pointers)
-        if pointers not in seen_pointers:
-            sharing[pointers] = [key]
-            seen_pointers.add(pointers)
-        else:
-            sharing[pointers].append(key)
+    
+    if pointer_aggregate:
+        seen_pointers = set()
+        for key, pointers in dataset["pointers"].items():
+            if key in incorrect["long"]:
+                continue 
+            pointers = "$".join(pointers)
+            if pointers not in seen_pointers:
+                sharing[pointers] = [key]
+                seen_pointers.add(pointers)
+            else:
+                sharing[pointers].append(key)
+    else:
+        seen_titles = set()
+        for key, summary in dataset["summary_topics"].items():
+            para_topic = dataset["paragraph_topics"][key]
+            if key in incorrect["long"]:
+                continue 
+            titles = "$".join([summary, para_topic])
+            if titles not in seen_titles:
+                sharing[titles] = [key]
+                seen_titles.add(titles)
+            else:
+                sharing[titles].append(key)                     
+            
     # filter out the pointers referring to just one summary
     sharing_tmp = {k:v for k, v in sharing.items() if len(v)>1}
     sharing = {}
@@ -149,7 +221,7 @@ def main(args):
     with open(args.dataset) as f:
         data = yaml.safe_load(f)
     
-    incorrect, sharing = postprocess_fn(data)
+    incorrect, sharing = postprocess_fn(data, args.aggregate_by_pointers)
     
     for err_type in incorrect:
         for key in incorrect[err_type]:

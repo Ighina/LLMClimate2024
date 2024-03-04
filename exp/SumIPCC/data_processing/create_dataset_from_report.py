@@ -51,6 +51,16 @@ class CustomParser(argparse.ArgumentParser):
             )
             
         self.add_argument(
+            "--report_style",
+            "-rs",
+            type=str,
+            default="AR6",
+            help="The report style, defining the characteristics of how\
+            the report is structured in terms of identifiers and\
+            paragraphs numbering."
+        )
+            
+        self.add_argument(
             "--output",
             "-out",
             type=str,
@@ -86,8 +96,11 @@ def clean(line: str) -> str:
     # delete any trailing space and realign punctuation
     line = re.sub("  ", " ", line)
     line = re.sub("(\w) ([\,\.\:\?\!;])", "\g<1>\g<2>", line)
+    line = line.strip()
     
-    return line.strip()
+    #line = re.sub("\-$", "$", line)
+    
+    return line
 
 def expand_pointers(pointers: 
                     str) -> List[str]:
@@ -132,7 +145,8 @@ def expand_pointers(pointers:
 def read_report(lines: 
                 List[str],
                 full: bool=False,
-                summaries: bool=False)->Dict[str, str]:
+                summaries: bool=False,
+                pattern: str="^[A-z\d]+\.(?:\d[\.]?)+")->Dict[str, str]:
     """Read a report, with empy lines separating paragraphs
     Parameters
     ----------
@@ -146,6 +160,9 @@ def read_report(lines:
                if True, indicates that we are processing
                the summaries instead of the full report (
                    and we apply the relative routine).
+    pattern    str
+               the pattern to apply for extracting the summary
+               identifiers. Varies according to the report used
     Returns
     ----------
     paragraphs dict[str]
@@ -158,20 +175,32 @@ def read_report(lines:
     paragraphs = dict()
     current_paragraph = ""
     first_line = True
+    hyphen = False
     for idx, line in enumerate(lines):
         if line.strip():
             if first_line:
                 print(idx)
                 first_line = False
-                identifier = re.findall("^[A-z\d]+\.(?:\d[\.]?)+", line)[0]
+                try:
+                    identifier = re.findall(pattern, line)[0]
+                except IndexError:
+                    identifier = re.findall("(?:\d[\.]?)+", line)[0] 
                 line = line[len(identifier)+1:]
                 if full:
                     title = line[:]
-            line = clean(line)
-            if line:
-                current_paragraph = " ".join([current_paragraph, line])
+                current_paragraph = line
+            else:
+                line = clean(line)
+                if hyphen:
+                    hyphen = False
+                    current_paragraph = "".join([current_paragraph[:-1], line])
+                elif line:
+                    current_paragraph = " ".join([current_paragraph, line])
+                if line.endswith("-"):
+                    hyphen = True
         else:
             first_line = True
+            hyphen = False
             paragraphs[identifier] = dict()
             if full:
                 paragraphs[identifier]["title"] = title
@@ -198,23 +227,39 @@ def main(args):
     with open(args.topics, encoding="utf-8") as f:
         topics = json.load(f)
         
+    if args.report_style=="AR5":
+        new_topics = {}
+        for key in topics:
+            new_key = re.sub("SPM ", "", key)
+            new_topics[new_key] = topics[key]
+        topics = new_topics
+        print(topics)
+        
+        pattern = "SPM \d(?:\.\d)*[a-s]?"
+    else:
+        pattern = "^[A-z\d]+\.(?:\d[\.]?)+"
+        
     full_report = read_report(full_report, full=True)
     
-    summaries = read_report(summaries, summaries=True)
+    summaries = read_report(summaries, summaries=True, pattern=pattern)
     
     final_data = dict(full_paragraphs=dict(), 
                       summaries=dict(),
                       titles=dict(),
                       paragraph_topics=dict(),
+                      summary_topics=dict(),
                       section_topics=dict(),
                       pointers=dict()
                       )
     
     for key, summary in summaries.items():
+        key = re.sub("SPM ", "", key)
         final_data["summaries"][key] = summary["paragraph"]
-        final_data["paragraph_topics"][key] = topics[key[:3]]
-        final_data["section_topics"][key] = topics[key[0]]
         
+        final_data["paragraph_topics"][key] = topics[key[:3]]
+        final_data["summary_topics"][key] = topics[key]
+        final_data["section_topics"][key] = topics[key[0]]
+            
         all_paragraphs = []
         all_titles = []
         
