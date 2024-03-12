@@ -225,7 +225,7 @@ class SumIPCC(datasets.GeneratorBasedBuilder):
             files = []
             for root, directs, _ in os.walk(data_dir):
                 for direct in directs:
-                    file_name = [file for file in os.listdir(direct) if file.endswith("yaml")]
+                    file_name = [file for file in os.listdir(os.path.join(root, direct)) if file.endswith("yaml")]
                     assert len(file_name) == 1, "Too many yaml files in directory"
                     file_name = file_name[0]
                     files.append(os.path.join(root, direct, file_name))
@@ -249,10 +249,12 @@ class SumIPCC(datasets.GeneratorBasedBuilder):
 
     def _generate_examples(self, data_files, split):
         #idx = iter(range(10000))
+        idx = -1
         for data_file in data_files:
             with open(data_file, encoding='utf-8') as f:
                 doc = yaml.safe_load(f)
-                for idx, identifier in enumerate(doc["summaries"]):
+                for identifier in doc["summaries"]:
+                    idx += 1
                     yield from self._process_example(doc, identifier, data_file, idx)
 
     def _process_example(self, doc, 

@@ -256,6 +256,9 @@ def main(args):
         key = re.sub("SPM ", "", key)
         final_data["summaries"][key] = summary["paragraph"]
         
+        if not topics[key] or len(topics[key])==3:
+            continue
+        
         final_data["paragraph_topics"][key] = topics[key[:3]]
         final_data["summary_topics"][key] = topics[key]
         final_data["section_topics"][key] = topics[key[0]]

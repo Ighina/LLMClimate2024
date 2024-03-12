@@ -95,7 +95,7 @@ in Africa, Asia, North America (high confidence), and Central and South America 
 states in the Caribbean and South Pacific being disproportionately affected relative to their small population size (high
 confidence). {2.1.2, Figure 2.3} (Figure SPM.1)
 
-A.2.6 Climate change has caused widespread adverse impacts and related losses and damages13 to nature and people that are
+A.2.6 Climate change has caused widespread adverse impacts and related losses and damages to nature and people that are
 unequally distributed across systems, regions and sectors. Economic damages from climate change have been detected
 in climate-exposed sectors, such as agriculture, forestry, fishery, energy, and tourism. Individual livelihoods have been
 affected through, for example, destruction of homes and infrastructure, and loss of property and income, human health
@@ -120,7 +120,7 @@ multiple benefits (very high confidence). Growing public and political awareness
 resulted in at least 170 countries and many cities including adaptation in their climate policies and planning processes
 (high confidence). {2.2.3}
 
-A.3.2 Effectiveness15 of adaptation in reducing climate risks16 is documented for specific contexts, sectors and regions (high
+A.3.2 Effectiveness of adaptation in reducing climate risks16 is documented for specific contexts, sectors and regions (high
 confidence). Examples of effective adaptation options include: cultivar improvements, on-farm water management and
 storage, soil moisture conservation, irrigation, agroforestry, community-based adaptation, farm and landscape level
 diversification in agriculture, sustainable land management approaches, use of agroecological principles and practices
@@ -131,7 +131,7 @@ structural measures like levees have reduced loss of lives in case of inland flo
 options such as disaster risk management, early warning systems, climate services and social safety nets have broad
 applicability across multiple sectors (high confidence). {2.2.3}
 
-A.3.3 Most observed adaptation responses are fragmented, incremental18, sector-specific and unequally distributed across
+A.3.3 Most observed adaptation responses are fragmented, incremental, sector-specific and unequally distributed across
 regions. Despite progress, adaptation gaps exist across sectors and regions, and will continue to grow under current
 levels of implementation, with the largest adaptation gaps among lower income groups. (high confidence) {2.3.2}
 
@@ -220,7 +220,7 @@ lead to a discernible slowdown in global warming within around two decades, and 
 to discernible changes in atmospheric composition within a few years (high confidence).
 {Cross-Section Boxes 1 and 2, 3.1, 3.3, Table 3.1, Figure 3.1, 4.3} (Figure SPM.2, Box SPM.1)
 
-B.1.1 Global warming28 will continue to increase in the near term (2021–2040) mainly due to increased cumulative
+B.1.1 Global warming will continue to increase in the near term (2021–2040) mainly due to increased cumulative
 CO2 emissions in nearly all considered scenarios and modelled pathways. In the near term, global warming is more
 likely than not to reach 1.5°C even under the very low GHG emission scenario (SSP1-1.9) and likely or very likely to
 exceed 1.5°C under higher emissions scenarios. In the considered scenarios and modelled pathways, the best estimates
@@ -396,7 +396,7 @@ equal to the remaining carbon budget for limiting warming to 2°C with a likelih
 3.3.1, Figure 3.5}
 
 B.5.4 Based on central estimates only, historical cumulative net CO2 emissions between 1850 and 2019 amount to about
-four fifths45 of the total carbon budget for a 50% probability of limiting global warming to 1.5°C (central estimate about
+four fifths of the total carbon budget for a 50% probability of limiting global warming to 1.5°C (central estimate about
 2900 GtCO2), and to about two thirds46 of the total carbon budget for a 67% probability to limit global warming to 2°C
 (central estimate about 3550 GtCO2). {3.3.1, Figure 3.5}
 

@@ -2,7 +2,7 @@
 name = "SumIPCC"
 version = "0.1.0"
 description = "Topic-driven summarization of Climate Reports via Large Language Model"
-authors = ["Iacopo Ghinassi <i.ghinassi@qmul.ac.uk>"]
+authors = ["Leonardo Catalano, Tommaso Colella, Iacopo Ghinassi <i.ghinassi@qmul.ac.uk>"]
 
 [tool.poetry.dependencies]
 python = "3.8.10"

@@ -19,8 +19,7 @@ working_directory = os.getcwd()
 class ArgumentParser(argparse.ArgumentParser):
     def __init__(self):
         super().__init__(
-            description='InputOptions',
-            formatter_class=RawTextHelpFormatter)
+            description='InputOptions')
             
         self.add_argument(
             '-d', '--device',
@@ -223,6 +222,6 @@ def main(args):
         wandb.log({"overall_avg":mean_overall})
     
 if __name__ == '__main__':
-    parser = PredictParser()
+    parser = ArgumentParser()
     args = parser.parse_args(sys.argv[1:])
-    main()
+    main(args)

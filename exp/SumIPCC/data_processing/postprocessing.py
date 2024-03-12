@@ -37,6 +37,14 @@ class CustomParser(argparse.ArgumentParser):
         )
         
         self.add_argument(
+            "--delete_highlevel",
+            "-dh",
+            action = "store_true",
+            help = "Delete high-level summaries summarising entire sections\
+                   at the beginning of each section"
+        )
+        
+        self.add_argument(
             "--output",
             "-out",
             type=str,
@@ -230,6 +238,16 @@ def main(args):
                 data[col].pop(key)
             
     new_data = aggregate_keys(data, sharing)
+    
+    if args.delete_highlevel:
+        delete_highlevel = []
+        for key in new_data["summaries"]:
+            if len(key)<4:
+                delete_highlevel.append(key)
+        for key in delete_highlevel:
+            print(f"Deleting {key} from dataset because target topic is too broad!")
+            for col in data:
+                data[col].pop(key)
     
     with open(args.output, "w") as f:
         yaml.safe_dump(new_data, f, 
