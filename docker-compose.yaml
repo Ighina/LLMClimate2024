@@ -2,7 +2,7 @@ version: "3.9"
 services:
   evaluate_gpu:
     build: .
-    entrypoint: "./run_evaluation.py"
+    entrypoint: "./summary_evaluation.py"
     volumes:
         - .:/app
     command: [
@@ -22,7 +22,7 @@ services:
                   
   evaluate_cpu:
     build:
-    entrypoint: "./run_evaluation.py"
+    entrypoint: "./summary_evaluation.py"
     volumes:
         - .:/app
     command: [

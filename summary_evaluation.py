@@ -3,12 +3,18 @@ import os
 import sys
 
 from datasets import load_dataset
+import nltk
+import numpy as np
+import time
+from tqdm import tqdm
 import wandb
 
-from unieval.utils import convert_to_json
-from unieval.metric.evaluator import get_evaluator
+from tools import _load_model, load_config, summarise_question
 
-from utils import _load_model, summarise_question
+sys.path.insert(0, "UniEval")
+
+from utils import convert_to_json
+from metric.evaluator import get_evaluator
 
 working_directory = os.getcwd()
 
@@ -23,14 +29,14 @@ class ArgumentParser(argparse.ArgumentParser):
             
         self.add_argument(
             '-d', '--device',
-            choice=["cpu", "gpu"],
+            choices=["cpu", "gpu"],
             default="cpu",
             help="The device on which to run the experiment:\
                    cpu or gpu")
                    
         self.add_argument(
-            '-b', '--4bit',
-            action="store_true".
+            '-b', '--bit4',
+            action="store_true",
             help="Use 4 bit quantization when loading the LLM."
         )
         
@@ -54,10 +60,29 @@ class ArgumentParser(argparse.ArgumentParser):
             
         self.add_argument(
             '-s', '--subset',
-            choice=["AR6", "AR5", "ALL"],
+            choices=["AR6", "AR5", "ALL"],
             default="ALL",
             help="The subset of the dataset to use."
         )
+        
+        # TODO: it appears that the model fails when going over the 
+        # max model length. Try way to fix this (e.g. by iteratively
+        # summarising the long paragraphs to be summarised)
+        self.add_argument(
+            '-sump', '--summarise_partial',
+            action="store_true",
+            help="if included iteratively summarise paragraphs longer\
+                 than given character threshold"
+            )
+            
+        self.add_argument(
+            '-cht', '--character_threshold',
+            type=int,
+            default=10000,
+            help="if above option is included, this variable define\
+                 the given character threshold over which to summarise\
+                 the paragraphs individually before combining them."
+            )
             
     def error(self, message):
         self.print_help(sys.stderr)
@@ -76,7 +101,10 @@ def main(args):
     #elif args.model.startswith("microsoft")
     
     # initialize wandb
-    wandb_config = load_config("config.yaml")
+    
+    nltk.download("punkt")
+    
+    wandb_config = load_config("config.yaml")[0]
     os.environ["WANDB_PROJECT"] = wandb_config["project"]
     try:
         os.environ["WANDB_API_KEY"] = wandb_config["key"]
@@ -88,7 +116,7 @@ def main(args):
         use_wandb = False
     
     # model instantiation
-    model, tokenizer = _load_model(args.model, args.4bit)
+    model, tokenizer = _load_model(args.model, args.bit4)
     
     # load the dataset
     data = load_dataset("sumipcc_dataset", args.subset)
@@ -105,8 +133,9 @@ def main(args):
     
     # Initialize evaluator for a specific task
     task = 'summarization'
-    evaluator = get_evaluator(task, device=args.device)
-    
+    device = "cpu" # TODO: change this... How can both models fit?
+    evaluator = get_evaluator(task, device=device)
+    device = "cpu" if args.device=="cpu" else "cuda"
     prompt = args.prompt
     
     if use_wandb:
@@ -127,16 +156,41 @@ def main(args):
         table = wandb.Table(columns=columns)
         wandb.run.log_code(".")
 
-    for row in data["test"]:
+    for row in tqdm(data["test"]):
       
-      question = "\n".join(data["full_paragraphs"])
+      question = "\n".join(row["full_paragraphs"])
       argument = row["summary_topic"]
       reference = row["summary"]
+      key = row["ID"]
+      # print(key)
       
-      summary, new_prompt, status = summarise_question(question, 
+      start = time.time()
+      if args.summarise_partial and len(question)>args.character_threshold:
+          partial_question = []
+          print(len(row["full_paragraphs"]))
+          for question in row["full_paragraphs"]:
+              print(question)
+              summary, new_prompt, status = summarise_question(model,
+                                                       tokenizer,
+                                                       question, 
                                                        prompt, 
-                                                       argument)
+                                                       argument,
+                                                       device)
+              
+              partial_question.append(summary[len(new_prompt)+1:])
           
+          question = "\n".join(partial_question)
+              
+      
+      
+      summary, new_prompt, status = summarise_question(model,
+                                                       tokenizer,
+                                                       question, 
+                                                       prompt, 
+                                                       argument,
+                                                       device)
+      print(status)
+      seconds = time.time()-start      
       summary = summary[len(new_prompt)+1:]
       all_summaries.append(summary)
       all_keys.append(key)
@@ -149,7 +203,7 @@ def main(args):
       eval_scores = evaluator.evaluate(data_json, print_result=True)
       
       coherence = eval_scores[0]["coherence"]
-      consistency = eval_scores[0]["constistency"]
+      consistency = eval_scores[0]["consistency"]
       fluency = eval_scores[0]["fluency"]
       relevance = eval_scores[0]["relevance"]
       overall = eval_scores[0]["overall"]
@@ -174,7 +228,8 @@ def main(args):
               consistency,
               fluency,
               relevance,
-              overall
+              overall,
+              seconds
               )
               wandb.log(
                        {
@@ -197,14 +252,15 @@ def main(args):
               None,
               None,
               None,
+              None,
               None
               )
     
-    mean_coherence = np.mean(coherence)
-    mean_consistency = np.mean(consistency)
-    mean_fluency = np.mean(fluency)
-    mean_relevance = np.mean(relevance)
-    mean_overall = np.mean(overall)
+    mean_coherence = np.mean(all_coherence)
+    mean_consistency = np.mean(all_consistency)
+    mean_fluency = np.mean(all_fluency)
+    mean_relevance = np.mean(all_relevance)
+    mean_overall = np.mean(all_overall)
     
     if use_wandb:
         # Set summary value for the line plots to be the mean overall scores
@@ -220,6 +276,15 @@ def main(args):
         wandb.log({"fluency_avg":mean_fluency})
         wandb.log({"relevance_avg":mean_relevance})
         wandb.log({"overall_avg":mean_overall})
+        wandb.log({"Summarisation Results": table})
+        
+    with open(args.output, "w") as f:
+        json.dump({"coherence":mean_coherence,
+                   "consistency":mean_consistency,
+                   "fluency": mean_fluency,
+                   "relevance": mean_relevance,
+                   "overall": mean_overall
+        }, f)
     
 if __name__ == '__main__':
     parser = ArgumentParser()

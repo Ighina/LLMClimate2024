@@ -199,14 +199,14 @@ class SumIPCC(datasets.GeneratorBasedBuilder):
     def _info(self):
         features = datasets.Features(
                     {
-                        "full_paragraphs": datasets.Value("string"),
+                        "full_paragraphs": datasets.Sequence(datasets.Value("string")),
                         "summary": datasets.Value("string"),
                         "summary_topic": datasets.Value("string"),
                         "paragraph_topic": datasets.Value("string"),
                         "section_topic": datasets.Value("string"),
                         "source": datasets.Value("string"),
-                        "paragraph_ids": datasets.Value("string"),
-                        "paragraph_titles": datasets.Value("string"),
+                        "paragraph_ids": datasets.Sequence(datasets.Value("string")),
+                        "paragraph_titles": datasets.Sequence(datasets.Value("string")),
                         "ID": datasets.Value("string")
                     }
         )
@@ -260,18 +260,17 @@ class SumIPCC(datasets.GeneratorBasedBuilder):
     def _process_example(self, doc, 
                          identifier, 
                          source,
-                         idx,
-                         joiner="\n\n"):
+                         idx):
         
         summary = doc["summaries"][identifier]
-        full_para = joiner.join(doc["full_paragraphs"][identifier])
+        full_para = doc["full_paragraphs"][identifier]
         
         para_topic = doc["paragraph_topics"][identifier]
         sect_topic = doc["section_topics"][identifier]
         summary_topic = doc["summary_topics"][identifier]
         
-        para_id = joiner.join(doc["pointers"][identifier])
-        para_title = joiner.join(doc["titles"][identifier])
+        para_id = doc["pointers"][identifier]
+        para_title = doc["titles"][identifier]
 
         yield idx, {"full_paragraphs": full_para,
                 "summary": summary,

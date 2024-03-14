@@ -1,6 +1,9 @@
-from typing import List, Dict, Callable, Set
-from transformers import AutoModelForCausalLM, AutoTokenizer
+import os
 import re
+from typing import List, Dict, Callable, Set
+import yaml
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
 def _load_model(model_name: str, bit4: bool = False) -> Callable:
     tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -8,21 +11,39 @@ def _load_model(model_name: str, bit4: bool = False) -> Callable:
     model.eval()
 
     return model, tokenizer
-    
+
+CONFIG_PATH = os.path.join(os.path.dirname(__file__), "config")
+
+def load_config(config_name):
+    with open(os.path.join(CONFIG_PATH, config_name)) as file:
+        configs = yaml.safe_load_all(file)
+        list_config = []
+        for config in configs:
+            list_config.append(config)
+    return list_config    
 
 def summarise_question(
+    model,
+    tokenizer,
     question: str,
     prompt: str,
     argument: str,
     device: str="cpu",
     no_arg: bool=False,
-    no_role: bool=False
+    no_role: bool=False,
+    max_len: int=10000
     ) -> str:
     """
     code mostly from https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2
   
     Parameters
     ----------
+    model:    transformers.AutoModel
+              the LLM to be used for answering the question 
+    
+    tokenizer:transformers.AutoTokenizer
+              the tokenizer associated with the above LLM
+              
     question: str
               the text to answer (text row from the test dataset)
 
