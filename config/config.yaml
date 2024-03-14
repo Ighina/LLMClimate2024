@@ -1,0 +1,8 @@
+# W&B project
+entity: ighina251
+project: ClimateNLP2024
+key: 12161268c20c86bf7bcf69dd0d56e167e17b2102
+job_type: evaluate
+tags: [
+  summarization
+]

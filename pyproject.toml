@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "SumIPCC"
+version = "0.1.0"
+description = "Topic-driven summarization of Climate Reports via Large Language Model"
+authors = ["Leonardo Catalano, Tommaso Colella, Iacopo Ghinassi <i.ghinassi@qmul.ac.uk>"]
+
+[tool.poetry.dependencies]
+python = "3.8.10"
+torch = "^2"
+transformers = "4.26"
+datasets = "2.14.6"
+accelerate = "0.16"
+tokenizers = "0.12.1"
+nltk = "3.8.1"
+protobuf = "^3.20.3"
+rouge-score = "^0.1.2"
+evaluate = "^0.4.1"
+prettytable = "^3.10.0"
+wandb = "~0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+

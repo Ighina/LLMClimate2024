@@ -1,0 +1,617 @@
+SPM 1.1a Each of the last three decades has been successively warmer at the Earth’s surface than any preceding decade since 1850. The
+period from 1983 to 2012 was likely the warmest 30-year period of the last 1400 years in the Northern Hemisphere, where
+such assessment is possible (medium confidence). The globally averaged combined land and ocean surface temperature
+data as calculated by a linear trend show a warming of 0.85 [0.65 to 1.06] °C 2 over the period 1880 to 2012, when multiple
+independently produced datasets exist (Figure SPM.1a). {1.1.1, Figure 1.1}
+In addition to robust multi-decadal warming, the globally averaged surface temperature exhibits substantial decadal and
+interannual variability (Figure SPM.1a). Due to this natural variability, trends based on short records are very sensitive to the
+beginning and end dates and do not in general reflect long-term climate trends. As one example, the rate of warming over the past 15 years (1998–2012; 0.05 [–0.05 to 0.15] °C per decade), which begins with a strong El Niño, is smaller than the
+rate calculated since 1951 (1951–2012; 0.12 [0.08 to 0.14] °C per decade). {1.1.1, Box 1.1}
+
+SPM 1.1b Ocean warming dominates the increase in energy stored in the climate system, accounting for more than 90% of the energy
+accumulated between 1971 and 2010 (high confidence), with only about 1% stored in the atmosphere. On a global scale,
+the ocean warming is largest near the surface, and the upper 75 m warmed by 0.11 [0.09 to 0.13] °C per decade over the
+period 1971 to 2010. It is virtually certain that the upper ocean (0−700 m) warmed from 1971 to 2010, and it likely warmed
+between the 1870s and 1971. {1.1.2, Figure 1.2}
+
+SPM 1.1c Averaged over the mid-latitude land areas of the Northern Hemisphere, precipitation has increased since 1901 (medium
+confidence before and high confidence after 1951). For other latitudes, area-averaged long-term positive or negative trends
+have low confidence. Observations of changes in ocean surface salinity also provide indirect evidence for changes in the
+global water cycle over the ocean (medium confidence). It is very likely that regions of high salinity, where evaporation dom-
+inates, have become more saline, while regions of low salinity, where precipitation dominates, have become fresher since
+the 1950s. {1.1.1, 1.1.2}
+
+SPM 1.1d Since the beginning of the industrial era, oceanic uptake of CO2 has resulted in acidification of the ocean; the pH of ocean
+surface water has decreased by 0.1 (high confidence), corresponding to a 26% increase in acidity, measured as hydrogen ion
+concentration. {1.1.2}
+
+SPM 1.1e Over the period 1992 to 2011, the Greenland and Antarctic ice sheets have been losing mass (high confidence), likely at a
+larger rate over 2002 to 2011. Glaciers have continued to shrink almost worldwide (high confidence). Northern Hemisphere
+spring snow cover has continued to decrease in extent (high confidence). There is high confidence that permafrost tempera-
+tures have increased in most regions since the early 1980s in response to increased surface temperature and changing snow
+cover. {1.1.3}
+
+SPM 1.1f The annual mean Arctic sea-ice extent decreased over the period 1979 to 2012, with a rate that was very likely in the range
+3.5 to 4.1% per decade. Arctic sea-ice extent has decreased in every season and in every successive decade since 1979, with
+the most rapid decrease in decadal mean extent in summer (high confidence). It is very likely that the annual mean Antarctic
+sea-ice extent increased in the range of 1.2 to 1.8% per decade between 1979 and 2012. However, there is high confidence
+that there are strong regional differences in Antarctica, with extent increasing in some regions and decreasing in others.
+{1.1.3, Figure 1.1}
+
+SPM 1.1g Over the period 1901 to 2010, global mean sea level rose by 0.19 [0.17 to 0.21] m (Figure SPM.1b). The rate of sea level rise
+since the mid-19th century has been larger than the mean rate during the previous two millennia (high confidence). {1.1.4,
+Figure 1.1}
+
+SPM 1.2a Anthropogenic greenhouse gas (GHG) emissions since the pre-industrial era have driven large increases in the atmospheric
+concentrations of carbon dioxide (CO2), methane (CH4) and nitrous oxide (N2O) (Figure SPM.1c). Between 1750 and 2011,
+cumulative anthropogenic CO2 emissions to the atmosphere were 2040 ± 310 GtCO2. About 40% of these emissions have
+remained in the atmosphere (880 ± 35 GtCO2); the rest was removed from the atmosphere and stored on land (in plants and
+soils) and in the ocean. The ocean has absorbed about 30% of the emitted anthropogenic CO2, causing ocean acidification.
+About half of the anthropogenic CO2 emissions between 1750 and 2011 have occurred in the last 40 years (high confidence)
+(Figure SPM.1d). {1.2.1, 1.2.2}
+
+SPM 1.2b Total anthropogenic GHG emissions have continued to increase over 1970 to 2010 with larger absolute increases between
+2000 and 2010, despite a growing number of climate change mitigation policies. Anthropogenic GHG emissions in 2010 have
+reached 49 ± 4.5 GtCO2-eq/yr 3. Emissions of CO2 from fossil fuel combustion and industrial processes contributed about 78%
+of the total GHG emissions increase from 1970 to 2010, with a similar percentage contribution for the increase during the
+period 2000 to 2010 (high confidence) (Figure SPM.2). Globally, economic and population growth continued to be the most
+important drivers of increases in CO2 emissions from fossil fuel combustion. The contribution of population growth between
+2000 and 2010 remained roughly identical to the previous three decades, while the contribution of economic growth has
+risen sharply. Increased use of coal has reversed the long-standing trend of gradual decarbonization (i.e., reducing the carbon
+intensity of energy) of the world’s energy supply (high confidence). {1.2.2}
+
+SPM 1.2c The evidence for human influence on the climate system has grown since the IPCC Fourth Assessment Report (AR4). It is
+extremely likely that more than half of the observed increase in global average surface temperature from 1951 to 2010 was
+caused by the anthropogenic increase in GHG concentrations and other anthropogenic forcings together. The best estimate
+of the human-induced contribution to warming is similar to the observed warming over this period (Figure SPM.3). Anthro-
+pogenic forcings have likely made a substantial contribution to surface temperature increases since the mid-20th century
+over every continental region except Antarctica4. Anthropogenic influences have likely affected the global water cycle since
+1960 and contributed to the retreat of glaciers since the 1960s and to the increased surface melting of the Greenland ice
+sheet since 1993. Anthropogenic influences have very likely contributed to Arctic sea-ice loss since 1979 and have very likely
+made a substantial contribution to increases in global upper ocean heat content (0–700 m) and to global mean sea level rise
+observed since the 1970s. {1.3, Figure 1.10}
+
+SPM 1.3a Evidence of observed climate change impacts is strongest and most comprehensive for natural systems. In many regions,
+changing precipitation or melting snow and ice are altering hydrological systems, affecting water resources in terms of
+quantity and quality (medium confidence). Many terrestrial, freshwater and marine species have shifted their geographic
+ranges, seasonal activities, migration patterns, abundances and species interactions in response to ongoing climate change
+(high confidence). Some impacts on human systems have also been attributed to climate change, with a major or minor
+contribution of climate change distinguishable from other influences (Figure SPM.4). Assessment of many studies covering
+a wide range of regions and crops shows that negative impacts of climate change on crop yields have been more common
+than positive impacts (high confidence). Some impacts of ocean acidification on marine organisms have been attributed to
+human influence (medium confidence). {1.3.2}
+
+SPM 1.4a It is very likely that the number of cold days and nights has decreased and the number of warm days and nights has increased
+on the global scale. It is likely that the frequency of heat waves has increased in large parts of Europe, Asia and Australia. It is very likely that human influence has contributed to the observed global scale changes in the frequency and intensity of
+daily temperature extremes since the mid-20th century. It is likely that human influence has more than doubled the prob-
+ability of occurrence of heat waves in some locations. There is medium confidence that the observed warming has increased
+heat-related human mortality and decreased cold-related human mortality in some regions. {1.4}
+There are likely more land regions where the number of heavy precipitation events has increased than where it has decreased.
+Recent detection of increasing trends in extreme precipitation and discharge in some catchments implies greater risks of
+flooding at regional scale (medium confidence). It is likely that extreme sea levels (for example, as experienced in storm
+surges) have increased since 1970, being mainly a result of rising mean sea level. {1.4}
+Impacts from recent climate-related extremes, such as heat waves, droughts, floods, cyclones and wildfires, reveal significant
+vulnerability and exposure of some ecosystems and many human systems to current climate variability (very high confi-
+dence). {1.4}
+
+SPM 2.1aCumulative emissions of CO 2 largely determine global mean surface warming by the late
+21st century and beyond. Projections of greenhouse gas emissions vary over a wide range,
+depending on both socio-economic development and climate policy. {2.1}
+
+SPM 2.1b Anthropogenic GHG emissions are mainly driven by population size, economic activity, lifestyle, energy use, land use patterns,
+technology and climate policy. The Representative Concentration Pathways (RCPs), which are used for making projections
+based on these factors, describe four different 21st century pathways of GHG emissions and atmospheric concentrations,
+air pollutant emissions and land use. The RCPs include a stringent mitigation scenario (RCP2.6), two intermediate scenarios
+(RCP4.5 and RCP6.0) and one scenario with very high GHG emissions (RCP8.5). Scenarios without additional efforts to
+constrain emissions (’baseline scenarios’) lead to pathways ranging between RCP6.0 and RCP8.5 (Figure SPM.5a). RCP2.6 is
+representative of a scenario that aims to keep global warming likely below 2°C above pre-industrial temperatures. The RCPs
+are consistent with the wide range of scenarios in the literature as assessed by WGIII5. {2.1, Box 2.2, 4.3}
+
+SPM 2.1c Multiple lines of evidence indicate a strong, consistent, almost linear relationship between cumulative CO2 emissions and
+projected global temperature change to the year 2100 in both the RCPs and the wider set of mitigation scenarios analysed
+in WGIII (Figure SPM.5b). Any given level of warming is associated with a range of cumulative CO2 emissions6, and therefore,
+e.g., higher emissions in earlier decades imply lower emissions later. {2.2.5, Table 2.2}
+
+SPM 2.1d Multi-model results show that limiting total human-induced warming to less than 2°C relative to the period 1861–1880 with
+a probability of >66%7 would require cumulative CO2 emissions from all anthropogenic sources since 1870 to remain below
+about 2900 GtCO2 (with a range of 2550 to 3150 GtCO2 depending on non-CO2 drivers). About 1900 GtCO28 had already been
+emitted by 2011. For additional context see Table 2.2. {2.2.5}
+
+SPM 2.2a Future climate will depend on committed warming caused by past anthropogenic emissions, as well as future anthropogenic
+emissions and natural climate variability. The global mean surface temperature change for the period 2016–2035 relative to
+1986–2005 is similar for the four RCPs and will likely be in the range 0.3°C to 0.7°C (medium confidence). This assumes that
+there will be no major volcanic eruptions or changes in some natural sources (e.g., CH4 and N2O), or unexpected changes in
+total solar irradiance. By mid-21st century, the magnitude of the projected climate change is substantially affected by the
+choice of emissions scenario. {2.2.1, Table 2.1}
+
+SPM 2.2b Relative to 1850–1900, global surface temperature change for the end of the 21st century (2081–2100) is projected to likely
+exceed 1.5°C for RCP4.5, RCP6.0 and RCP8.5 (high confidence). Warming is likely to exceed 2°C for RCP6.0 and RCP8.5
+(high confidence), more likely than not to exceed 2°C for RCP4.5 (medium confidence), but unlikely to exceed 2°C for RCP2.6
+(medium confidence). {2.2.1}
+
+SPM 2.2c The increase of global mean surface temperature by the end of the 21st century (2081–2100) relative to 1986–2005 is likely
+to be 0.3°C to 1.7°C under RCP2.6, 1.1°C to 2.6°C under RCP4.5, 1.4°C to 3.1°C under RCP6.0 and 2.6°C to 4.8°C under
+RCP8.59. The Arctic region will continue to warm more rapidly than the global mean (Figure SPM.6a, Figure SPM.7a). {2.2.1,
+Figure 2.1, Figure 2.2, Table 2.1}
+
+SPM 2.2d It is virtually certain that there will be more frequent hot and fewer cold temperature extremes over most land areas on daily
+and seasonal timescales, as global mean surface temperature increases. It is very likely that heat waves will occur with a
+higher frequency and longer duration. Occasional cold winter extremes will continue to occur. {2.2.1}
+
+SPM 2.2e Changes in precipitation will not be uniform. The high latitudes and the equatorial Pacific are likely to experience an increase
+in annual mean precipitation under the RCP8.5 scenario. In many mid-latitude and subtropical dry regions, mean precipi-
+tation will likely decrease, while in many mid-latitude wet regions, mean precipitation will likely increase under the RCP8.5
+scenario (Figure SPM.7b). Extreme precipitation events over most of the mid-latitude land masses and over wet tropical
+regions will very likely become more intense and more frequent. {2.2.2, Figure 2.2}
+
+SPM 2.2f The global ocean will continue to warm during the 21st century, with the strongest warming projected for the surface in
+tropical and Northern Hemisphere subtropical regions (Figure SPM.7a). {2.2.3, Figure 2.2}
+
+SPM 2.2g Earth System Models project a global increase in ocean acidification for all RCP scenarios by the end of the 21st century, with
+a slow recovery after mid-century under RCP2.6. The decrease in surface ocean pH is in the range of 0.06 to 0.07 (15 to 17%
+increase in acidity) for RCP2.6, 0.14 to 0.15 (38 to 41%) for RCP4.5, 0.20 to 0.21 (58 to 62%) for RCP6.0 and 0.30 to 0.32
+(100 to 109%) for RCP8.5. {2.2.4, Figure 2.1}
+
+SPM 2.2h Year-round reductions in Arctic sea ice are projected for all RCP scenarios. A nearly ice-free11 Arctic Ocean in the summer sea-
+ice minimum in September before mid-century is likely for RCP8.512 (medium confidence). {2.2.3, Figure 2.1}
+
+SPM 2.2i It is virtually certain that near-surface permafrost extent at high northern latitudes will be reduced as global mean surface
+temperature increases, with the area of permafrost near the surface (upper 3.5 m) projected to decrease by 37% (RCP2.6) to
+81% (RCP8.5) for the multi-model average (medium confidence). {2.2.3}
+
+SPM 2.2l The global glacier volume, excluding glaciers on the periphery of Antarctica (and excluding the Greenland and Antarctic ice
+sheets), is projected to decrease by 15 to 55% for RCP2.6 and by 35 to 85% for RCP8.5 (medium confidence). {2.2.3}
+
+SPM 2.2m Summary for Policymakers13SPM
+There has been significant improvement in understanding and projection of sea level change since the AR4. Global mean sea
+level rise will continue during the 21st century, very likely at a faster rate than observed from 1971 to 2010. For the period
+2081–2100 relative to 1986–2005, the rise will likely be in the ranges of 0.26 to 0.55 m for RCP2.6, and of 0.45 to 0.82 m
+for RCP8.5 (medium confidence)10 (Figure SPM.6b). Sea level rise will not be uniform across regions. By the end of the
+21st century, it is very likely that sea level will rise in more than about 95% of the ocean area. About 70% of the coastlines
+worldwide are projected to experience a sea level change within ±20% of the global mean. {2.2.3}
+
+SPM 2.3a Risk of climate-related impacts results from the interaction of climate-related hazards (including hazardous events and
+trends) with the vulnerability and exposure of human and natural systems, including their ability to adapt. Rising rates and
+magnitudes of warming and other changes in the climate system, accompanied by ocean acidification, increase the risk
+of severe, pervasive and in some cases irreversible detrimental impacts. Some risks are particularly relevant for individual
+regions (Figure SPM.8), while others are global. The overall risks of future climate change impacts can be reduced by limiting
+the rate and magnitude of climate change, including ocean acidification. The precise levels of climate change sufficient to
+trigger abrupt and irreversible change remain uncertain, but the risk associated with crossing such thresholds increases with
+rising temperature (medium confidence). For risk assessment, it is important to evaluate the widest possible range of impacts,
+including low-probability outcomes with large consequences. {1.5, 2.3, 2.4, 3.3, Box Introduction.1, Box 2.3, Box 2.4}
+
+SPM 2.3b A large fraction of species faces increased extinction risk due to climate change during and beyond the 21st century, espe-
+cially as climate change interacts with other stressors (high confidence). Most plant species cannot naturally shift their
+geographical ranges sufficiently fast to keep up with current and high projected rates of climate change in most landscapes;
+most small mammals and freshwater molluscs will not be able to keep up at the rates projected under RCP4.5 and above
+in flat landscapes in this century (high confidence). Future risk is indicated to be high by the observation that natural global
+climate change at rates lower than current anthropogenic climate change caused significant ecosystem shifts and species
+extinctions during the past millions of years. Marine organisms will face progressively lower oxygen levels and high rates and
+magnitudes of ocean acidification (high confidence), with associated risks exacerbated by rising ocean temperature extremes
+(medium confidence). Coral reefs and polar ecosystems are highly vulnerable. Coastal systems and low-lying areas are at
+risk from sea level rise, which will continue for centuries even if the global mean temperature is stabilized (high confidence).
+{2.3, 2.4, Figure 2.5}
+
+SPM 2.3c Climate change is projected to undermine food security (Figure SPM.9). Due to projected climate change by the mid-21st century
+and beyond, global marine species redistribution and marine biodiversity reduction in sensitive regions will challenge the sustained
+provision of fisheries productivity and other ecosystem services (high confidence). For wheat, rice and maize in tropical and temper-
+ate regions, climate change without adaptation is projected to negatively impact production for local temperature increases
+of 2°C or more above late 20th century levels, although individual locations may benefit (medium confidence). Global tem-
+perature increases of ~4°C or more13 above late 20th century levels, combined with increasing food demand, would pose
+large risks to food security globally (high confidence). Climate change is projected to reduce renewable surface water and
+groundwater resources in most dry subtropical regions (robust evidence, high agreement), intensifying competition for water
+among sectors (limited evidence, medium agreement). {2.3.1, 2.3.2}
+
+SPM 2.3d Rural areas are expected to experience major impacts on water availability and supply, food security, infrastructure and
+agricultural incomes, including shifts in the production areas of food and non-food crops around the world (high confidence).
+{2.3.2}
+
+SPM 2.3e Aggregate economic losses accelerate with increasing temperature (limited evidence, high agreement), but global economic
+impacts from climate change are currently difficult to estimate. From a poverty perspective, climate change impacts are
+projected to slow down economic growth, make poverty reduction more difficult, further erode food security and prolong
+existing and create new poverty traps, the latter particularly in urban areas and emerging hotspots of hunger (medium confi-
+dence). International dimensions such as trade and relations among states are also important for understanding the risks of
+climate change at regional scales. {2.3.2}
+
+SPM 2.3f Climate change is projected to increase displacement of people (medium evidence, high agreement). Populations that lack
+the resources for planned migration experience higher exposure to extreme weather events, particularly in developing coun-
+tries with low income. Climate change can indirectly increase risks of violent conflicts by amplifying well-documented drivers
+of these conflicts such as poverty and economic shocks (medium confidence). {2.3.2}
+
+SPM 2.4a Warming will continue beyond 2100 under all RCP scenarios except RCP2.6. Surface temperatures will remain approximately
+constant at elevated levels for many centuries after a complete cessation of net anthropogenic CO2 emissions. A large frac-
+tion of anthropogenic climate change resulting from CO2 emissions is irreversible on a multi-century to millennial timescale,
+except in the case of a large net removal of CO2 from the atmosphere over a sustained period. {2.4, Figure 2.8}
+
+SPM 2.4b Stabilization of global average surface temperature does not imply stabilization for all aspects of the climate system. Shifting
+biomes, soil carbon, ice sheets, ocean temperatures and associated sea level rise all have their own intrinsic long timescales
+which will result in changes lasting hundreds to thousands of years after global surface temperature is stabilized. {2.1, 2.4}
+There is high confidence that ocean acidification will increase for centuries if CO2 emissions continue, and will strongly affect
+marine ecosystems. {2.4}
+
+SPM 2.4c It is virtually certain that global mean sea level rise will continue for many centuries beyond 2100, with the amount of rise
+dependent on future emissions. The threshold for the loss of the Greenland ice sheet over a millennium or more, and an asso-
+ciated sea level rise of up to 7 m, is greater than about 1°C (low confidence) but less than about 4°C (medium confidence)
+of global warming with respect to pre-industrial temperatures. Abrupt and irreversible ice loss from the Antarctic ice sheet is
+possible, but current evidence and understanding is insufficient to make a quantitative assessment. {2.4}
+
+SPM 2.4d Magnitudes and rates of climate change associated with medium- to high-emission scenarios pose an increased risk of
+abrupt and irreversible regional-scale change in the composition, structure and function of marine, terrestrial and freshwater
+ecosystems, including wetlands (medium confidence). A reduction in permafrost extent is virtually certain with continued rise
+in global temperatures. {2.4}
+
+SPM 3.1a Effective decision-making to limit climate change and its effects can be informed by a wide
+range of analytical approaches for evaluating expected risks and benefits, recognizing the
+importance of governance, ethical dimensions, equity, value judgments, economic assess-
+ments and diverse perceptions and responses to risk and uncertainty. {3.1}
+
+SPM 3.1b Sustainable development and equity provide a basis for assessing climate policies. Limiting the effects of climate change is
+necessary to achieve sustainable development and equity, including poverty eradication. Countries’ past and future contri-
+butions to the accumulation of GHGs in the atmosphere are different, and countries also face varying challenges and circum-
+stances and have different capacities to address mitigation and adaptation. Mitigation and adaptation raise issues of equity,
+justice and fairness. Many of those most vulnerable to climate change have contributed and contribute little to GHG emis-
+sions. Delaying mitigation shifts burdens from the present to the future, and insufficient adaptation responses to emerging
+impacts are already eroding the basis for sustainable development. Comprehensive strategies in response to climate change
+that are consistent with sustainable development take into account the co-benefits, adverse side effects and risks that may
+arise from both adaptation and mitigation options. {3.1, 3.5, Box 3.4}
+
+SPM 3.1c The design of climate policy is influenced by how individuals and organizations perceive risks and uncertainties and take
+them into account. Methods of valuation from economic, social and ethical analysis are available to assist decision-making.
+These methods can take account of a wide range of possible impacts, including low-probability outcomes with large conse-
+quences. But they cannot identify a single best balance between mitigation, adaptation and residual climate impacts. {3.1}
+
+SPM 3.1d Climate change has the characteristics of a collective action problem at the global scale, because most GHGs accumulate
+over time and mix globally, and emissions by any agent (e.g., individual, community, company, country) affect other agents.
+Effective mitigation will not be achieved if individual agents advance their own interests independently. Cooperative responses,
+including international cooperation, are therefore required to effectively mitigate GHG emissions and address other climate
+change issues. The effectiveness of adaptation can be enhanced through complementary actions across levels, including
+international cooperation. The evidence suggests that outcomes seen as equitable can lead to more effective cooperation.
+{3.1}
+
+SPM 3.2a Without additional mitigation efforts beyond those in place today, and even with adaptation,
+warming by the end of the 21st century will lead to high to very high risk of severe, wide-
+spread and irreversible impacts globally (high confidence). Mitigation involves some level
+of co-benefits and of risks due to adverse side effects, but these risks do not involve the
+same possibility of severe, widespread and irreversible impacts as risks from climate change,
+increasing the benefits from near-term mitigation efforts. {3.2, 3.4}
+
+SPM 3.2b Mitigation and adaptation are complementary approaches for reducing risks of climate change impacts over different time-
+scales (high confidence). Mitigation, in the near term and through the century, can substantially reduce climate change
+impacts in the latter decades of the 21st century and beyond. Benefits from adaptation can already be realized in addressing
+current risks, and can be realized in the future for addressing emerging risks. {3.2, 4.5}
+
+SPM 3.2c Five Reasons For Concern (RFCs) aggregate climate change risks and illustrate the implications of warming and of adaptation
+limits for people, economies and ecosystems across sectors and regions. The five RFCs are associated with: (1) Unique and
+threatened systems, (2) Extreme weather events, (3) Distribution of impacts, (4) Global aggregate impacts, and (5) Large-
+scale singular events. In this report, the RFCs provide information relevant to Article 2 of UNFCCC. {Box 2.4}
+
+SPM 3.2d Without additional mitigation efforts beyond those in place today, and even with adaptation, warming by the end of the
+21st century will lead to high to very high risk of severe, widespread and irreversible impacts globally (high confidence)
+(Figure SPM.10). In most scenarios without additional mitigation efforts (those with 2100 atmospheric concentrations >1000 ppm CO2-eq), warming is more likely than not to exceed 4°C above pre-industrial levels by 2100 (Table SPM.1). The
+risks associated with temperatures at or above 4°C include substantial species extinction, global and regional food insecurity,
+consequential constraints on common human activities and limited potential for adaptation in some cases (high confidence).
+Some risks of climate change, such as risks to unique and threatened systems and risks associated with extreme weather events,
+are moderate to high at temperatures 1°C to 2°C above pre-industrial levels. {2.3, Figure 2.5, 3.2, 3.4, Box 2.4, Table SPM.1}
+
+SPM 3.2e Substantial cuts in GHG emissions over the next few decades can substantially reduce risks of climate change by limiting
+warming in the second half of the 21st century and beyond. Cumulative emissions of CO2 largely determine global mean
+surface warming by the late 21st century and beyond. Limiting risks across RFCs would imply a limit for cumulative emissions
+of CO2. Such a limit would require that global net emissions of CO2 eventually decrease to zero and would constrain annual
+emissions over the next few decades (Figure SPM.10) (high confidence). But some risks from climate damages are unavoid-
+able, even with mitigation and adaptation. {2.2.5, 3.2, 3.4}
+
+SPM 3.2f Mitigation involves some level of co-benefits and risks, but these risks do not involve the same possibility of severe, wide-
+spread and irreversible impacts as risks from climate change. Inertia in the economic and climate system and the possibility
+of irreversible impacts from climate change increase the benefits from near-term mitigation efforts (high confidence). Delays
+in additional mitigation or constraints on technological options increase the longer-term mitigation costs to hold climate
+change risks at a given level (Table SPM.2). {3.2, 3.4}
+
+SPM 3.3a Adaptation can contribute to the well-being of populations, the security of assets and the maintenance of ecosystem goods,
+functions and services now and in the future. Adaptation is place- and context-specific (high confidence). A first step towards
+adaptation to future climate change is reducing vulnerability and exposure to present climate variability (high confidence).
+Integration of adaptation into planning, including policy design, and decision-making can promote synergies with develop-
+ment and disaster risk reduction. Building adaptive capacity is crucial for effective selection and implementation of adapta-
+tion options (robust evidence, high agreement). {3.3}
+
+SPM 3.3b Adaptation planning and implementation can be enhanced through complementary actions across levels, from individuals to
+governments (high confidence). National governments can coordinate adaptation efforts of local and sub-national govern-
+ments, for example by protecting vulnerable groups, by supporting economic diversification and by providing information,
+policy and legal frameworks and financial support (robust evidence, high agreement). Local government and the private
+sector are increasingly recognized as critical to progress in adaptation, given their roles in scaling up adaptation of commu-
+nities, households and civil society and in managing risk information and financing (medium evidence, high agreement). {3.3}
+
+SPM 3.3c Adaptation planning and implementation at all levels of governance are contingent on societal values, objectives and risk
+perceptions (high confidence). Recognition of diverse interests, circumstances, social-cultural contexts and expectations can
+benefit decision-making processes. Indigenous, local and traditional knowledge systems and practices, including indigenous
+peoples’ holistic view of community and environment, are a major resource for adapting to climate change, but these have
+not been used consistently in existing adaptation efforts. Integrating such forms of knowledge with existing practices increases
+the effectiveness of adaptation. {3.3}
+
+SPM 3.3d Constraints can interact to impede adaptation planning and implementation (high confidence). Common constraints on
+implementation arise from the following: limited financial and human resources; limited integration or coordination of gov-
+ernance; uncertainties about projected impacts; different perceptions of risks; competing values; absence of key adapta-
+tion leaders and advocates; and limited tools to monitor adaptation effectiveness. Another constraint includes insufficient
+research, monitoring, and observation and the finance to maintain them. {3.3}
+
+SPM 3.3e Greater rates and magnitude of climate change increase the likelihood of exceeding adaptation limits (high confidence).
+Limits to adaptation emerge from the interaction among climate change and biophysical and/or socio-economic constraints.
+Further, poor planning or implementation, overemphasizing short-term outcomes or failing to sufficiently anticipate conse-
+quences can result in maladaptation, increasing the vulnerability or exposure of the target group in the future or the vulner-
+ability of other people, places or sectors (medium evidence, high agreement). Underestimating the complexity of adaptation
+as a social process can create unrealistic expectations about achieving intended adaptation outcomes. {3.3}
+
+SPM 3.3f Significant co-benefits, synergies and trade-offs exist between mitigation and adaptation and among different adap-
+tation responses; interactions occur both within and across regions (very high confidence). Increasing efforts to mitigate and
+adapt to climate change imply an increasing complexity of interactions, particularly at the intersections among water,
+energy, land use and biodiversity, but tools to understand and manage these interactions remain limited. Examples of
+actions with co-benefits include (i) improved energy efficiency and cleaner energy sources, leading to reduced emissions of
+health-damaging, climate-altering air pollutants; (ii) reduced energy and water consumption in urban areas through greening
+cities and recycling water; (iii) sustainable agriculture and forestry; and (iv) protection of ecosystems for carbon storage and
+other ecosystem services. {3.3}
+
+SPM 3.3g Transformations in economic, social, technological and political decisions and actions can enhance adaptation and promote
+sustainable development (high confidence). At the national level, transformation is considered most effective when it reflects
+a country’s own visions and approaches to achieving sustainable development in accordance with its national circumstances
+and priorities. Restricting adaptation responses to incremental changes to existing systems and structures, without consider-
+ing transformational change, may increase costs and losses and miss opportunities. Planning and implementation of trans-
+formational adaptation could reflect strengthened, altered or aligned paradigms and may place new and increased demands
+on governance structures to reconcile different goals and visions for the future and to address possible equity and ethical
+implications. Adaptation pathways are enhanced by iterative learning, deliberative processes and innovation. {3.3}
+
+SPM 3.4a There are multiple mitigation pathways that are likely to limit warming to below 2°C relative
+to pre-industrial levels. These pathways would require substantial emissions reductions over
+the next few decades and near zero emissions of CO2 and other long-lived greenhouse gases
+by the end of the century. Implementing such reductions poses substantial technological, eco-
+nomic, social and institutional challenges, which increase with delays in additional mitigation
+and if key technologies are not available. Limiting warming to lower or higher levels involves
+similar challenges but on different timescales. {3.4}
+
+SPM 3.4b Without additional efforts to reduce GHG emissions beyond those in place today, global emissions growth is expected to
+persist, driven by growth in global population and economic activities. Global mean surface temperature increases in 2100
+in baseline scenarios—those without additional mitigation—range from 3.7°C to 4.8°C above the average for 1850–1900
+for a median climate response. They range from 2.5°C to 7.8°C when including climate uncertainty (5th to 95th percentile
+range) (high confidence). {3.4}
+
+SPM 3.4c Emissions scenarios leading to CO2-equivalent concentrations in 2100 of about 450 ppm or lower are likely to maintain
+warming below 2°C over the 21st century relative to pre-industrial levels15. These scenarios are characterized by 40 to 70%
+global anthropogenic GHG emissions reductions by 2050 compared to 201016, and emissions levels near zero or below in
+2100. Mitigation scenarios reaching concentration levels of about 500 ppm CO2-eq by 2100 are more likely than not to limit
+temperature change to less than 2°C, unless they temporarily overshoot concentration levels of roughly 530 ppm CO2-eq before 2100, in which case they are about as likely as not to achieve that goal. In these 500 ppm CO2-eq scenarios, global 2050
+emissions levels are 25 to 55% lower than in 2010. Scenarios with higher emissions in 2050 are characterized by a greater
+reliance on Carbon Dioxide Removal (CDR) technologies beyond mid-century (and vice versa). Trajectories that are likely to
+limit warming to 3°C relative to pre-industrial levels reduce emissions less rapidly than those limiting warming to 2°C. A lim-
+ited number of studies provide scenarios that are more likely than not to limit warming to 1.5°C by 2100; these scenarios are
+characterized by concentrations below 430 ppm CO2-eq by 2100 and 2050 emission reduction between 70% and 95% below
+2010. For a comprehensive overview of the characteristics of emissions scenarios, their CO2-equivalent concentrations and
+their likelihood to keep warming to below a range of temperature levels, see Figure SPM.11 and Table SPM.1. {3.4}
+
+SPM 3.4d Mitigation scenarios reaching about 450 ppm CO2-eq in 2100 (consistent with a likely chance to keep warming below 2°C
+relative to pre-industrial levels) typically involve temporary overshoot17 of atmospheric concentrations, as do many scenarios
+reaching about 500 ppm CO2-eq to about 550 ppm CO2-eq in 2100 (Table SPM.1). Depending on the level of overshoot,
+overshoot scenarios typically rely on the availability and widespread deployment of bioenergy with carbon dioxide capture
+and storage (BECCS) and afforestation in the second half of the century. The availability and scale of these and other CDR
+technologies and methods are uncertain and CDR technologies are, to varying degrees, associated with challenges and
+risks18. CDR is also prevalent in many scenarios without overshoot to compensate for residual emissions from sectors where
+mitigation is more expensive (high confidence). {3.4, Box 3.3}
+
+SPM 3.4e Reducing emissions of non-CO2 agents can be an important element of mitigation strategies. All current GHG emissions
+and other forcing agents affect the rate and magnitude of climate change over the next few decades, although long-term
+warming is mainly driven by CO2 emissions. Emissions of non-CO2 forcers are often expressed as ‘CO2-equivalent emissions’,
+but the choice of metric to calculate these emissions, and the implications for the emphasis and timing of abatement of the
+various climate forcers, depends on application and policy context and contains value judgments. {3.4, Box 3.2}
+
+SPM 3.4f Delaying additional mitigation to 2030 will substantially increase the challenges associated with limiting warming over the
+21st century to below 2°C relative to pre-industrial levels. It will require substantially higher rates of emissions reductions
+from 2030 to 2050; a much more rapid scale-up of low-carbon energy over this period; a larger reliance on CDR in the long
+term; and higher transitional and long-term economic impacts. Estimated global emissions levels in 2020 based on the
+Cancún Pledges are not consistent with cost-effective mitigation trajectories that are at least about as likely as not to limit
+warming to below 2°C relative to pre-industrial levels, but they do not preclude the option to meet this goal (high confidence)
+(Figure SPM.12, Table SPM.2). {3.4}
+
+SPM 3.4g Estimates of the aggregate economic costs of mitigation vary widely depending on methodologies and assumptions, but
+increase with the stringency of mitigation. Scenarios in which all countries of the world begin mitigation immediately, in
+which there is a single global carbon price, and in which all key technologies are available have been used as a cost-effective
+benchmark for estimating macro-economic mitigation costs (Figure SPM.13). Under these assumptions mitigation scenarios
+that are likely to limit warming to below 2°C through the 21st century relative to pre-industrial levels entail losses in global
+consumption—not including benefits of reduced climate change as well as co-benefits and adverse side effects of mitiga-
+tion—of 1 to 4% (median: 1.7%) in 2030, 2 to 6% (median: 3.4%) in 2050 and 3 to 11% (median: 4.8%) in 2100 relative to
+consumption in baseline scenarios that grows anywhere from 300% to more than 900% over the century (Figure SPM.13).
+These numbers correspond to an annualized reduction of consumption growth by 0.04 to 0.14 (median: 0.06) percentage
+points over the century relative to annualized consumption growth in the baseline that is between 1.6 and 3% per year (high
+confidence). {3.4}
+
+SPM 3.4h In the absence or under limited availability of mitigation technologies (such as bioenergy, CCS and their combination BECCS,
+nuclear, wind/solar), mitigation costs can increase substantially depending on the technology considered. Delaying additional
+mitigation increases mitigation costs in the medium to long term. Many models could not limit likely warming to below 2°C
+over the 21st century relative to pre-industrial levels if additional mitigation is considerably delayed. Many models could
+not limit likely warming to below 2°C if bioenergy, CCS and their combination (BECCS) are limited (high confidence)
+(Table SPM.2). {3.4}
+
+SPM 3.4i Mitigation scenarios reaching about 450 or 500 ppm CO2-eq by 2100 show reduced costs for achieving air quality and energy
+security objectives, with significant co-benefits for human health, ecosystem impacts and sufficiency of resources and resilience
+of the energy system. {4.4.2.2}
+
+SPM 3.4l Mitigation policy could devalue fossil fuel assets and reduce revenues for fossil fuel exporters, but differences between regions
+and fuels exist (high confidence). Most mitigation scenarios are associated with reduced revenues from coal and oil trade for
+major exporters (high confidence). The availability of CCS would reduce the adverse effects of mitigation on the value of fossil
+fuel assets (medium confidence). {4.4.2.2}
+
+SPM 3.4m Solar Radiation Management (SRM) involves large-scale methods that seek to reduce the amount of absorbed solar energy in the climate system. SRM is untested and is not included in any of the mitigation scenarios. If it were deployed, SRM would entail numerous uncertainties, side effects, risks and shortcomings and has particular governance and ethical implications.
+SRM would not reduce ocean acidification. If it were terminated, there is high confidence that surface temperatures would
+rise very rapidly impacting ecosystems susceptible to rapid rates of change. {Box 3.3}
+
+SPM 4.1a Adaptation and mitigation responses are underpinned by common enabling factors. These
+include effective institutions and governance, innovation and investments in environmentally
+sound technologies and infrastructure, sustainable livelihoods and behavioural and lifestyle
+choices. {4.1}
+
+SPM 4.1b Inertia in many aspects of the socio-economic system constrains adaptation and mitigation options (medium evidence, high
+agreement). Innovation and investments in environmentally sound infrastructure and technologies can reduce GHG emis-
+sions and enhance resilience to climate change (very high confidence). {4.1}
+
+SPM 4.1c Vulnerability to climate change, GHG emissions and the capacity for adaptation and mitigation are strongly influenced by
+livelihoods, lifestyles, behaviour and culture (medium evidence, medium agreement). Also, the social acceptability and/or
+effectiveness of climate policies are influenced by the extent to which they incentivize or depend on regionally appropriate
+changes in lifestyles or behaviours. {4.1}
+
+SPM 4.1d For many regions and sectors, enhanced capacities to mitigate and adapt are part of the foundation essential for managing
+climate change risks (high confidence). Improving institutions as well as coordination and cooperation in governance can help
+overcome regional constraints associated with mitigation, adaptation and disaster risk reduction (very high confidence). {4.1}
+
+SPM 4.2a Adaptation options exist in all sectors, but their context for implementation and potential to
+reduce climate-related risks differs across sectors and regions. Some adaptation responses
+involve significant co-benefits, synergies and trade-offs. Increasing climate change will
+increase challenges for many adaptation options. {4.2}
+
+SPM 4.2b Adaptation experience is accumulating across regions in the public and private sectors and within communities. There is
+increasing recognition of the value of social (including local and indigenous), institutional, and ecosystem-based measures
+and of the extent of constraints to adaptation. Adaptation is becoming embedded in some planning processes, with more
+limited implementation of responses (high confidence). {1.6, 4.2, 4.4.2.1}
+
+SPM 4.2c The need for adaptation along with associated challenges is expected to increase with climate change (very high confidence).
+Adaptation options exist in all sectors and regions, with diverse potential and approaches depending on their context in
+vulnerability reduction, disaster risk management or proactive adaptation planning (Table SPM.3). Effective strategies and
+actions consider the potential for co-benefits and opportunities within wider strategic goals and development plans. {4.2}
+
+SPM 4.3a Mitigation options are available in every major sector. Mitigation can be more cost-effective
+if using an integrated approach that combines measures to reduce energy use and the green-
+house gas intensity of end-use sectors, decarbonize energy supply, reduce net emissions and
+enhance carbon sinks in land-based sectors. {4.3}
+Well-designed systemic and cross-sectoral mitigation strategies are more cost-effective in cutting emissions than a focus
+on individual technologies and sectors, with efforts in one sector affecting the need for mitigation in others (medium confi-
+dence). Mitigation measures intersect with other societal goals, creating the possibility of co-benefits or adverse side effects.
+These intersections, if well-managed, can strengthen the basis for undertaking climate action. {4.3}
+
+SPM 4.3b Emissions ranges for baseline scenarios and mitigation scenarios that limit CO2-equivalent concentrations to low levels
+(about 450 ppm CO2-eq, likely to limit warming to 2°C above pre-industrial levels) are shown for different sectors and gases
+in Figure SPM.14. Key measures to achieve such mitigation goals include decarbonizing (i.e., reducing the carbon intensity of)
+electricity generation (medium evidence, high agreement) as well as efficiency enhancements and behavioural changes, in
+order to reduce energy demand compared to baseline scenarios without compromising development (robust evidence, high
+agreement). In scenarios reaching 450 ppm CO2-eq concentrations by 2100, global CO2 emissions from the energy supply
+sector are projected to decline over the next decade and are characterized by reductions of 90% or more below 2010 levels
+between 2040 and 2070. In the majority of low-concentration stabilization scenarios (about 450 to about 500 ppm CO2-eq,
+at least about as likely as not to limit warming to 2°C above pre-industrial levels), the share of low-carbon electricity supply
+(comprising renewable energy (RE), nuclear and carbon dioxide capture and storage (CCS) including bioenergy with carbon
+dioxide capture and storage (BECCS)) increases from the current share of approximately 30% to more than 80% by 2050,
+and fossil fuel power generation without CCS is phased out almost entirely by 2100. {4.3}
+
+SPM 4.3c Near-term reductions in energy demand are an important element of cost-effective mitigation strategies, provide more
+flexibility for reducing carbon intensity in the energy supply sector, hedge against related supply-side risks, avoid lock-in to
+carbon-intensive infrastructures, and are associated with important co-benefits. The most cost-effective mitigation options in
+forestry are afforestation, sustainable forest management and reducing deforestation, with large differences in their relative
+importance across regions; and in agriculture, cropland management, grazing land management and restoration of organic
+soils (medium evidence, high agreement). {4.3, Figures 4.1, 4.2, Table 4.3}
+
+SPM 4.3d Behaviour, lifestyle and culture have a considerable influence on energy use and associated emissions, with high mitigation
+potential in some sectors, in particular when complementing technological and structural change (medium evidence, medium
+agreement). Emissions can be substantially lowered through changes in consumption patterns, adoption of energy savings
+measures, dietary change and reduction in food wastes. {4.1, 4.3}
+
+SPM 4.4b International cooperation is critical for effective mitigation, even though mitigation can also have local co-benefits. Adapta-
+tion focuses primarily on local to national scale outcomes, but its effectiveness can be enhanced through coordination across
+governance scales, including international cooperation: {4.4.1}
+
+SPM 4.4c • The United Nations Framework Convention on Climate Change (UNFCCC) is the main multilateral forum focused on
+addressing climate change, with nearly universal participation. Other institutions organized at different levels of gover-
+nance have resulted in diversifying international climate change cooperation. {4.4.1}
+
+SPM 4.4d • The Kyoto Protocol offers lessons towards achieving the ultimate objective of the UNFCCC, particularly with respect to
+participation, implementation, flexibility mechanisms and environmental effectiveness (medium evidence, low agree-
+ment). {4.4.1}
+
+SPM 4.4e • Policy linkages among regional, national and sub-national climate policies offer potential climate change mitigation ben-
+efits (medium evidence, medium agreement). Potential advantages include lower mitigation costs, decreased emission
+leakage and increased market liquidity. {4.4.1}
+
+SPM 4.4f• International cooperation for supporting adaptation planning and implementation has received less attention histori-
+cally than mitigation but is increasing and has assisted in the creation of adaptation strategies, plans and actions at the
+national, sub-national and local level (high confidence). {4.4.1}
+
+SPM 4.4g There has been a considerable increase in national and sub-national plans and strategies on both adaptation and mitigation
+since the AR4, with an increased focus on policies designed to integrate multiple objectives, increase co-benefits and reduce
+adverse side effects (high confidence): {4.4.2.1, 4.4.2.2}
+
+SPM 4.4h • National governments play key roles in adaptation planning and implementation (robust evidence, high agreement)
+through coordinating actions and providing frameworks and support. While local government and the private sector
+have different functions, which vary regionally, they are increasingly recognized as critical to progress in adaptation,
+given their roles in scaling up adaptation of communities, households and civil society and in managing risk information
+and financing (medium evidence, high agreement). {4.4.2.1}
+
+SPM 4.4i • Institutional dimensions of adaptation governance, including the integration of adaptation into planning and decision-
+making, play a key role in promoting the transition from planning to implementation of adaptation (robust evidence, high agreement). Examples of institutional approaches to adaptation involving multiple actors include economic options
+(e.g., insurance, public-private partnerships), laws and regulations (e.g., land-zoning laws) and national and government
+policies and programmes (e.g., economic diversification). {4.2, 4.4.2.1, Table SPM.3}
+
+SPM 4.4l • In principle, mechanisms that set a carbon price, including cap and trade systems and carbon taxes, can achieve mitiga-
+tion in a cost-effective way but have been implemented with diverse effects due in part to national circumstances as
+well as policy design. The short-run effects of cap and trade systems have been limited as a result of loose caps or caps
+that have not proved to be constraining (limited evidence, medium agreement). In some countries, tax-based policies
+specifically aimed at reducing GHG emissions—alongside technology and other policies—have helped to weaken the
+link between GHG emissions and GDP (high confidence). In addition, in a large group of countries, fuel taxes (although
+not necessarily designed for the purpose of mitigation) have had effects that are akin to sectoral carbon taxes. {4.4.2.2}
+
+SPM 4.4m • Regulatory approaches and information measures are widely used and are often environmentally effective (medium evi-
+dence, medium agreement). Examples of regulatory approaches include energy efficiency standards; examples of infor-
+mation programmes include labelling programmes that can help consumers make better-informed decisions. {4.4.2.2}
+
+SPM 4.4n • Sector-specific mitigation policies have been more widely used than economy-wide policies (medium evidence, high
+agreement). Sector-specific policies may be better suited to address sector-specific barriers or market failures and may be
+bundled in packages of complementary policies. Although theoretically more cost-effective, administrative and political
+barriers may make economy-wide policies harder to implement. Interactions between or among mitigation policies may
+be synergistic or may have no additive effect on reducing emissions. {4.4.2.2}
+
+SPM 4.4o • Economic instruments in the form of subsidies may be applied across sectors, and include a variety of policy designs, such
+as tax rebates or exemptions, grants, loans and credit lines. An increasing number and variety of renewable energy (RE)
+policies including subsidies—motivated by many factors—have driven escalated growth of RE technologies in recent
+years. At the same time, reducing subsidies for GHG-related activities in various sectors can achieve emission reductions,
+depending on the social and economic context (high confidence). {4.4.2.2}
+
+SPM 4.4p Co-benefits and adverse side effects of mitigation could affect achievement of other objectives such as those related to
+human health, food security, biodiversity, local environmental quality, energy access, livelihoods and equitable sustainable
+development. The potential for co-benefits for energy end-use measures outweighs the potential for adverse side effects
+whereas the evidence suggests this may not be the case for all energy supply and agriculture, forestry and other land use
+(AFOLU) measures. Some mitigation policies raise the prices for some energy services and could hamper the ability of socie-
+ties to expand access to modern energy services to underserved populations (low confidence). These potential adverse side
+effects on energy access can be avoided with the adoption of complementary policies such as income tax rebates or other
+benefit transfer mechanisms (medium confidence). Whether or not side effects materialize, and to what extent side effects
+materialize, will be case- and site-specific, and depend on local circumstances and the scale, scope and pace of implementa-
+tion. Many co-benefits and adverse side effects have not been well-quantified. {4.3, 4.4.2.2, Box 3.4}
+
+SPM 4.4q Technology policy (development, diffusion and transfer) complements other mitigation policies across all scales, from interna-
+tional to sub-national; many adaptation efforts also critically rely on diffusion and transfer of technologies and management
+practices (high confidence). Policies exist to address market failures in R&D, but the effective use of technologies can also
+depend on capacities to adopt technologies appropriate to local circumstances. {4.4.3}
+
+SPM 4.4r Substantial reductions in emissions would require large changes in investment patterns (high confidence). For mitigation
+scenarios that stabilize concentrations (without overshoot) in the range of 430 to 530 ppm CO2-eq by 210019, annual invest-
+ments in low carbon electricity supply and energy efficiency in key sectors (transport, industry and buildings) are projected
+in the scenarios to rise by several hundred billion dollars per year before 2030. Within appropriate enabling environments,
+the private sector, along with the public sector, can play important roles in financing mitigation and adaptation (medium
+evidence, high agreement). {4.4.4}
+
+SPM 4.4s Financial resources for adaptation have become available more slowly than for mitigation in both developed and developing
+countries. Limited evidence indicates that there is a gap between global adaptation needs and the funds available for adapta-
+tion (medium confidence). There is a need for better assessment of global adaptation costs, funding and investment. Potential
+synergies between international finance for disaster risk management and adaptation have not yet been fully realized (high
+confidence). {4.4.4}
+
+SPM 4.5a Climate change is a threat to sustainable development. Nonetheless, there are many opportu-
+nities to link mitigation, adaptation and the pursuit of other societal objectives through inte-
+grated responses (high confidence). Successful implementation relies on relevant tools, suit-
+able governance structures and enhanced capacity to respond (medium confidence). {3.5, 4.5}
+
+SPM 4.5b Climate change exacerbates other threats to social and natural systems, placing additional burdens particularly on the poor
+(high confidence). Aligning climate policy with sustainable development requires attention to both adaptation and mitigation
+(high confidence). Delaying global mitigation actions may reduce options for climate-resilient pathways and adaptation in
+the future. Opportunities to take advantage of positive synergies between adaptation and mitigation may decrease with time,
+particularly if limits to adaptation are exceeded. Increasing efforts to mitigate and adapt to climate change imply an increas-
+ing complexity of interactions, encompassing connections among human health, water, energy, land use and biodiversity
+(medium evidence, high agreement). {3.1, 3.5, 4.5}
+
+SPM 4.5c Strategies and actions can be pursued now which will move towards climate-resilient pathways for sustainable development,
+while at the same time helping to improve livelihoods, social and economic well-being and effective environmental manage-
+ment. In some cases, economic diversification can be an important element of such strategies. The effectiveness of integrated
+responses can be enhanced by relevant tools, suitable governance structures and adequate institutional and human capacity
+(medium confidence). Integrated responses are especially relevant to energy planning and implementation; interactions
+among water, food, energy and biological carbon sequestration; and urban planning, which provides substantial opportu-
+nities for enhanced resilience, reduced emissions and more sustainable development (medium confidence). {3.5, 4.4, 4.5}
