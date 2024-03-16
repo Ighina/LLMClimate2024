@@ -1,4 +1,5 @@
 import argparse
+import json
 import os
 import sys
 
@@ -177,7 +178,7 @@ def main(args):
                                                        argument,
                                                        device)
               
-              partial_question.append(summary[len(new_prompt)+1:])
+              partial_question.append(summary[len(new_prompt):])
           
           question = "\n".join(partial_question)
               
@@ -191,7 +192,7 @@ def main(args):
                                                        device)
       print(status)
       seconds = time.time()-start      
-      summary = summary[len(new_prompt)+1:]
+      summary = summary[len(new_prompt):]
       all_summaries.append(summary)
       all_keys.append(key)
 

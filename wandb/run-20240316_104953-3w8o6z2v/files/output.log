@@ -1,0 +1,110 @@
+/usr/lib/python3.8/site-packages/huggingface_hub/file_download.py:1006: UserWarning: Not enough free disk space to download the file. The expected file size is: 0.00 MB. The target location /root/.cache/huggingface/hub only has 0.00 MB free disk space.
+  warnings.warn(
+/usr/lib/python3.8/site-packages/huggingface_hub/file_download.py:1006: UserWarning: Not enough free disk space to download the file. The expected file size is: 0.00 MB. The target location /root/.cache/huggingface/hub/models--openai-community--gpt2/blobs only has 0.00 MB free disk space.
+  warnings.warn(
+tokenizer_config.json: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 26.0/26.0 [00:00<00:00, 1.11kB/s]
+config.json: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 665/665 [00:00<00:00, 26.0kB/s]
+/usr/lib/python3.8/site-packages/huggingface_hub/file_download.py:1006: UserWarning: Not enough free disk space to download the file. The expected file size is: 1.04 MB. The target location /root/.cache/huggingface/hub only has 0.00 MB free disk space.
+  warnings.warn(
+/usr/lib/python3.8/site-packages/huggingface_hub/file_download.py:1006: UserWarning: Not enough free disk space to download the file. The expected file size is: 1.04 MB. The target location /root/.cache/huggingface/hub/models--openai-community--gpt2/blobs only has 0.00 MB free disk space.
+  warnings.warn(
+vocab.json: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1.04M/1.04M [00:00<00:00, 5.93MB/s]
+/usr/lib/python3.8/site-packages/huggingface_hub/file_download.py:1006: UserWarning: Not enough free disk space to download the file. The expected file size is: 0.46 MB. The target location /root/.cache/huggingface/hub only has 0.00 MB free disk space.
+  warnings.warn(
+/usr/lib/python3.8/site-packages/huggingface_hub/file_download.py:1006: UserWarning: Not enough free disk space to download the file. The expected file size is: 0.46 MB. The target location /root/.cache/huggingface/hub/models--openai-community--gpt2/blobs only has 0.00 MB free disk space.
+  warnings.warn(
+merges.txt: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 456k/456k [00:00<00:00, 3.58MB/s]
+/usr/lib/python3.8/site-packages/huggingface_hub/file_download.py:1006: UserWarning: Not enough free disk space to download the file. The expected file size is: 1.36 MB. The target location /root/.cache/huggingface/hub only has 0.00 MB free disk space.
+  warnings.warn(
+/usr/lib/python3.8/site-packages/huggingface_hub/file_download.py:1006: UserWarning: Not enough free disk space to download the file. The expected file size is: 1.36 MB. The target location /root/.cache/huggingface/hub/models--openai-community--gpt2/blobs only has 0.00 MB free disk space.
+  warnings.warn(
+tokenizer.json: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1.36M/1.36M [00:00<00:00, 8.10MB/s]
+/usr/lib/python3.8/site-packages/huggingface_hub/file_download.py:1006: UserWarning: Not enough free disk space to download the file. The expected file size is: 548.11 MB. The target location /root/.cache/huggingface/hub only has 0.00 MB free disk space.
+  warnings.warn(
+/usr/lib/python3.8/site-packages/huggingface_hub/file_download.py:1006: UserWarning: Not enough free disk space to download the file. The expected file size is: 548.11 MB. The target location /root/.cache/huggingface/hub/models--openai-community--gpt2/blobs only has 0.00 MB free disk space.
+  warnings.warn(
+
+
+
+
+model.safetensors:   8%|██████████▊                                                                                                                                   | 41.9M/548M [00:13<02:46, 3.04MB/s]
+Traceback (most recent call last):
+  File "./summary_evaluation.py", line 292, in <module>
+    main(args)
+  File "./summary_evaluation.py", line 119, in main
+    model, tokenizer = _load_model(args.model, args.bit4)
+  File "/app/tools.py", line 10, in _load_model
+    model = AutoModelForCausalLM.from_pretrained(model_name, load_in_4bit=bit4)
+  File "/usr/lib/python3.8/site-packages/transformers/models/auto/auto_factory.py", line 484, in from_pretrained
+    return model_class.from_pretrained(
+  File "/usr/lib/python3.8/site-packages/transformers/modeling_utils.py", line 2494, in from_pretrained
+    resolved_archive_file = cached_file(pretrained_model_name_or_path, filename, **cached_file_kwargs)
+  File "/usr/lib/python3.8/site-packages/transformers/utils/hub.py", line 417, in cached_file
+    resolved_file = hf_hub_download(
+  File "/usr/lib/python3.8/site-packages/huggingface_hub/utils/_validators.py", line 118, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/usr/lib/python3.8/site-packages/huggingface_hub/file_download.py", line 1492, in hf_hub_download
+    http_get(
+  File "/usr/lib/python3.8/site-packages/huggingface_hub/file_download.py", line 547, in http_get
+    for chunk in r.iter_content(chunk_size=DOWNLOAD_CHUNK_SIZE):
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 816, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "/usr/lib/python3.8/site-packages/urllib3/response.py", line 1043, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "/usr/lib/python3.8/site-packages/urllib3/response.py", line 935, in read
+    data = self._raw_read(amt)
+  File "/usr/lib/python3.8/site-packages/urllib3/response.py", line 862, in _raw_read
+    data = self._fp_read(amt, read1=read1) if not fp_closed else b""
+  File "/usr/lib/python3.8/site-packages/urllib3/response.py", line 845, in _fp_read
+    return self._fp.read(amt) if amt is not None else self._fp.read()
+  File "/usr/lib/python3.8/http/client.py", line 459, in read
+    n = self.readinto(b)
+  File "/usr/lib/python3.8/http/client.py", line 503, in readinto
+    n = self.fp.readinto(b)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.8/ssl.py", line 1270, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.8/ssl.py", line 1128, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "./summary_evaluation.py", line 292, in <module>
+    main(args)
+  File "./summary_evaluation.py", line 119, in main
+    model, tokenizer = _load_model(args.model, args.bit4)
+  File "/app/tools.py", line 10, in _load_model
+    model = AutoModelForCausalLM.from_pretrained(model_name, load_in_4bit=bit4)
+  File "/usr/lib/python3.8/site-packages/transformers/models/auto/auto_factory.py", line 484, in from_pretrained
+    return model_class.from_pretrained(
+  File "/usr/lib/python3.8/site-packages/transformers/modeling_utils.py", line 2494, in from_pretrained
+    resolved_archive_file = cached_file(pretrained_model_name_or_path, filename, **cached_file_kwargs)
+  File "/usr/lib/python3.8/site-packages/transformers/utils/hub.py", line 417, in cached_file
+    resolved_file = hf_hub_download(
+  File "/usr/lib/python3.8/site-packages/huggingface_hub/utils/_validators.py", line 118, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/usr/lib/python3.8/site-packages/huggingface_hub/file_download.py", line 1492, in hf_hub_download
+    http_get(
+  File "/usr/lib/python3.8/site-packages/huggingface_hub/file_download.py", line 547, in http_get
+    for chunk in r.iter_content(chunk_size=DOWNLOAD_CHUNK_SIZE):
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 816, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "/usr/lib/python3.8/site-packages/urllib3/response.py", line 1043, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "/usr/lib/python3.8/site-packages/urllib3/response.py", line 935, in read
+    data = self._raw_read(amt)
+  File "/usr/lib/python3.8/site-packages/urllib3/response.py", line 862, in _raw_read
+    data = self._fp_read(amt, read1=read1) if not fp_closed else b""
+  File "/usr/lib/python3.8/site-packages/urllib3/response.py", line 845, in _fp_read
+    return self._fp.read(amt) if amt is not None else self._fp.read()
+  File "/usr/lib/python3.8/http/client.py", line 459, in read
+    n = self.readinto(b)
+  File "/usr/lib/python3.8/http/client.py", line 503, in readinto
+    n = self.fp.readinto(b)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.8/ssl.py", line 1270, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.8/ssl.py", line 1128, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt
