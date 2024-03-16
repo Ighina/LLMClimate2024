@@ -1,0 +1,88 @@
+{
+    "os": "Linux-6.5.0-25-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2024-03-15T13:41:37.271950",
+    "startedAt": "2024-03-15T13:41:35.801063",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--model",
+        "google/gemma-2b-it",
+        "-sump",
+        "-o",
+        "uajo"
+    ],
+    "state": "running",
+    "program": "./summary_evaluation.py",
+    "codePathLocal": "summary_evaluation.py",
+    "codePath": "summary_evaluation.py",
+    "host": "rd015106",
+    "username": "root",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2514.193125,
+        "min": 800.0,
+        "max": 2600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2599.981,
+            "min": 800.0,
+            "max": 2600.0
+        },
+        {
+            "current": 2599.996,
+            "min": 800.0,
+            "max": 2600.0
+        },
+        {
+            "current": 2599.998,
+            "min": 800.0,
+            "max": 2600.0
+        },
+        {
+            "current": 2599.994,
+            "min": 800.0,
+            "max": 2600.0
+        },
+        {
+            "current": 2599.377,
+            "min": 800.0,
+            "max": 2600.0
+        },
+        {
+            "current": 2599.513,
+            "min": 800.0,
+            "max": 2600.0
+        },
+        {
+            "current": 2599.95,
+            "min": 800.0,
+            "max": 2600.0
+        },
+        {
+            "current": 2599.995,
+            "min": 800.0,
+            "max": 2600.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 116.31898498535156,
+            "used": 108.52631759643555
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 960M",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 960M",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.485225677490234
+    }
+}

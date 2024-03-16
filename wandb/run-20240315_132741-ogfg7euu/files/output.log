@@ -1,0 +1,90 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/huggingface_hub/utils/_errors.py", line 304, in hf_raise_for_status
+    response.raise_for_status()
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://huggingface.co/google/gemma-2b-it/resolve/main/tokenizer_config.json
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/transformers/utils/hub.py", line 409, in cached_file
+    resolved_file = hf_hub_download(
+  File "/usr/lib/python3.8/site-packages/huggingface_hub/utils/_validators.py", line 118, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/usr/lib/python3.8/site-packages/huggingface_hub/file_download.py", line 1403, in hf_hub_download
+    raise head_call_error
+  File "/usr/lib/python3.8/site-packages/huggingface_hub/file_download.py", line 1261, in hf_hub_download
+    metadata = get_hf_file_metadata(
+  File "/usr/lib/python3.8/site-packages/huggingface_hub/utils/_validators.py", line 118, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/usr/lib/python3.8/site-packages/huggingface_hub/file_download.py", line 1667, in get_hf_file_metadata
+    r = _request_wrapper(
+  File "/usr/lib/python3.8/site-packages/huggingface_hub/file_download.py", line 385, in _request_wrapper
+    response = _request_wrapper(
+  File "/usr/lib/python3.8/site-packages/huggingface_hub/file_download.py", line 409, in _request_wrapper
+    hf_raise_for_status(response)
+  File "/usr/lib/python3.8/site-packages/huggingface_hub/utils/_errors.py", line 321, in hf_raise_for_status
+    raise GatedRepoError(message, response) from e
+huggingface_hub.utils._errors.GatedRepoError: 401 Client Error. (Request ID: Root=1-65f44c97-7e4d7288013a8f314c0721ec;5d44e0d7-3ca0-4403-affc-ad54fd2b0d51)
+Cannot access gated repo for url https://huggingface.co/google/gemma-2b-it/resolve/main/tokenizer_config.json.
+Repo model google/gemma-2b-it is gated. You must be authenticated to access it.
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "./summary_evaluation.py", line 292, in <module>
+    main(args)
+  File "./summary_evaluation.py", line 119, in main
+    model, tokenizer = _load_model(args.model, args.bit4)
+  File "/app/tools.py", line 9, in _load_model
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+  File "/usr/lib/python3.8/site-packages/transformers/models/auto/tokenization_auto.py", line 598, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+  File "/usr/lib/python3.8/site-packages/transformers/models/auto/tokenization_auto.py", line 442, in get_tokenizer_config
+    resolved_config_file = cached_file(
+  File "/usr/lib/python3.8/site-packages/transformers/utils/hub.py", line 424, in cached_file
+    raise EnvironmentError(
+OSError: google/gemma-2b-it is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo with `use_auth_token` or log in with `huggingface-cli login` and pass `use_auth_token=True`.
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/huggingface_hub/utils/_errors.py", line 304, in hf_raise_for_status
+    response.raise_for_status()
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://huggingface.co/google/gemma-2b-it/resolve/main/tokenizer_config.json
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/transformers/utils/hub.py", line 409, in cached_file
+    resolved_file = hf_hub_download(
+  File "/usr/lib/python3.8/site-packages/huggingface_hub/utils/_validators.py", line 118, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/usr/lib/python3.8/site-packages/huggingface_hub/file_download.py", line 1403, in hf_hub_download
+    raise head_call_error
+  File "/usr/lib/python3.8/site-packages/huggingface_hub/file_download.py", line 1261, in hf_hub_download
+    metadata = get_hf_file_metadata(
+  File "/usr/lib/python3.8/site-packages/huggingface_hub/utils/_validators.py", line 118, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/usr/lib/python3.8/site-packages/huggingface_hub/file_download.py", line 1667, in get_hf_file_metadata
+    r = _request_wrapper(
+  File "/usr/lib/python3.8/site-packages/huggingface_hub/file_download.py", line 385, in _request_wrapper
+    response = _request_wrapper(
+  File "/usr/lib/python3.8/site-packages/huggingface_hub/file_download.py", line 409, in _request_wrapper
+    hf_raise_for_status(response)
+  File "/usr/lib/python3.8/site-packages/huggingface_hub/utils/_errors.py", line 321, in hf_raise_for_status
+    raise GatedRepoError(message, response) from e
+huggingface_hub.utils._errors.GatedRepoError: 401 Client Error. (Request ID: Root=1-65f44c97-7e4d7288013a8f314c0721ec;5d44e0d7-3ca0-4403-affc-ad54fd2b0d51)
+Cannot access gated repo for url https://huggingface.co/google/gemma-2b-it/resolve/main/tokenizer_config.json.
+Repo model google/gemma-2b-it is gated. You must be authenticated to access it.
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "./summary_evaluation.py", line 292, in <module>
+    main(args)
+  File "./summary_evaluation.py", line 119, in main
+    model, tokenizer = _load_model(args.model, args.bit4)
+  File "/app/tools.py", line 9, in _load_model
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+  File "/usr/lib/python3.8/site-packages/transformers/models/auto/tokenization_auto.py", line 598, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+  File "/usr/lib/python3.8/site-packages/transformers/models/auto/tokenization_auto.py", line 442, in get_tokenizer_config
+    resolved_config_file = cached_file(
+  File "/usr/lib/python3.8/site-packages/transformers/utils/hub.py", line 424, in cached_file
+    raise EnvironmentError(
+OSError: google/gemma-2b-it is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo with `use_auth_token` or log in with `huggingface-cli login` and pass `use_auth_token=True`.

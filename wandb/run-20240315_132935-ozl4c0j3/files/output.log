@@ -1,0 +1,82 @@
+tokenizer_config.json: 100%|███████████████████| 26.0/26.0 [00:00<00:00, 962B/s]
+config.json: 100%|█████████████████████████████| 665/665 [00:00<00:00, 25.8kB/s]
+vocab.json: 100%|███████████████████████████| 1.04M/1.04M [00:01<00:00, 554kB/s]
+merges.txt: 100%|████████████████████████████| 456k/456k [00:00<00:00, 1.65MB/s]
+tokenizer.json: 100%|██████████████████████| 1.36M/1.36M [00:00<00:00, 2.19MB/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pytorch_model.bin: 100%|█████████████████████| 548M/548M [04:24<00:00, 2.07MB/s]
+Traceback (most recent call last):
+  File "./summary_evaluation.py", line 292, in <module>
+    main(args)
+  File "./summary_evaluation.py", line 119, in main
+    model, tokenizer = _load_model(args.model, args.bit4)
+  File "/app/tools.py", line 10, in _load_model
+    model = AutoModelForCausalLM.from_pretrained(model_name, load_in_4bit=bit4)
+  File "/usr/lib/python3.8/site-packages/transformers/models/auto/auto_factory.py", line 464, in from_pretrained
+    return model_class.from_pretrained(
+  File "/usr/lib/python3.8/site-packages/transformers/modeling_utils.py", line 2362, in from_pretrained
+    model = cls(config, *model_args, **model_kwargs)
+TypeError: __init__() got an unexpected keyword argument 'load_in_4bit'
+Traceback (most recent call last):
+  File "./summary_evaluation.py", line 292, in <module>
+    main(args)
+  File "./summary_evaluation.py", line 119, in main
+    model, tokenizer = _load_model(args.model, args.bit4)
+  File "/app/tools.py", line 10, in _load_model
+    model = AutoModelForCausalLM.from_pretrained(model_name, load_in_4bit=bit4)
+  File "/usr/lib/python3.8/site-packages/transformers/models/auto/auto_factory.py", line 464, in from_pretrained
+    return model_class.from_pretrained(
+  File "/usr/lib/python3.8/site-packages/transformers/modeling_utils.py", line 2362, in from_pretrained
+    model = cls(config, *model_args, **model_kwargs)
+TypeError: __init__() got an unexpected keyword argument 'load_in_4bit'
