@@ -32,7 +32,7 @@ git clone https://github.com/maszhongming/UniEval.git
 If not using Docker, install UniEval packages as follow:
 ```
 cd UniEval
-pip install requirements.txt
+pip install -r requirements.txt
 cd ..
 ```
 
