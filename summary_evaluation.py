@@ -27,13 +27,7 @@ class ArgumentParser(argparse.ArgumentParser):
     def __init__(self):
         super().__init__(
             description='InputOptions')
-                   
-        self.add_argument(
-            '-b', '--bit4',
-            action="store_true",
-            help="Use 4 bit quantization when loading the LLM."
-        )
-        
+            
         self.add_argument(
             '-d', '--device',
             choices=["cpu", "gpu"],
@@ -42,9 +36,9 @@ class ArgumentParser(argparse.ArgumentParser):
                    cpu or gpu")
                    
         self.add_argument(
-            '-fwb', '--force_wandb',
+            '-b', '--bit4',
             action="store_true",
-            help="If included, do not proceed if wandb is not working."
+            help="Use 4 bit quantization when loading the LLM."
         )
         
         self.add_argument(
@@ -113,19 +107,14 @@ def main(args):
     
     wandb_config = load_config("config.yaml")[0]
     os.environ["WANDB_PROJECT"] = wandb_config["project"]
-    if args.force_wandb:
+    try:
         os.environ["WANDB_API_KEY"] = wandb_config["key"]
         wandb.init(config=wandb_config, entity=wandb_config["entity"])
         use_wandb = True
-    else:
-        try:
-	    os.environ["WANDB_API_KEY"] = wandb_config["key"]
-	    wandb.init(config=wandb_config, entity=wandb_config["entity"])
-	    use_wandb = True
-        except wandb.errors.UsageError:
-	    print("WARNING: NO WANDB KEY HAS BEEN SET! THE EXPERIMENT WILL BE LOGGED JUST LOCALLY!")
-	    os.environ["WANDB_DISABLED"] = "true"
-	    use_wandb = False
+    except wandb.errors.UsageError:
+        print("WARNING: NO WANDB KEY HAS BEEN SET! THE EXPERIMENT WILL BE LOGGED JUST LOCALLY!")
+        os.environ["WANDB_DISABLED"] = "true"
+        use_wandb = False
     
     # model instantiation
     model, tokenizer = _load_model(args.model, args.bit4)
