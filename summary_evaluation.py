@@ -109,7 +109,7 @@ def main(args):
     os.environ["WANDB_PROJECT"] = wandb_config["project"]
     try:
         os.environ["WANDB_API_KEY"] = wandb_config["key"]
-        wandb.init(config=wandb_config)
+        wandb.init(config=wandb_config, entity=wandb_config["entity"])
         use_wandb = True
     except wandb.errors.UsageError:
         print("WARNING: NO WANDB KEY HAS BEEN SET! THE EXPERIMENT WILL BE LOGGED JUST LOCALLY!")
