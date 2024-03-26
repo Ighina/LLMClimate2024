@@ -3,6 +3,7 @@ import re
 from typing import List, Dict, Callable, Set
 import yaml
 
+from jinja2.exceptions import TemplateError
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 def _load_model(model_name: str, bit4: bool = False) -> Callable:
@@ -91,13 +92,19 @@ def summarise_question(
         "role": "user", "content": f"{prompt}\nText: {question}"}
         ]
     else:
+        role_message = "You are an assistant to policy-makers."
         messages = [
-        {"role": "system", "content": "You are an assistant to policy-makers.",
-        "role": "user", "content": f"{prompt} with respect to the topic: {argument}\nText: {question}"}
+        {"role": "system", "content": role_message},
+        {"role": "user", "content": f"{prompt} with respect to the topic: {argument}\nText: {question}"}
         ]
-
-    encodeds = tokenizer.apply_chat_template(messages, return_tensors="pt")
-    prompt = tokenizer.batch_decode(encodeds, skip_special_token=True)[0]
+    
+    try:
+        prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+    except TemplateError:
+        # if not supported, do not include system message
+        prompt = tokenizer.apply_chat_template([messages[-1]], tokenize=False, add_generation_prompt=True)
+    
+    encodeds = tokenizer.encode(prompt, add_special_tokens=False, return_tensors="pt")
 
     model_inputs = encodeds.to(device)
     model.to(device)
