@@ -105,13 +105,18 @@ def summarise_question(
         prompt = tokenizer.apply_chat_template([messages[-1]], tokenize=False, add_generation_prompt=True)
     
     encodeds = tokenizer.encode(prompt, add_special_tokens=False, return_tensors="pt")
-
+    
+    prompt = tokenizer.batch_decode(encodeds)[0]
+    
     model_inputs = encodeds.to(device)
-    model.to(device)
     
     try:
+        model.to(device)
+    except ValueError:
+        pass
+    try:
         generated_ids = model.generate(model_inputs, max_new_tokens=5000, do_sample=False)
-        decoded = tokenizer.batch_decode(generated_ids, skip_special_token=True)[0]
+        decoded = tokenizer.batch_decode(generated_ids)[0]
         status = "success"
     except:
         decoded = prompt + "\nFAILED!"
