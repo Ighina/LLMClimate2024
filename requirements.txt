@@ -1,0 +1,16 @@
+torch>=2
+transformers==4.30
+datasets==2.14.6
+accelerate==0.16
+bitsandbytes==0.43.1
+tokenizers==0.12.1
+nltk==3.8.1
+protobuf>=3.20.3
+rouge-score>=0.1.2
+evaluate>=0.4.1
+prettytable>=3.10.0
+wandb==0.16.6
+einops==0.7.0
+openai==1.14.0
+faiss_gpu==1.7.2
+sentence-transformers==2.6.1

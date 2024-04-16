@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summary Judgement App</title>
+</head>
+<body>
+    <h1>Compare Summaries</h1>
+    <form method="post">
+        <div>
+        <h3>
+        Query to the Model:
+        </h3>
+        <p>{{ query }}<p>
+        </div>
+        <div>
+        <h3>
+        Reference Summary:
+        </h3>
+        <p>{{ reference }}<p>
+        </div>
+        <div>
+        <h3>
+        Summary 1
+        </h3>
+        <p>{{ summary_1 }}<p>
+            <input type="radio" id="coherence1" name="coherence" value="Coherence 1">
+            <label for="coherence1">Coherence 1</label>
+            <input type="radio" id="fluency1" name="fluency" value="Fluency 1">
+            <label for="fluency1">Fluency 1</label>
+            <input type="radio" id="relevance1" name="relevance" value="Relevance 1">
+            <label for="relevance1">Relevance 1</label>
+            <input type="radio" id="consistency1" name="consistency" value="Consistency 1">
+            <label for="consistency1">Consistency 1</label>            
+        </div>
+        <div>
+        <h3>
+        Summary 2
+        </h3>
+        <p>{{ summary_2 }}<p>
+            <input type="radio" id="coherence2" name="coherence" value="Coherence 12">
+            <label for="coherence2">Coherence 2</label>
+            <input type="radio" id="fluency2" name="fluency" value="Fluency 2">
+            <label for="fluency2">Fluency 2</label>
+            <input type="radio" id="relevance2" name="relevance" value="Relevance 2">
+            <label for="relevance2">Relevance 2</label>
+            <input type="radio" id="consistency2" name="consistency" value="Consistency 2">
+            <label for="consistency2">Consistency 2</label>
+            
+        </div>
+        <button type="submit">Vote</button>
+    </form>
+</body>
+</html>

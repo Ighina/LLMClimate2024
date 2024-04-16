@@ -23,6 +23,35 @@ def load_config(config_name):
             list_config.append(config)
     return list_config    
 
+def search(query: str,
+           model,
+           index, 
+           collection: List[str], 
+           k: int=2) -> str:
+    """
+    Parameters
+    ----------
+    query:      str
+                the query to retrieve the document in the index
+    model:      sentence_transformers.SentenceTransformer
+                the encoding model to encode the query. Should be the same 
+                used for the faiss index. Currently we only support 
+                SentenceTransformer
+    index:      faiss.Index
+                the faiss index where from which to retrieve the documents
+    collection: list
+                the list containing the documents in the index
+    k:          int
+                how many documents to retrieve
+    Returns
+    --------
+    retrieval:  list
+                the retrieved documents from the index
+    """
+    query_vector = model.encode([query])
+    top_k = index.search(query_vector, k)  # top3 only
+    return [collection[_id] for _id in top_k[1].tolist()[0]]
+
 def summarise_question(
     model,
     tokenizer,

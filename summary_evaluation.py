@@ -4,13 +4,15 @@ import os
 import sys
 
 from datasets import load_dataset
+import faiss
 import nltk
 import numpy as np
+from sentence_transformers import SentenceTransformer
 import time
 from tqdm import tqdm
 import wandb
 
-from tools import _load_model, load_config, summarise_question
+from tools import _load_model, load_config, search, summarise_question
 
 sys.path.insert(0, "UniEval")
 
@@ -27,13 +29,7 @@ class ArgumentParser(argparse.ArgumentParser):
     def __init__(self):
         super().__init__(
             description='InputOptions')
-                   
-        self.add_argument(
-            '-b', '--bit4',
-            action="store_true",
-            help="Use 4 bit quantization when loading the LLM."
-        )
-        
+            
         self.add_argument(
             '-d', '--device',
             choices=["cpu", "gpu"],
@@ -42,9 +38,17 @@ class ArgumentParser(argparse.ArgumentParser):
                    cpu or gpu")
                    
         self.add_argument(
-            '-fwb', '--force_wandb',
+            '-rag', '--do_rag',
             action="store_true",
-            help="If included, do not proceed if wandb is not working."
+            help="Whether to do RAG instead of using ground \
+                  truth documents from which to generate \
+                  summaries."
+            )
+                   
+        self.add_argument(
+            '-b', '--bit4',
+            action="store_true",
+            help="Use 4 bit quantization when loading the LLM."
         )
         
         self.add_argument(
@@ -64,6 +68,21 @@ class ArgumentParser(argparse.ArgumentParser):
             type=str,
             help="The basic prompt for querying the LLM."
         )
+        
+        self.add_argument(
+            '-rm', '--rag_model',
+            default="all-mpnet-base-v2",
+            type=str,
+            help="The name of the encoding model for retrieval to use if doing \
+                  RAG: currently only supports SentenceTransformers models. "
+            )
+        
+        self.add_argument(
+            '-rk', '--rag_top_k',
+            default=2,
+            type=int,
+            help="The top documents to retrieve if doing RAG."
+            )
             
         self.add_argument(
             '-s', '--subset',
@@ -113,19 +132,14 @@ def main(args):
     
     wandb_config = load_config("config.yaml")[0]
     os.environ["WANDB_PROJECT"] = wandb_config["project"]
-    if args.force_wandb:
+    try:
         os.environ["WANDB_API_KEY"] = wandb_config["key"]
         wandb.init(config=wandb_config, entity=wandb_config["entity"])
         use_wandb = True
-    else:
-        try:
-	        os.environ["WANDB_API_KEY"] = wandb_config["key"]
-	        wandb.init(config=wandb_config, entity=wandb_config["entity"])
-	        use_wandb = True
-        except wandb.errors.UsageError:
-	        print("WARNING: NO WANDB KEY HAS BEEN SET! THE EXPERIMENT WILL BE LOGGED JUST LOCALLY!")
-	        os.environ["WANDB_DISABLED"] = "true"
-	        use_wandb = False
+    except wandb.errors.UsageError:
+        print("WARNING: NO WANDB KEY HAS BEEN SET! THE EXPERIMENT WILL BE LOGGED JUST LOCALLY!")
+        os.environ["WANDB_DISABLED"] = "true"
+        use_wandb = False
     
     # model instantiation
     model, tokenizer = _load_model(args.model, args.bit4)
@@ -167,11 +181,40 @@ def main(args):
         ]
         table = wandb.Table(columns=columns)
         wandb.run.log_code(".")
-
+    
+    ex_n = 0
+    
+    if args.do_rag:
+        encoding_model = SentenceTransformer(args.rag_model)
+        
+        docs = set([])
+        for doc in data["test"]:
+          docs.update(doc["full_paragraphs"])
+        
+        docs = list(docs)
+        
+        embeddings = encoding_model.encode(docs)
+        
+        index = faiss.IndexFlatL2(embeddings.shape[1])
+        index.add(embeddings)
+        faiss.write_index(index, 'all_index')
+        index = faiss.read_index('all_index')
+    
     for row in tqdm(data["test"]):
       
-      question = "\n".join(row["full_paragraphs"])
       argument = row["summary_topic"]
+      
+      if args.do_rag:
+          retrieved_docs = search(argument,
+                                  encoding_model,
+                                  index, 
+                                  docs,
+                                  args.rag_top_k)
+                                  
+          question = "\n".join(retrieved_docs)
+      else:
+          question = "\n".join(row["full_paragraphs"])
+      
       reference = row["summary"]
       key = row["ID"]
       # print(key)
@@ -189,7 +232,7 @@ def main(args):
                                                        argument,
                                                        device)
               
-              partial_question.append(summary[len(new_prompt):])
+              partial_question.append(summary[len(new_prompt):].strip())
           
           question = "\n".join(partial_question)
               
@@ -203,7 +246,11 @@ def main(args):
                                                        device)
       print(status)
       seconds = time.time()-start      
-      summary = summary[len(new_prompt):]
+      summary = summary[len(new_prompt):].strip()
+      if not ex_n%20:
+          print("Example output:\n")
+          print(new_prompt)
+          print(summary)
       all_summaries.append(summary)
       all_keys.append(key)
 
@@ -225,6 +272,8 @@ def main(args):
       all_fluency.append(fluency)
       all_relevance.append(relevance)
       all_overall.append(overall)
+      
+      ex_n += 1
       
       # log results to wandb (if using)
       if use_wandb:
