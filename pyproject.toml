@@ -19,6 +19,8 @@ prettytable = "^3.10.0"
 wandb = "~0"
 einops = "0.7.0"
 openai = "1.14.0"
+faiss_gpu = "1.7.2"
+sentence-transformers = "2.6.1"
 
 [build-system]
 requires = ["poetry-core"]
