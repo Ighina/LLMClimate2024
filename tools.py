@@ -4,7 +4,20 @@ from typing import List, Dict, Callable, Set
 import yaml
 
 from jinja2.exceptions import TemplateError
-from transformers import AutoModelForCausalLM, AutoTokenizer
+import torch
+import torch.nn.functional as F
+from torch import Tensor
+from transformers import AutoTokenizer, AutoModel, AutoModelForCausalLM
+
+def last_token_pool(last_hidden_states: Tensor,
+                 attention_mask: Tensor) -> Tensor:
+    left_padding = (attention_mask[:, -1].sum() == attention_mask.shape[0])
+    if left_padding:
+        return last_hidden_states[:, -1]
+    else:
+        sequence_lengths = attention_mask.sum(dim=1) - 1
+        batch_size = last_hidden_states.shape[0]
+        return last_hidden_states[torch.arange(batch_size, device=last_hidden_states.device), sequence_lengths]
 
 def _load_model(model_name: str, bit4: bool = False) -> Callable:
     tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -27,7 +40,8 @@ def search(query: str,
            model,
            index, 
            collection: List[str], 
-           k: int=2) -> str:
+           k: int=2,
+           tokenizer = None) -> str:
     """
     Parameters
     ----------
@@ -43,12 +57,21 @@ def search(query: str,
                 the list containing the documents in the index
     k:          int
                 how many documents to retrieve
+    tokenizer   transformers.Tokenizer
+                if using transformer model, then add tokenizer to 
+                encode the sentences via the transformers API
     Returns
     --------
     retrieval:  list
                 the retrieved documents from the index
     """
-    query_vector = model.encode([query])
+    if tokenizer is None:
+        query_vector = model.encode([query])
+    else:
+        batch_dict = tokenizer([query], padding=True, truncation=True, return_tensors="pt")
+        outputs = model(**batch_dict)
+        query_vector = last_token_pool(outputs.last_hidden_state, batch_dict['attention_mask'])
+        query_vector = query_vector.detach().cpu().numpy()
     top_k = index.search(query_vector, k)  # top3 only
     return [collection[_id] for _id in top_k[1].tolist()[0]]
 
@@ -60,7 +83,7 @@ def summarise_question(
     argument: str,
     device: str="cpu",
     no_arg: bool=False,
-    no_role: bool=False,
+    no_role: bool=True,
     max_len: int=10000
     ) -> str:
     """
@@ -129,6 +152,11 @@ def summarise_question(
     
     try:
         prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+        if no_role:
+          # Qwen 1.5 automatically adds the role, if you don't want it: delete it
+          prompt = re.sub("<\|im_start\|>system\nYou are a helpful assistant<\|im_end\|>\n",
+                          "",
+                          prompt)
     except TemplateError:
         # if not supported, do not include system message
         prompt = tokenizer.apply_chat_template([messages[-1]], tokenize=False, add_generation_prompt=True)
@@ -152,3 +180,93 @@ def summarise_question(
         status = "fail"
         
     return decoded, prompt, status
+
+def azure_summarise(
+    client,
+    model: str,
+    question: str,
+    prompt: str,
+    argument: str,
+    pricing: Dict[str, List],
+    no_arg: bool=False,
+    no_role: bool=True,
+    max_len: int=10000
+    ) -> str:
+    """
+    code mostly from https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2
+  
+    Parameters
+    ----------
+    client    openai.AzureOpenAI
+              the instance of the Azure client class from which the API
+              call is made.
+              
+    model:    str
+              the model name, among the ones available from Azure API
+              
+    question: str
+              the text to answer (text row from the test dataset)
+
+    prompt:   str
+              the prompt, i.e. how you ask the LLM to answer. LLMs are
+              extremely sensitive to how they are asked to solve a task
+              and different LLMs answer differently to the same prompt.
+
+    pricing:  dict
+              Dictionary of the form {"model_name":[input_price, output_price]}
+              for tracking the overall spenditure.
+              
+    no_arg    bool
+              If True, do not add the topic to the prompt. Use for ablation studies.
+    
+    no_role   bool
+              If True, do not add the role to the prompt. Use for ablation studies.
+    
+    Returns
+    --------
+    decoded:  str
+              the answer as output by the LLM.
+              
+    prompt:   str
+              prompt after inclusion of additional elements (i.e. role and topic)
+    
+    price:    float
+              the total price of the API call
+    """
+    
+    question = re.sub("\n", " ", question)
+    
+    if no_role and no_arg:
+        messages = [
+        {"role": "user", "content": f"{prompt}\nText: {question}"}
+        ]
+    elif no_role:
+        messages = [
+        {"role": "user", "content": f"{prompt} with respect to the topic: {argument}\nText: {question}"}
+        ]
+    elif no_arg:
+        messages = [
+        {"role": "system", "content": "You are an assistant to policy-makers.",
+        "role": "user", "content": f"{prompt}\nText: {question}"}
+        ]
+    else:
+        role_message = "You are an assistant to policy-makers."
+        messages = [
+        {"role": "system", "content": role_message},
+        {"role": "user", "content": f"{prompt} with respect to the topic: {argument}\nText: {question}"}
+        ]
+    
+    response = client.chat.completions.create(
+    model=model,
+    messages=messages)
+    
+    prompt = " ".join([msg["content"] for msg in messages])
+    
+    decoded = response.choices[0].message.content
+    
+    in_price = pricing[model][0]*response.usage.prompt_tokens
+    out_price = pricing[model][0]*response.usage.completion_tokens
+    
+    price = in_price + out_price
+    
+    return decoded, prompt, price
