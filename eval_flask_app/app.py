@@ -26,27 +26,49 @@ os.chdir("..")
 data = load_dataset("sumipcc_dataset", "ALL")
 
 references = {}
+queries = {}
+
+keys_to_use = ["1.1c", "1.4a", "2.2g", "A.1.5", "B.5.1",
+               "C.2.4", "A.2.4", "A.1.5", "2.4b", "2.3e"]
+
 for d in data["test"]:
-    for ident in sample_ids:
+    for ident in keys_to_use:
+    #for ident in sample_ids:
         if d["ID"]==ident:
-            references[ident] = d["summary"] 
+            references[ident] = d["summary"]
+            topic = d["summary_topic"]
+            query = "\n".join(d["full_paragraphs"])
+            queries[ident] = f"Topic: {topic}.\n Text: {query}"
 
 os.chdir("eval_flask_app")
 
 all_available_models = pd.unique(sample_df.model_name)
 
 available_summaries = {}
-queries = {}
+#queries = {}
 
-for key in sample_df.identifier:
+models_per_key = [["Qwen/Qwen1.5-0.5B-Chat", "gpt-4-0125-ghinzo"],
+                  ["mistralai/Mistral-7B-Instruct-v0.2", "Qwen/Qwen1.5-0.5B-Chat"],
+                  ["meta-llama/Meta-Llama-3-8B-Instruct", "Qwen/Qwen1.5-0.5B-Chat"],
+                  ["google/gemma-1.1-2b-it", "gpt-35-ghinzo"],
+                  ["gpt-35-ghinzo", "mistralai/Mistral-7B-Instruct-v0.2"],
+                  ["meta-llama/Meta-Llama-3-8B-Instruct","mistralai/Mistral-7B-Instruct-v0.2"],
+                  ["gpt-4-0125-ghinzo", "Qwen/Qwen1.5-0.5B-Chat"],
+                  ["meta-llama/Meta-Llama-3-8B-Instruct", "gpt-35-ghinzo"],
+                  ["Qwen/Qwen1.5-0.5B-Chat", "microsoft/Phi-3-mini-128k-instruct"],
+                  ["Qwen/Qwen1.5-0.5B-Chat", "microsoft/Phi-3-mini-128k-instruct"]
+                 ] 
+
+for models, key in zip(models_per_key, keys_to_use):
     available_summaries[key] = []
     
     summary = references[key]
-    prompt = sample_df[sample_df.identifier==key].prompt.values[0]
-    queries[key] = prompt 
-    for model in all_available_models:
-        available_summaries[key].append({model: sample_df[(sample_df.identifier==key)&(sample_df.model_name==model)].response.values[0]})
-
+    #prompt = sample_df[sample_df.identifier==key].prompt.values[0]
+    # queries[key] = prompt 
+    #for model in all_available_models:
+    #    available_summaries[key].append({model: sample_df[(sample_df.identifier==key)&(sample_df.model_name==model)].response.values[0]})
+    for model in models:
+        available_summaries[key].append({model: df[(df.identifier==key)&(df.model_name==model)].response.values[0].split("<")[0]})
 
 #available_summaries = {
 #    "key1":[{"model1": "Summary A"}, {"model2": "Summary B"}, {"model3": "Summary C"}, {"model4": "Summary D"}, {"model5": "Summary E"}],
