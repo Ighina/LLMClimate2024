@@ -9,6 +9,10 @@ import torch.nn.functional as F
 from torch import Tensor
 from transformers import AutoTokenizer, AutoModel, AutoModelForCausalLM
 
+def create_run(top_k):
+  run = {"query":{f"q_{idx}":1-score for idx, score in zip(top_k[1][0],top_k[0][0])}}
+  return run
+
 def last_token_pool(last_hidden_states: Tensor,
                  attention_mask: Tensor) -> Tensor:
     left_padding = (attention_mask[:, -1].sum() == attention_mask.shape[0])
@@ -21,7 +25,7 @@ def last_token_pool(last_hidden_states: Tensor,
 
 def _load_model(model_name: str, bit4: bool = False) -> Callable:
     tokenizer = AutoTokenizer.from_pretrained(model_name)
-    model = AutoModelForCausalLM.from_pretrained(model_name, load_in_4bit=bit4)
+    model = AutoModelForCausalLM.from_pretrained(model_name, load_in_4bit=bit4, trust_remote_code=True)
     model.eval()
 
     return model, tokenizer
@@ -41,7 +45,8 @@ def search(query: str,
            index, 
            collection: List[str], 
            k: int=2,
-           tokenizer = None) -> str:
+           tokenizer = None,
+           rankx: bool = False) -> str:
     """
     Parameters
     ----------
@@ -60,19 +65,26 @@ def search(query: str,
     tokenizer   transformers.Tokenizer
                 if using transformer model, then add tokenizer to 
                 encode the sentences via the transformers API
+    rankx       bool
+                If true, return the result in the rankx format
     Returns
     --------
     retrieval:  list
                 the retrieved documents from the index
     """
+    k = len(collection) if rankx else k # when evaluating get all the results
     if tokenizer is None:
         query_vector = model.encode([query])
     else:
         batch_dict = tokenizer([query], padding=True, truncation=True, return_tensors="pt")
+        batch_dict = {k:v.to(model.device) for k, v in batch_dict.items()}
+        
         outputs = model(**batch_dict)
         query_vector = last_token_pool(outputs.last_hidden_state, batch_dict['attention_mask'])
         query_vector = query_vector.detach().cpu().numpy()
     top_k = index.search(query_vector, k)  # top3 only
+    if rankx:
+        return create_run(top_k)
     return [collection[_id] for _id in top_k[1].tolist()[0]]
 
 def summarise_question(
@@ -84,7 +96,8 @@ def summarise_question(
     device: str="cpu",
     no_arg: bool=False,
     no_role: bool=True,
-    max_len: int=10000
+    dir_gen: bool=False,
+    max_len: int=5000
     ) -> str:
     """
     code mostly from https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2
@@ -116,6 +129,10 @@ def summarise_question(
     
     no_role   bool
               If True, do not add the role to the prompt. Use for ablation studies.
+              
+    dir_gen   bool
+              If True, does not add any additional element to the prompt (ignores \
+              the "question" argument)
     
     Returns
     --------
@@ -130,7 +147,11 @@ def summarise_question(
     """
     question = re.sub("\n", " ", question)
     
-    if no_role and no_arg:
+    if dir_gen:
+        messages = [
+        {"role": "user", "content": prompt}
+        ]
+    elif no_role and no_arg:
         messages = [
         {"role": "user", "content": f"{prompt}\nText: {question}"}
         ]
@@ -172,7 +193,7 @@ def summarise_question(
     except ValueError:
         pass
     try:
-        generated_ids = model.generate(model_inputs, max_new_tokens=5000, do_sample=False)
+        generated_ids = model.generate(model_inputs, max_new_tokens=max_len, do_sample=False)
         decoded = tokenizer.batch_decode(generated_ids)[0]
         status = "success"
     except:

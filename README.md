@@ -1,5 +1,5 @@
 # LLMClimate2024
-Code for our paper at NLPClimate2024
+Code for our paper at EMNLP 2024
 
 ## Create Virtual Environment
 If not using Docker, create and activate a virtual environment to install all the dependencies.
@@ -75,4 +75,9 @@ The code supports [Weights & Biases](https://wandb.ai/site) to log results. If y
 - entity: your username on Weights and Biases
 - project: the Weights and Biases project where to log the results
 - key: your token API private key
+
+## Other Scripts
+Other scripts in the repository can be used to replicate results in the original paper. Specifically, the notebook GPT_evaluation.ipynb includes all the relevant code for using ChatGPT RTS evaluation metric, which is the one we report in the paper, together with the code to produce the various results and plots.
+retrieval_evaluation.py includes the code to evaluate the retrieval models for the RAG setting, while extractive_summarisation_evaluation.py includes the code to use the extractive baseline for summarization. For the GPT models, gpt_summarisation_evaluation.py includes the code we used to evaluate ChatGPT and GPT4 on our dataset, but it needs amendment to the deployment name in order to be used. Finally, compute_emissions.py is the script we used to compute the emissions of our LLMs and SLMs.
+Relevant information for the use of these scripts can be printed by calling the script with the --help flag.
 
