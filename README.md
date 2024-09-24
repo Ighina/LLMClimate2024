@@ -1,5 +1,5 @@
 # LLMClimate2024
-Code for our paper at EMNLP 2024
+Code for our paper at NLP4PI within EMNLP 2024
 
 ## Create Virtual Environment
 If not using Docker, create and activate a virtual environment to install all the dependencies.
